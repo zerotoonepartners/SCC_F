@@ -1,0 +1,22 @@
+@media all and (min-width: 320px) {
+    .edusec1 {
+      width: 100%;
+      height: 20vh;
+      display: flex;
+      border-bottom: 1px solid green;
+    }
+  }
+  @media all and (min-width: 768px) {
+    .edusec1 {
+      width: 100%;
+      height: 20vh;
+      border-bottom: 1px solid blue;
+    }
+  }
+  @media all and (min-width: 1024px) {
+    .edusec1 {
+      width: 100%;
+      height: 20vh;
+      border-bottom: 1px solid green;
+    }
+  }

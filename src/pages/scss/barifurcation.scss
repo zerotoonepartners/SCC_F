@@ -1,0 +1,87 @@
+.bariWrapper {
+    width : 100%;
+    height : 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+}
+
+@media all and (min-width:320px) and (max-width:768px){
+    .bariWrapper{
+        .bariBody{
+            width: 100%;
+            height: 90vh;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            flex-direction: column;
+            .twopill{
+                width : 12rem;
+                height: 6rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 40px;
+                background-color: rgb(24, 161, 54);
+                .navlink{
+                    color: #e7ebf0;
+                    font-family: 'ONE-Mobile-Regular';
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}
+
+@media all and (min-width:768px) and (max-width : 1024px){
+    .bariWrapper{
+    .bariBody{
+        width: 100%;
+        height: 90vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .twopill{
+            width : 12rem;
+            height: 6rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 40px;
+            background-color: rgb(197, 148, 41);
+            .navlink{
+                color: #e7ebf0;
+                font-family: 'ONE-Mobile-Regular';
+                font-weight: bold;
+            }
+        }
+    }
+}
+}
+
+@media all and (min-width:1024px){
+    .bariWrapper{
+        .bariBody{
+            width: 100%;
+            height: 90vh;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            .twopill{
+                width : 12rem;
+                height: 6rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 40px;
+                background-color: rgb(68, 68, 233);
+                .navlink{
+                    color: #e7ebf0;
+                    font-family: 'ONE-Mobile-Regular';
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}

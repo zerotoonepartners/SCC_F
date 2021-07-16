@@ -1,0 +1,36 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "IR컨설턴트 3기 양성교육설명회",
+      "content": "IR컨설턴트 3기 양성교육설명회관련 모임",
+      "timestamp": "2021-07-07",
+      "imgUrl": "https://images.unsplash.com/photo-1541746972996-4e0b0f43e02a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+      "isFree": false
+    },
+    {
+      "id": 2,
+      "title": "2021 2ndZTOP IR-해외 투자유치 및 진출 지원",
+      "content": "2021 2ndZTOP IR-해외 투자유치 및 진출 지원관련 모임",
+      "timestamp": "2021-07-07",
+      "imgUrl": "https://images.unsplash.com/photo-1504384764586-bb4cdc1707b0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+      "isFree": true
+    },
+    {
+      "id": 3,
+      "title": "2021년 무역센터 테스트베드 실증사업 참가기업 모집",
+      "content": "2021년 무역센터",
+      "timestamp": "2021-07-07",
+      "imgUrl": "https://images.unsplash.com/photo-1515187029135-18ee286d815b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+      "isFree": true
+    },
+    {
+      "id": 4,
+      "title": "2021년 무역센터 테스트베드 실증사업 참가기업 모집",
+      "content": "2021년 무역센터",
+      "timestamp": "2021-07-07",
+      "imgUrl": "https://images.unsplash.com/photo-1543242594-c8bae8b9e708?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+      "isFree": true
+    }
+  ]
+}

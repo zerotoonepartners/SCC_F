@@ -1,0 +1,178 @@
+* {
+  font-family: 'ONE-Mobile-Regular';
+}
+@media all and (min-width: 320px) {
+  .eduLandingWrapper {
+    .eduLanding {
+      height: 30vh;
+      width: 100%;
+      background-image: url('https://images.unsplash.com/photo-1524178232363-1fb2b075b655?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+      background-position: center;
+      background-size: cover;
+    }
+    .eduLine {
+      width: 100%;
+      height: 7vh;
+      background-color: #303243;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.9rem;
+      color: #ffffff;
+      font-weight: 300;
+      margin-bottom: 1rem;
+    }
+    .eduCardWrapper {
+      margin-bottom: 3rem;
+      width: 100%;
+      height: auto;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1rem;
+      .card:hover {
+        -webkit-box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.76);
+        box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.76);
+      }
+      .card {
+        cursor: pointer;
+        border-radius: 1px;
+        padding: 1rem 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-self: center;
+        align-self: center;
+        border: 1px solid #eeeeee;
+        width: 80%;
+        height: auto;
+        transition: 0.5s all ease-in-out;
+        -webkit-box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.38);
+        box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.38);
+        .thumb {
+          opacity: 0.9;
+          display: block;
+          width: 90%;
+        }
+        .cardContentWrapper {
+          width: 90%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          font-size: 0.5rem;
+
+          margin-top: 1rem;
+          .cardTitle {
+            display: block;
+            font-size: 1rem;
+            font-weight: 200;
+            color: #000;
+            margin-bottom: 1rem;
+          }
+          .cardDescWrapper {
+            .cardDesc {
+              font-weight: 200;
+              font-size: 0.7rem;
+            }
+          }
+        }
+        .cardFooterWrapper {
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          margin-top: 2rem;
+        }
+      }
+    }
+  }
+}
+
+@media all and (min-width: 768px) {
+}
+
+@media all and (min-width: 1024px) {
+  .eduLandingWrapper {
+    .eduLanding {
+      height: 30vh;
+      width: 100%;
+      background-image: url('https://images.unsplash.com/photo-1524178232363-1fb2b075b655?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+      background-position: center;
+      background-size: cover;
+    }
+    .eduLine {
+      width: 100%;
+      height: 7vh;
+      background-color: #303243;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.9rem;
+      color: #ffffff;
+      font-weight: 300;
+      margin-bottom: 3rem;
+    }
+    .eduCardWrapper {
+      margin-bottom: 3rem;
+      width: 100%;
+      height: auto;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+      .card:hover {
+        -webkit-box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.76);
+        box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.76);
+      }
+      .card {
+        margin-bottom: 2rem;
+        cursor: pointer;
+        border-radius: 1px;
+        padding: 1rem 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-self: center;
+        align-self: center;
+        border: 1px solid #eeeeee;
+        width: 80%;
+        height: auto;
+        transition: 0.5s all ease-in-out;
+        -webkit-box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.38);
+        box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.38);
+        .thumb {
+          opacity: 0.9;
+          display: block;
+          width: 90%;
+        }
+        .cardContentWrapper {
+          width: 90%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          font-size: 0.5rem;
+
+          margin-top: 1rem;
+          .cardTitle {
+            display: block;
+            font-size: 1rem;
+            font-weight: 200;
+            color: #000;
+            margin-bottom: 1rem;
+          }
+          .cardDescWrapper {
+            .cardDesc {
+              font-weight: 200;
+              font-size: 0.7rem;
+            }
+          }
+        }
+        .cardFooterWrapper {
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          margin-top: 2rem;
+        }
+      }
+    }
+  }
+}

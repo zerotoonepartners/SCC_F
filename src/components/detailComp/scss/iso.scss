@@ -1,0 +1,74 @@
+.ISOlinebox{
+    border-top: 1px solid rgb(196, 194, 194);
+    margin : 0 auto;
+    width: 60%;
+}
+
+.ISOsec{
+    margin-top : 5rem;
+    margin-bottom: 5rem;
+    width : 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+@media all and (min-width: 320px) and (max-width:768px){
+    .ISOsec{
+        .ISObox{
+            width: 70%;
+            line-height: 120%;
+            font-family: "ONE-Mobile-Regular";
+            .ISOtitle{
+                font-size: 2rem;
+                font-weight: 600;
+                margin-bottom: 3rem;
+                line-height: 150%;
+            }
+            .ISOcontent{
+                font-size : 1.5rem;
+                font-weight: 200;
+                line-height: 150%;
+            }
+        }
+    }
+}
+@media all and (min-width: 768px){
+    .ISOsec{
+        .ISObox{
+            width: 70%;
+            line-height: 120%;
+            font-family: "ONE-Mobile-Regular";
+            .ISOtitle{
+                font-size: 2rem;
+                font-weight: 600;
+                margin-bottom: 3rem;
+                line-height: 150%;
+            }
+            .ISOcontent{
+                font-size : 1.5rem;
+                font-weight: 200;
+                line-height: 150%;
+            }
+        }
+    }
+}
+@media all and (min-width: 1024px){
+    .ISOsec{
+        .ISObox{
+            width: 70%;
+            line-height: 120%;
+            font-family: "ONE-Mobile-Regular";
+            .ISOtitle{
+                font-size: 2rem;
+                font-weight: 600;
+                margin-bottom: 3rem;
+                
+            }
+            .ISOcontent{
+                font-size : 1.5rem;
+                font-weight: 200;
+                line-height: 150%;
+            }
+        }
+    }
+}

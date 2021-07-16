@@ -1,0 +1,15 @@
+.notfound{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .notfound2{
+    display: block;
+    .nfimgBox{
+        object-fit: cover;
+        width : 40%;
+        height: 40%;
+    }
+    }
+}
+

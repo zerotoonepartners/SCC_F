@@ -1,0 +1,201 @@
+.eduformcomWrapper{
+    width : 100%;
+    min-height : 60%;
+    display: flex;
+    flex-direction: column;
+    border : 2px solid #000ff0;
+
+}
+//button hover
+#edubutton {  
+    border-radius: 5px;
+}
+#edubtn {
+    width : 100%;
+}
+#edubtn button{
+    width: 100%;
+    border : 1px solid skyblue;
+    background-color: rgba(0,0,0,0);
+    color : skyblue;
+}
+#edubtn button:hover{
+    color : white;
+    background-color: skyblue;
+}
+#edutn_2 {
+    width : 100%;
+}
+#edubtn_2 button{
+    width: 100%;
+    border : 1px solid #df7411;
+    border-radius: 10px;
+    margin-top: 0.5vh;
+    background-color: rgba(0,0,0,0);
+    color : #df7411;
+}
+#edubtn_2 button:hover{
+    color : white;
+    background-color: #df7411;
+}
+//button end
+#edubtn_3 {
+    width : 100%;
+}
+#edubtn_3 button{
+    width: 100%;
+    border-bottom : 1px solid #000000;
+    background-color: rgba(0,0,0,0);
+    color : #000000;
+    font-size: x-small;
+}
+#edubtn_3 button:hover{
+    color : white;
+    background-color: #9e9c9a;
+}
+
+@media all and (min-width: 320px){
+    .eduformcomWrapper{
+        .educategoryWrapper{
+            display: flex;
+            flex-direction: row;
+            justify-content: stretch;
+            height: 50vh;
+            .edusubcategoryWrapper{
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+            }
+        }
+        .eduformBox{
+            display: flex;
+            justify-content: center;
+            .eduinputContainer {
+                width : 90%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-bottom: 5vh;
+                .educatecover{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    .educatebox{
+                        display: block;
+                        background-color: #b8b3af;
+                        border-radius: 10px;
+                    }
+                }
+                .eduinputcover{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    .eduinputBox {
+                        border-radius: 15px;
+                        margin-top: 0.5rem;
+                        padding : 0.5rem 0.5rem;
+                        width: 90%;
+                    }
+                    .eduemailTextBox {
+                        margin-top : 0.5rem;
+                        padding-left: 1rem;
+                    }
+                    
+                }
+                
+            }
+        }
+    }
+}
+
+@media all and (min-width: 768px){
+    .eduformcomWrapper{
+        .educategoryWrapper{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            height : 35vh;
+            .edusubcategoryWrapper{
+                display: flex;
+                flex-direction: column;
+            }
+        }
+        .eduformBox{
+            display: flex;
+            justify-content: center;
+            .eduinputContainer {
+                width : 70%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                .educatecover{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    .educatebox{
+                        display: block;
+                        background-color: #b8b3af;
+                        border-radius: 10px;
+                    }
+                }
+                .eduinputBox {
+                    border-radius: 10px;
+                    margin-top: 0.5rem;
+                    padding : 0.5rem 0.5rem;
+                }
+                .eduemailTextBox {
+                    margin-top : 1rem;
+                }
+            }
+        }
+    }
+}
+
+@media all and (min-width: 1024px){
+    .eduformcomWrapper{
+        .educategoryWrapper{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            height : 35vh;
+            .edusubcategoryWrapper{
+                display: flex;
+                flex-direction: column;
+            }
+        }
+        .eduformBox{
+            display: block;
+            .eduinputContainer {
+                width : 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                .educatecover{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    .educatebox{
+                        display: block;
+                        background-color: #b8b3af;
+                        border-radius: 10px;
+                    }
+                }
+                .eduinputcover{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    .eduinputBox {
+                        width: 200%;
+                        border-radius: 10px;
+                        margin-top: 0.5rem;
+                        padding : 0.5rem 0.5rem;
+                    }
+                    .eduemailTextBox {
+                        margin-top : 1rem;
+                    }
+                }
+                
+            }
+        }
+    }
+}
