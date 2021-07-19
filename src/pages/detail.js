@@ -5,10 +5,53 @@ import Footer from '../components/footer/footer';
 import { ISO9001 } from '../components/detailComp/iso';
 import DetailSecOne from '../components/detailComp/detailsecone';
 import styled, { css, keyframes } from 'styled-components';
+import Remote from '../components/detailComp/remote';
 import './scss/detail.scss';
 function Detail() {
+  const isoMenu = [
+    'ISO9009',
+    'ISO4001',
+    'ISO45001',
+    'ISO22000',
+    'FSSC22000',
+    'FSSC22000',
+    'ISO22716',
+    'ISO13485',
+  ];
+  const labMenu = [
+    '기업부설연구소',
+    '기업전담부서',
+    '기업창작연구소',
+    '창작전담부서',
+  ];
+  const businMenu = [
+    '성과공유기업',
+    '여성기업',
+    '메인비즈',
+    '벤처기업',
+    '뿌리기술전문기업',
+  ];
+  const welMenu = [
+    '가족친화인증',
+    '병역특례',
+    '노사문화 우수기업',
+    '청년친화 강소기업',
+    '인재육성형 중소기업',
+    '공동근로복지재단설립',
+  ];
   const [detNum, setDetNum] = useState('00');
-  useEffect(() => {}, []);
+  const [remoteMenu, setRemoteMenu] = useState(isoMenu);
+  useEffect(() => {
+    if (detNum === '00') {
+      setRemoteMenu(isoMenu);
+    } else if (detNum === '01') {
+      setRemoteMenu(labMenu);
+    } else if (detNum === '10') {
+      setRemoteMenu(businMenu);
+    } else {
+      setRemoteMenu(welMenu);
+    }
+  }, [detNum]);
 
   return (
     <>
@@ -53,17 +96,27 @@ function Detail() {
         {detNum === '00' ? (
           <>
             <ISO9001 />
-            <Remote detNum>asd</Remote>
+            <Remote remoteMenu={remoteMenu} />
           </>
         ) : null}
-        {detNum === '01' ? <ISO9001 /> : null}
-        {detNum === '10' ? <ISO9001 /> : null}
-        {detNum === '11' ? <ISO9001 /> : null}
-        {/* <ISO9001 />
-      <ISO9001 />
-      <ISO9001 />
-      <ISO9001 />
-      <ISO9001 /> */}
+        {detNum === '01' ? (
+          <>
+            <ISO9001 />
+            <Remote remoteMenu={remoteMenu} />
+          </>
+        ) : null}
+        {detNum === '10' ? (
+          <>
+            <ISO9001 />
+            <Remote remoteMenu={remoteMenu} />
+          </>
+        ) : null}
+        {detNum === '11' ? (
+          <>
+            <ISO9001 />
+            <Remote remoteMenu={remoteMenu} />
+          </>
+        ) : null}
       </div>
       <Footer />
     </>
@@ -71,32 +124,3 @@ function Detail() {
 }
 
 export default Detail;
-
-const Remote = styled.div`
-  ${(props) =>
-    props.detNum === '00' &&
-    css`
-      @media only screen and (max-width: 1024px) {
-        width: 3rem;
-        height: 3rem;
-        background-color: red;
-      }
-      @media only screen and (max-width: 768px) {
-      }
-      @media only screen and (max-width: 320px) {
-        width: 3rem;
-        height: 3rem;
-        background-color: red;
-      }
-    `}
-  ${(props) =>
-    props.detNum === '01' &&
-    css`
-      @media only screen and (max-width: 1024px) {
-      }
-      @media only screen and (max-width: 768px) {
-      }
-      @media only screen and (max-width: 320px) {
-      }
-    `}
-`;
