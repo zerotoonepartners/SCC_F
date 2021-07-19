@@ -225,7 +225,7 @@ export default function FormSet() {
             }
           }}
         >
-          <div id="btn_3">
+          <div id="btn_3" className="btn_3">
             <button>{oper ? '▾ 경영 인증' : '▸ 경영 인증'}</button>
           </div>
         </div>
@@ -266,7 +266,7 @@ export default function FormSet() {
       </div>
       <div
         // className="selectionWrapper"
-        className={welfare ? 'act' : 'selectionWrapper'}
+        className="selectionWrapper"
       >
         {iso ? (
           Iso.map((value, key) => {
