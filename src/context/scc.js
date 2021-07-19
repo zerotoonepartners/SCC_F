@@ -1,14 +1,8 @@
 import { createContext, useEffect, useState } from 'react';
 import { getData } from '../api/api';
-import firebase from 'firebase/app';
-import { firebaseDB } from '../firebase';
-//import 'firebase/database';
 const SccContext = createContext();
 
 const SccContextProvider = ({ children }) => {
-  const [eduflag, setEduflag] = useState(false);
-  const [prac, setPrac] = useState('test');
-
   const [event, setEvent] = useState([
     {
       id: undefined,
@@ -38,10 +32,6 @@ const SccContextProvider = ({ children }) => {
   return (
     <SccContext.Provider
       value={{
-        eduflag,
-        setEduflag,
-        prac,
-        setPrac,
         event,
         setEvent,
       }}

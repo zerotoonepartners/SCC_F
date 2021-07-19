@@ -6,10 +6,10 @@ function Remote({ remoteMenu }) {
     <>
       <div className="remoteWrapper">
         {remoteMenu.map((item, index) => {
-          return (
+          return (<a href={`#${item}`}>
             <div className="remoteItem" key={index}>
               <span>{item}</span>
-            </div>
+            </div></a>
           );
         })}
       </div>

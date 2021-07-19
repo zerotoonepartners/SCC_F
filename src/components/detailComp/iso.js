@@ -5,7 +5,7 @@ export const ISO9001=()=>{
     const content="ISO 9001은 조직이 제품 및 서비스의 품질을 지속적으로 발전시키기 위한 경영시스템을 갖추고, 이를 유효하게 운영하기 위한 요구사항을 규정한 국제 표준규격입니다.\nISO 9001은 모든 산업 분야 및 활동에 적용할 수 있습니다.\nISO 9001 인증을 받으면, 기업이 구체적으로 실천 가능한 지식 관리 기반을 구축하고, 장기적이고 종합적인 품질경영시스템을 구축할 수 있습니다. 또한 고객의 요구 사항에 부응하는 품질시스템으로 고객위주의 사업관리시스템을 구축할 수 있습니다. 체계적인 시스템 구축과 품질 향상은 기업 이미지를 향상시키고 기업 경쟁력을 제고합니다."
     return(
         <>
-        <section className="ISOsec">
+        <section className="ISOsec ISOsec1">
             <div className="ISObox">
             <div className="ISOtitle">
                 {title}
