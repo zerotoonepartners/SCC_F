@@ -3,6 +3,7 @@ import { send } from 'emailjs-com';
 import Modal from 'react-modal';
 import './form.scss';
 import './modal.scss';
+import cancel from '../../static/images/cancel.png';
 
 export default function FormSet() {
   const [toSend, setToSend] = useState({
@@ -349,7 +350,7 @@ export default function FormSet() {
                       delHandler(value);
                     }}
                   >
-                    X
+                    <img src={cancel} alt="" />
                   </button>
                 </div>
               );

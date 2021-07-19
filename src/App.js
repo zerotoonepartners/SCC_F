@@ -14,20 +14,20 @@ import Info from './pages/info';
 
 function App() {
   return (
-    <SccContextProvider>
-      <BrowserRouter>
-        <Switch>
-          <Route path="/" exact component={Main} />
+    <BrowserRouter>
+      <Switch>
+        <Route path="/" exact component={Main} />
+        <Route path="/form" component={Form} />
+        <Route path="/barifurcation" component={Barifurcation} />
+        <Route path="/detail" component={Detail} />
+        <Route path="/info" component={Info} />
+        <Route component={NotFound} />
+        <SccContextProvider>
           <Route path="/eduform" component={EduForm} />
-          <Route path="/form" component={Form} />
-          <Route path="/barifurcation" component={Barifurcation} />
-          <Route path="/detail" component={Detail} />
           <Route path="/edu" component={Edu} />
-          <Route path="/info" component={Info} />
-          <Route component={NotFound} />
-        </Switch>
-      </BrowserRouter>
-    </SccContextProvider>
+        </SccContextProvider>
+      </Switch>
+    </BrowserRouter>
   );
 }
 

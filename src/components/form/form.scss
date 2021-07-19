@@ -55,11 +55,29 @@ input {
     .inputContainer {
       margin-bottom: 5rem;
       .catecover {
+        font-family: 'InfinitySans-RegularA1';
         display: flex;
         margin-bottom: 2rem;
         justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        button {
+          img {
+            margin-top: 0.2rem;
+            width: 1rem;
+          }
+        }
         .catebox {
-          border: 1px solid red;
+          font-size: 0.9rem;
+          color: #f0f0f0;
+          background-color: #ada7a7;
+          display: flex;
+          align-items: center;
+          justify-content: space-around;
+          padding: 0.2rem;
+          border: 6px solid #ada7a7;
+          border-radius: 20px;
+          margin: 0.5rem;
         }
       }
       .emailTextBox {
@@ -157,20 +175,26 @@ input {
       .catecover {
         display: flex;
         justify-content: center;
+        align-items: center;
         width: 100%;
         margin-bottom: 2rem;
         .catebox {
           button {
             color: #000;
+            img {
+              margin-top: 0.2rem;
+              width: 1rem;
+            }
           }
-          border: 1px solid gray;
-          border-radius: 15px;
+          font-size: 0.9rem;
+          border: 6px solid #ada7a7;
+          border-radius: 20px;
           width: 10rem;
           height: 2rem;
           display: flex;
           align-items: center;
-          justify-content: center;
-          margin: 0 2rem;
+          justify-content: space-around;
+          margin: 2rem 2rem;
         }
       }
       .emailTextBox {
