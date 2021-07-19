@@ -16,16 +16,17 @@ function App() {
   return (
     <BrowserRouter>
       <Switch>
+      <SccContextProvider>
         <Route path="/" exact component={Main} />
         <Route path="/form" component={Form} />
         <Route path="/barifurcation" component={Barifurcation} />
         <Route path="/detail" component={Detail} />
         <Route path="/info" component={Info} />
-        <Route component={NotFound} />
-        <SccContextProvider>
           <Route path="/eduform" component={EduForm} />
           <Route path="/edu" component={Edu} />
+          <Route component={NotFound} />
         </SccContextProvider>
+        
       </Switch>
     </BrowserRouter>
   );
