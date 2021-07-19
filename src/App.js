@@ -10,6 +10,7 @@ import NotFound from './pages/notfound';
 import Barifurcation from './pages/barifurcation';
 import Edu from './pages/edu';
 import { SccContextProvider } from './context/scc';
+import Info from './pages/info';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="/barifurcation" component={Barifurcation} />
           <Route path="/detail" component={Detail} />
           <Route path="/edu" component={Edu} />
+          <Route path="/info" component={Info} />
           <Route component={NotFound} />
         </Switch>
       </BrowserRouter>
