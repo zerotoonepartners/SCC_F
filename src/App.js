@@ -15,18 +15,16 @@ import Info from './pages/info';
 function App() {
   return (
     <BrowserRouter>
-      <Switch>
-        <Route path="/" exact component={Main} />
-        <Route path="/form" component={Form} />
-        <Route path="/barifurcation" component={Barifurcation} />
-        <Route path="/detail" component={Detail} />
-        <Route path="/info" component={Info} />
-        <Route component={NotFound} />
-        <SccContextProvider>
-          <Route path="/eduform" component={EduForm} />
-          <Route path="/edu" component={Edu} />
-        </SccContextProvider>
-      </Switch>
+      <Route path="/" exact component={Main} />
+      <Route path="/form" exact component={Form} />
+      <Route path="/barifurcation" exact component={Barifurcation} />
+      <Route path="/detail" exact component={Detail} />
+      <Route path="/info" exact component={Info} />
+      <SccContextProvider>
+        <Route path="/eduform" exact component={EduForm} />
+        <Route path="/edu" exact component={Edu} />
+      </SccContextProvider>
+      <Route path="/*" component={NotFound} />
     </BrowserRouter>
   );
 }

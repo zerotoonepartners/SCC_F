@@ -52,7 +52,7 @@ function Header() {
               <div
                 className="menuItem"
                 onClick={() => {
-                  history.push('/about');
+                  history.push('/info');
                 }}
               >
                 <span>소개</span>
