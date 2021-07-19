@@ -11,7 +11,7 @@ import Barifurcation from './pages/barifurcation';
 import Edu from './pages/edu';
 import { SccContextProvider } from './context/scc';
 import Info from './pages/info';
-
+//
 function App() {
   return (
     <BrowserRouter>
