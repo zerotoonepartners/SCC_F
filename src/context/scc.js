@@ -20,6 +20,7 @@ const SccContextProvider = ({ children }) => {
     try {
       let temp = await getData();
       setEvent(temp);
+      console.log("here");
       console.log(event);
     } catch (e) {
       console.log(e);
@@ -27,6 +28,7 @@ const SccContextProvider = ({ children }) => {
   }
 
   useEffect(() => {
+    console.log("나 몇번?");
     fetchData();
   }, []);
   return (

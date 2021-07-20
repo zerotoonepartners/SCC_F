@@ -8,6 +8,6 @@ export const getData = async () => {
     console.log(res);
     return res.data;
   } catch (e) {
-    window.alert(e);
+    console.log(e);
   }
 };

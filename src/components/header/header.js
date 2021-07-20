@@ -97,12 +97,12 @@ function Header() {
         </div>
         <div className="menuBlock">
           <div className="menuWrapper">
-            <div
-              className="menuItem"
-              onClick={() => {
-                // console.log('test');
-                history.push('/info');
-              }}
+
+            <div className="menuItem"
+            onClick={() => {
+              history.push('/info');
+            }}
+
             >
               <span>소개</span>
             </div>
