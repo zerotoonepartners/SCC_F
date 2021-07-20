@@ -1,1 +1,1 @@
-export const url = 'http://localhost:3001';
+export const url = 'http://15.164.57.120/event';
