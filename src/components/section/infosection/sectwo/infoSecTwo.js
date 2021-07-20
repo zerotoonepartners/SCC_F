@@ -7,7 +7,7 @@ function InfoSecTwo() {
       <>
         <div className="infoSecTwoWrapper" >
           <div className="boxAndTitle">
-            <div className="box"></div>
+            <div className="infoSecTwoBox"></div>
             <div className="aboutUsTitle"><span>Make it happen<br/>Shock everyone</span></div>
           </div>
             <div className="content">
