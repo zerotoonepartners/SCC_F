@@ -3,6 +3,7 @@ import { send } from 'emailjs-com';
 import Modal from 'react-modal';
 import './form.scss';
 import './modal.scss';
+import cancel from '../../static/images/cancel.png';
 
 export default function FormSet() {
   const [toSend, setToSend] = useState({
@@ -225,7 +226,7 @@ export default function FormSet() {
             }
           }}
         >
-          <div id="btn_3">
+          <div id="btn_3" className="btn_3">
             <button>{oper ? '▾ 경영 인증' : '▸ 경영 인증'}</button>
           </div>
         </div>
@@ -266,7 +267,7 @@ export default function FormSet() {
       </div>
       <div
         // className="selectionWrapper"
-        className={welfare ? 'act' : 'selectionWrapper'}
+        className="selectionWrapper"
       >
         {iso ? (
           Iso.map((value, key) => {
@@ -349,7 +350,7 @@ export default function FormSet() {
                       delHandler(value);
                     }}
                   >
-                    X
+                    <img src={cancel} alt="" />
                   </button>
                 </div>
               );

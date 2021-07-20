@@ -5,13 +5,11 @@ import logoE from '../../img/sccLogo.png';
 import ham from '../../img/hambur.png';
 import arrow from '../../static/images/arrow.png';
 import { useHistory } from 'react-router';
-import { SccContext } from '../../context/scc';
 import MenuSlider from '../hammenu/hammenu';
 import { Route } from 'react-router-dom';
 
 function Header() {
   let history = useHistory();
-  const { prac } = useContext(SccContext);
   const [scrollPosition, setScrollPosition] = useState(0);
   const [clickOpenArrow, setClickOpenArrow] = useState(false);
   const [clickCloseArrow, setClickCloseArrow] = useState(false);
@@ -20,7 +18,6 @@ function Header() {
     setScrollPosition(window.scrollY || document.documentElement.scrollTop);
   };
   useEffect(() => {
-    // window.scrollTo({ top: 0, left: 0, behavior: 'auto' });
     window.addEventListener('scroll', updateScroll);
   });
 
@@ -55,7 +52,7 @@ function Header() {
               <div
                 className="menuItem"
                 onClick={() => {
-                  history.push('/about');
+                  history.push('/info');
                 }}
               >
                 <span>소개</span>
@@ -100,10 +97,12 @@ function Header() {
         </div>
         <div className="menuBlock">
           <div className="menuWrapper">
+
             <div className="menuItem"
             onClick={() => {
               history.push('/info');
             }}
+
             >
               <span>소개</span>
             </div>

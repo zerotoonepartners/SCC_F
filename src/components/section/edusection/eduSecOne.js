@@ -5,7 +5,8 @@ import { SccContext, SccContextProvider } from '../../../context/scc';
 
 function EduSecOne() {
   const { setEvent, event } = useContext(SccContext);
-  const diu = "https://images.unsplash.com/photo-1560439514-e960a3ef5019?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80";
+  const diu =
+    'https://images.unsplash.com/photo-1560439514-e960a3ef5019?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80';
   let history = useHistory();
   console.log(event);
   return (
@@ -16,56 +17,61 @@ function EduSecOne() {
           <span className="eduTitle">스인터에서 진행하는 교육현황</span>
         </div>
         <div className="eduCardWrapper">
-          { event===undefined ? 
+          {event === undefined ? (
             <div className="card">
               <img className="thumb" src={diu} alt="" />
-            <div className="cardContentWrapper">
-              <div className="cardTitleWrapper">
-                <span className="cardTitle">현재 진행중인 교육이 없습니다.</span>
-              </div>
-              <div className="cardDescWrapper">
-                <span className="cardDesc">현재 진행중인 교육이 없습니다.</span>
-              </div>
-              <div className="cardFooterWrapper">
-                <div className="cardIsFree">
-                  <span></span>
+              <div className="cardContentWrapper">
+                <div className="cardTitleWrapper">
+                  <span className="cardTitle">
+                    현재 진행중인 교육이 없습니다.
+                  </span>
                 </div>
-                <div className="cardPubDateWrapper">
-                  <span></span>
+                <div className="cardDescWrapper">
+                  <span className="cardDesc">
+                    현재 진행중인 교육이 없습니다.
+                  </span>
+                </div>
+                <div className="cardFooterWrapper">
+                  <div className="cardIsFree">
+                    <span></span>
+                  </div>
+                  <div className="cardPubDateWrapper">
+                    <span></span>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          :
-          event.map((item, index) => {
-            return (
-              <div
-                className="card"
-                key={index}
-                onClick={() => {
-                  history.push('/form');
-                }}
-              >
-                <img className="thumb" src={item.imgUrl} alt="" />
-                <div className="cardContentWrapper">
-                  <div className="cardTitleWrapper">
-                    <span className="cardTitle">{item.title}</span>
-                  </div>
-                  <div className="cardDescWrapper">
-                    <span className="cardDesc">{item.content}</span>
-                  </div>
-                  <div className="cardFooterWrapper">
-                    <div className="cardIsFree">
-                      <span>{item.timestamp}</span>
+          ) : (
+            event.map((item, index) => {
+              return (
+                <div
+                  className="card"
+                  key={index}
+                  onClick={() => {
+                    history.push('/form');
+                  }}
+                >
+                  <img className="thumb" src={item.imgUrl} alt="" />
+                  <div className="cardContentWrapper">
+                    <div className="cardTitleWrapper">
+                      <span className="cardTitle">{item.title}</span>
                     </div>
-                    <div className="cardPubDateWrapper">
-                      <span>{item.isFree ? '무료' : '유료'}</span>
+                    <div className="cardDescWrapper">
+                      <span className="cardDesc">{item.content}</span>
+                    </div>
+                    <div className="cardFooterWrapper">
+                      <div className="cardIsFree">
+                        <span>{item.timestamp}</span>
+                      </div>
+                      <div className="cardPubDateWrapper">
+                        <span>{item.isFree ? '무료' : '유료'}</span>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            );
-          })}
+              );
+            })
+          )}
         </div>
       </div>
     </>
