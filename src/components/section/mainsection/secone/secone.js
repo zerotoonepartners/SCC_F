@@ -17,7 +17,7 @@ function SecOne() {
             <span
               className="apllyBtn"
               onClick={() => {
-                history.push('/form');
+                history.push('/barifurcation');
               }}
             >
               교육/인증 신청하기
