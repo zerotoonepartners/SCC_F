@@ -20,7 +20,10 @@ export const 가족친화인증=()=>{
             <div className="ISOcontent"> 
                 {content}
                 <br/>
+                <br/>
                 {가족친화}
+                <br/>
+                <br/>
                 {
                     가족친화혜택.map((item,idx)=>{
                         return(
@@ -57,7 +60,10 @@ export const 병역특례업체=()=>{
             <div className="ISOcontent"> 
                 {content}
                 <br/>
+                <br/>
                 {병역특례업체}
+                <br/>
+                <br/>
                 {
                     병역특례업체혜택.map((item,idx)=>{
                         return(
@@ -93,7 +99,10 @@ export const 노사문화우수기업=()=>{
             <div className="ISOcontent"> 
                 {content}
                 <br/>
+                <br/>
                 {노사문화우수기업}
+                <br/>
+                <br/>
                 {
                     노사문화우수기업혜택.map((item,idx)=>{
                         return(
@@ -130,7 +139,10 @@ export const 청년친화강소기업=()=>{
             <div className="ISOcontent"> 
                 {content}
                 <br/>
+                <br/>
                 {청년친화강소기업}
+                <br/>
+                <br/>
                 {
                     청년친화강소기업혜택.map((item,idx)=>{
                         return(
@@ -170,7 +182,10 @@ export const 인재육성형중소기업=()=>{
             <div className="ISOcontent"> 
                 {content}
                 <br/>
+                <br/>
                 {인재육성형중소기업}
+                <br/>
+                <br/>
                 {
                     인재육성형중소기업혜택.map((item,idx)=>{
                         return(
@@ -209,7 +224,10 @@ export const 공동근로복지기금설립=()=>{
             <div className="ISOcontent"> 
                 {content}
                 <br/>
+                <br/>
                 {공동근로복지기금설립}
+                <br/>
+                <br/>
                 {
                     공동근로복지기금설립혜택.map((item,idx)=>{
                         return(
