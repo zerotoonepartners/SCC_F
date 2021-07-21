@@ -7,7 +7,7 @@ function InfoSecThree() {
       <>
         <div className="infoSecThreeWrapper" >
         <div className="boxAndTitle">
-            <div className="box"></div>
+            <div className="infoSecThreeBox"></div>
             <div className="serviceTitle"><span>Our Service</span>
             <div className="line"></div></div>
           </div>
