@@ -18,6 +18,7 @@ function App() {
   return (
     <SccContextProvider>
       <BrowserRouter>
+        <ScrollToTop />
         <Switch>
           <Route path="/" exact component={Main} />
           <Route path="/form" component={Form} />
