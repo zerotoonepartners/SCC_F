@@ -14,6 +14,7 @@ export default function FormSet() {
     enter: '',
   });
   const [emailText, setEmailText] = useState('이메일 형식이 잘못되었습니다.');
+  const cateText = '* 반드시 하나 이상의 인증 항목을 선택해주세요.';
   const [mod, setMod] = useState(false);
   const [mm, setMm] = useState({
     msg: '',
@@ -23,12 +24,13 @@ export default function FormSet() {
   const [iso, setIso] = useState(false);
   const Iso = [
     'ISO 9001',
+    'ISO 13485',
     'ISO 14001',
-    'ISO 45001',
     'ISO 22000',
     'FSSC 22000',
     'ISO 22716',
-    'ISO 13485',
+    'ISO 45001',
+    
   ];
   const [oper, setOper] = useState(false);
   const Oper = [
@@ -341,7 +343,9 @@ export default function FormSet() {
       <form noValidate class="formBox" target="if">
         <div class="inputContainer">
           <div className="catecover">
-            {selection.arr.map((value, key) => {
+            { selection.arr.length===0? 
+              <div className="cateText">{cateText}</div>
+            : selection.arr.map((value, key) => {
               return (
                 <div className="catebox">
                   {value}
@@ -359,7 +363,7 @@ export default function FormSet() {
           <div class="inputcover">
             <input
               class="inputBox"
-              placeholder="성함(직위)"
+              placeholder="성함(직위)*"
               type="text"
               name="username"
               value={toSend.username}
@@ -367,7 +371,7 @@ export default function FormSet() {
             />
             <input
               class="inputBox"
-              placeholder="휴대폰 번호"
+              placeholder="휴대폰 번호*"
               type="text"
               name="call"
               value={toSend.call}
@@ -375,7 +379,7 @@ export default function FormSet() {
             />
             <input
               class="inputBox"
-              placeholder="기업형(업태/종목)"
+              placeholder="기업형(업태/종목)*"
               type="text"
               name="enter"
               value={toSend.enter}
@@ -383,14 +387,14 @@ export default function FormSet() {
             />
             <input
               class="inputBox"
-              placeholder="Email 주소"
+              placeholder="Email 주소*"
               type="text"
               name="email"
               value={toSend.email}
               onChange={emailChange}
             />
             <div class="emailTextBox">
-              <p>{emailText}</p>
+              {emailText}
             </div>
             <div className="applyBtn" id="btn">
               <button id="button" onClick={onSubmit}>

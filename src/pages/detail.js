@@ -2,6 +2,7 @@ import react, { useEffect, useState } from 'react';
 import { Route } from 'react-router-dom';
 import Header from '../components/header/header';
 import Footer from '../components/footer/footer';
+import Kakao from '../components/kakao/kakao';
 import {
   ISO9001,
   ISO13148,
@@ -34,6 +35,7 @@ import DetailSecOne from '../components/detailComp/detailsecone';
 import styled, { css, keyframes } from 'styled-components';
 import Remote from '../components/detailComp/remote';
 import './scss/detail.scss';
+import TopCircle from '../components/topcircle/topcircle';
 function Detail() {
   const isoMenu = [
     'ISO9001',
@@ -172,6 +174,8 @@ function Detail() {
           </>
         ) : null}
       </div>
+      <Kakao />
+      <TopCircle />
       <Footer />
     </>
   );

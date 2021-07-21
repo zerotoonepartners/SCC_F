@@ -5,8 +5,7 @@
 }
 
 .ISOsec{
-    padding-top : 10rem;
-    margin-top: 5rem;
+    
     margin-bottom: 5rem;
     width : 100%;
     display: flex;
@@ -20,20 +19,23 @@
     display: flex;
     justify-content: center;
 }
-@media all and (min-width: 320px) and (max-width:768px){
+@media all and (min-width: 320px){
     .ISOsec{
+        margin-top: 1rem;
+        padding-top: 1rem;
         .ISObox{
             width: 70%;
             line-height: 120%;
             font-family: "ONE-Mobile-Regular";
             .ISOtitle{
-                font-size: 2rem;
+                font-size: 1.4rem;
                 font-weight: 600;
-                margin-bottom: 3rem;
+                margin-bottom: 2rem;
                 line-height: 150%;
             }
             .ISOcontent{
-                font-size : 1.5rem;
+                text-align: justify;
+                font-size : 1rem;
                 font-weight: 200;
                 line-height: 150%;
             }
@@ -41,7 +43,7 @@
     }
 }
 @media all and (min-width: 768px){
-    .ISOsec{
+    .ISOsec{padding-top: 3rem;
         .ISObox{
             width: 70%;
             line-height: 120%;
@@ -62,6 +64,8 @@
 }
 @media all and (min-width: 1024px){
     .ISOsec{
+        padding-top : 10rem;
+    margin-top: 5rem;
         .ISObox{
             width: 70%;
             line-height: 120%;
