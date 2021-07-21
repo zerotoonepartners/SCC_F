@@ -5,7 +5,7 @@ import Footer from '../components/footer/footer';
 import Kakao from '../components/kakao/kakao';
 import {
   ISO9001,
-  ISO13148,
+  ISO13485,
   ISO14001,
   ISO22000,
   FSSC22000,
@@ -15,6 +15,7 @@ import {
 import {
   성과공유기업,
   여성기업,
+  이노비즈,
   메인비즈,
   벤처기업,
   뿌리기술전문기업,
@@ -39,7 +40,7 @@ import TopCircle from '../components/topcircle/topcircle';
 function Detail() {
   const isoMenu = [
     'ISO9001',
-    'ISO13148',
+    'ISO13485',
     'ISO14001',
     'ISO22000',
     'FSSC22000',
@@ -47,12 +48,13 @@ function Detail() {
     'ISO45001',
   ];
   const labMenu = [
-    `기업부설연구소/연구개발전담부서`,
+    '기업부설연구소/연구개발전담부서',
     '기업창작연구소/창작전담부서',
   ];
   const businMenu = [
     '성과공유기업',
     '여성기업',
+    '이노비즈',
     '메인비즈',
     '벤처기업',
     '뿌리기술전문기업',
@@ -60,9 +62,9 @@ function Detail() {
   const welMenu = [
     '가족친화인증',
     '병역특례업체',
-    '노사문화 우수기업',
-    '청년친화 강소기업',
-    '인재육성형 중소기업',
+    '노사문화우수기업',
+    '청년친화강소기업',
+    '인재육성형중소기업',
     '공동근로복지기금설립',
   ];
   const [detNum, setDetNum] = useState('00');
@@ -124,8 +126,8 @@ function Detail() {
             <div id="ISO9001">
               <ISO9001 />
             </div>
-            <div id="ISO13148">
-              <ISO13148 />
+            <div id="ISO13485">
+              <ISO13485 />
             </div>
             <div id="ISO14001">
               <ISO14001 />
@@ -147,29 +149,58 @@ function Detail() {
         ) : null}
         {detNum === '01' ? (
           <>
+            <div id="기업부설연구소/연구개발전담부서">
             <기업부설연구소 />
+            </div>
+            <div id="기업창작연구소/창작전담부서">
             <기업부설창작연구소 />
+            </div>
             <Remote remoteMenu={remoteMenu} />
           </>
         ) : null}
         {detNum === '10' ? (
           <>
+            <div id="성과공유기업">
             <성과공유기업 />
+            </div>
+            <div id="여성기업">
             <여성기업 />
+            </div>
+            <div id="이노비즈">
+              <이노비즈/>
+            </div>
+            <div id="메인비즈">
             <메인비즈 />
+            </div>
+            <div id="벤처기업">
             <벤처기업 />
+            </div>
+            <div id="뿌리기술전문기업">
             <뿌리기술전문기업 />
+            </div>
             <Remote remoteMenu={remoteMenu} />
           </>
         ) : null}
         {detNum === '11' ? (
           <>
+            <div id="가족친화인증">
             <가족친화인증 />
+            </div>
+            <div id="병역특례업체">
             <병역특례업체 />
+            </div>
+            <div id="노사문화우수기업">
             <노사문화우수기업 />
+            </div>
+            <div id="청년친화강소기업">
             <청년친화강소기업 />
+            </div>
+            <div id="인재육성형중소기업">
             <인재육성형중소기업 />
+            </div>
+            <div id="공동근로복지기금설립">
             <공동근로복지기금설립 />
+            </div>
             <Remote remoteMenu={remoteMenu} />
           </>
         ) : null}
