@@ -61,7 +61,7 @@ function EduSecOne() {
                     </div>
                     <div className="cardFooterWrapper">
                       <div className="cardIsFree">
-                        <span>{`기간 : ${item.startStamp.slice(0,10)} ~ ${item.endStamp.slice(0,10)}`}</span>
+                        <span>{`기간 : ${item.startStamp} ~ ${item.endStamp}`}</span>
                       </div>
                       <div className="cardPubDateWrapper">
                         <span>{item.isFree ? '무료' : '유료'}</span>

@@ -5,6 +5,7 @@
     flex-direction: column;
     align-items: center;
     position: fixed;
+    background-color: rgb(229, 228, 231);
 }
 
 @media all and (min-width:320px) and (max-width:768px){
@@ -17,8 +18,8 @@
             justify-content: space-evenly;
             flex-direction: column;
             .twopill{
-                width : 12rem;
-                height: 6rem;
+                width : 10rem;
+                height: 5rem;
                 display: flex;
                 justify-content: center;
                 align-items: center;
@@ -42,6 +43,7 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
+        flex-direction: row;
         .twopill{
             width : 12rem;
             height: 6rem;
@@ -54,6 +56,7 @@
                 color: #e7ebf0;
                 font-family: 'ONE-Mobile-Regular';
                 font-weight: bold;
+                font-size: 1.6rem;
             }
         }
     }
@@ -69,8 +72,9 @@
             justify-content: space-around;
             align-items: center;
             .twopill{
-                width : 12rem;
-                height: 6rem;
+                cursor : pointer;
+                width : 15rem;
+                height: 8rem;
                 display: flex;
                 justify-content: center;
                 align-items: center;
@@ -80,6 +84,7 @@
                     color: #e7ebf0;
                     font-family: 'ONE-Mobile-Regular';
                     font-weight: bold;
+                    font-size: 1.8rem;
                 }
             }
         }

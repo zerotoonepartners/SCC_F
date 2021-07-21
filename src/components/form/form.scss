@@ -224,16 +224,19 @@ input {
       .applyBtn {
         button {
           color: #ffffff;
+          font-size: 1rem;
+          font-family: 'InfinitySans-RegularA1';
         }
         margin-top: 1rem;
         border-radius: 15px;
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 5rem;
+        width: 8rem;
         height: 2rem;
         border: 1px solid #646ecb;
         background-color: #646ecb;
+        
       }
     }
   }
