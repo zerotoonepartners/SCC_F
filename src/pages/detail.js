@@ -2,42 +2,11 @@ import react, { useEffect, useState } from 'react';
 import { Route } from 'react-router-dom';
 import Header from '../components/header/header';
 import Footer from '../components/footer/footer';
-<<<<<<< HEAD
 import Kakao from '../components/kakao/kakao';
 import { ISO9001,ISO13148,ISO14001,ISO22000,FSSC22000,ISO22716,ISO45001 } from '../components/detailComp/iso';
 import {성과공유기업,여성기업,메인비즈,벤처기업,뿌리기술전문기업} from '../components/detailComp/business';
 import {가족친화인증,병역특례업체,노사문화우수기업,청년친화강소기업,인재육성형중소기업,공동근로복지기금설립} from "../components/detailComp/welfare";
 import {기업부설연구소, 기업부설창작연구소} from "../components/detailComp/lab";
-=======
-import {
-  ISO9001,
-  ISO13148,
-  ISO14001,
-  ISO22000,
-  FSSC22000,
-  ISO22716,
-  ISO45001,
-} from '../components/detailComp/iso';
-import {
-  성과공유기업,
-  여성기업,
-  메인비즈,
-  벤처기업,
-  뿌리기술전문기업,
-} from '../components/detailComp/business';
-import {
-  가족친화인증,
-  병역특례업체,
-  노사문화우수기업,
-  청년친화강소기업,
-  인재육성형중소기업,
-  공동근로복지기금설립,
-} from '../components/detailComp/welfare';
-import {
-  기업부설연구소,
-  기업부설창작연구소,
-} from '../components/detailComp/lab';
->>>>>>> b26cc52c10dd7e25584f61e7e3c6630dbf34fd66
 import DetailSecOne from '../components/detailComp/detailsecone';
 import styled, { css, keyframes } from 'styled-components';
 import Remote from '../components/detailComp/remote';
