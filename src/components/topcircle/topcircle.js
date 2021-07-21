@@ -1,6 +1,6 @@
 import React from 'react';
 import './topcircle.scss';
-import arrowTop from '../../../src/img/arrowTop.png';
+import arrowTop from '../../img/arrowTop.png';
 
 function TopCircle() {
   return (
