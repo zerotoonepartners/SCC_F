@@ -8,7 +8,15 @@ import './secfour.scss';
 function SecFour() {
   return (
     <>
-      <div className="sec4">.</div>
+      <div className="sec4">
+        <div className="secTitleWrapper">
+          <span>Our Process</span>
+          <div className="secLine"></div>
+        </div>
+        <div className="secPartOneWrapper">partOne</div>
+        <div className="secPartTwoWrapper">partTwo</div>
+        <div className="secSlider">slider</div>
+      </div>
     </>
   );
 }

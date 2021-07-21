@@ -21,8 +21,6 @@ function Main() {
       <Route component={SecThree} />
       <Route component={SecFour} />
       <Route component={Kakao} />
-      {/* <Route component={TopCircle} /> */}
-      {/* <Route component={ApplyPillButton} /> */}
       <Route component={Footer} />
     </div>
   );
