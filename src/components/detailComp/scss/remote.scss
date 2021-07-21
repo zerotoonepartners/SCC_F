@@ -25,7 +25,6 @@
       font-family: 'footerFont';
       background-color: #ffffff;
       font-weight: 900;
-      // z-index: 1000001;
       cursor: pointer;
       color: #303243;
       font-size: 0.7rem;
@@ -36,7 +35,11 @@
       align-items: center;
       justify-content: flex-start;
       padding-left: 0.5rem;
+<<<<<<< HEAD
       margin-top: 0.3rem;
+=======
+      margin-top: 0.5rem;
+>>>>>>> b81385a6eb26e130c42c1392299f10863131bfcf
       border-radius: 0 15px 15px 0;
       transition: 0.3s all ease;
     }
