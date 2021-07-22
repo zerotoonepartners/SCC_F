@@ -197,7 +197,7 @@
       .contentImgWrapper {//blue
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: flex-end;
         width: 50%;
         img {
           width: 90%;
@@ -210,7 +210,7 @@
         // margin-top: 0.2rem;
         width: 50%;
         height: 40vh;
-        padding-left: 3rem;
+        padding-left: 4rem;
 
         .strong {
           color: #646ecb;
@@ -224,7 +224,7 @@
         }
         .sloganContent {
           // margin-left: 4rem;
-          width: 85%;
+          width: 90%;
           font-size: 1.1rem;
           text-align: justify;
           font-weight: 100;
