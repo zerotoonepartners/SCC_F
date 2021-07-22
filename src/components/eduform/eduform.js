@@ -164,27 +164,25 @@ export default function FormSet() {
   };
 
   return (
-    <div class="formcomWrapper">
+    <div className="formcomWrapper">
         {
             event===undefined ? 
-            <div>현재 진행중인 교육이 없습니다.</div>
+            <div className="eduContentContainer"><div className="eduContent">현재 진행중인 교육이 없습니다.</div></div>
             :
-            <div>
+            <div className="eduContentContainer">
             {
                 event.map((item,idx)=>{
                     return(
-                        <button key={idx} onClick={()=>{addHandler(item.title)}}>
-                        <div>
+                        <button className="eduContent" key={idx} onClick={()=>{addHandler(item.title)}}>
                         {item.title}
-                        </div>
                         </button>
                     )
                 })
             }
             </div>
         }
-      <form noValidate class="formBox" target="if">
-        <div class="inputContainer">
+      <form noValidate className="formBox" target="if">
+        <div className="inputContainer">
           <div className="catecover">
           { eselection.arr.length===0? 
               <div className="cateText">{cateText}</div>
