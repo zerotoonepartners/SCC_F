@@ -102,7 +102,50 @@
     .secSlider {
       width: 100%;
       height: 30vh;
-      border: 1px solid red;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      .sliderItemWrapper {
+        width: 100%;
+        height: 100%;
+        .avatar {
+          width: 100%;
+          height: 40%;
+          display: flex;
+          justify-content: center;
+          margin-top: 0.5rem;
+          img {
+            width: 4rem;
+          }
+        }
+        .commentWrapaper {
+          display: flex;
+          justify-content: center;
+          width: 100%;
+          height: 60%;
+          .comment {
+            margin-top: 1rem;
+            display: block;
+            width: 80%;
+            font-size: 0.5rem;
+            .auth {
+              display: block;
+              text-align: end;
+              font-weight: 800;
+            }
+          }
+        }
+      }
+      .dotWrapper {
+        left: 50%;
+        transform: translateX(-50%);
+        position: absolute;
+        width: 3rem;
+        display: flex;
+        justify-content: space-between;
+        bottom: 0.5rem;
+      }
     }
     
   }
@@ -303,17 +346,58 @@
           }
         }
       }
-      
-    }
-    .secPartTwoWrapper {
-      width: 100%;
-      height: 70vh;
-      border: 1px solid red;
     }
     .secSlider {
       width: 100%;
       height: 30vh;
-      border: 1px solid red;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      .sliderItemWrapper {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        .avatar {
+          width: 20%;
+          height: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          img {
+            width: 5rem;
+          }
+        }
+        .commentWrapaper {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          width: 80%;
+          height: 100%;
+          .comment {
+            margin-top: 1rem;
+            display: block;
+            width: 80%;
+            font-size: 1.2rem;
+            .auth {
+              display: block;
+              text-align: end;
+              font-weight: 800;
+            }
+          }
+        }
+      }
+      .dotWrapper {
+        left: 50%;
+        transform: translateX(-50%);
+        position: absolute;
+        width: 3rem;
+        display: flex;
+        justify-content: space-between;
+        bottom: 0.5rem;
+      }
     }
+  }
 }
-}
+
