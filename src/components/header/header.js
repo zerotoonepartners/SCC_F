@@ -88,8 +88,7 @@ function Header() {
           <button
             class="button_1"
             onClick={() => {
-              history.replace('/');
-              window.location.reload();
+              history.push('/');
             }}
           >
             <img class="logo" src={logoE} alt="" />
@@ -97,12 +96,11 @@ function Header() {
         </div>
         <div className="menuBlock">
           <div className="menuWrapper">
-
-            <div className="menuItem"
-            onClick={() => {
-              history.push('/info');
-            }}
-
+            <div
+              className="menuItem"
+              onClick={() => {
+                history.push('/info');
+              }}
             >
               <span>소개</span>
             </div>
