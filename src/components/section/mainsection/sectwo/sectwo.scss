@@ -34,10 +34,12 @@
       }
     }
     .aboutContentsWrapper {
+      // border: 1px solid black;
       margin-top: 2rem;
       width: 100%;
       height: 90vh;
       .contentImgWrapper {
+        // border: 1px solid blue;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -46,6 +48,7 @@
         }
       }
       .contentsWrapper {
+        // border: 1px solid red;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -57,15 +60,17 @@
           font-weight: 800;
         }
         .slogan {
+          // border: 1px solid blue;
           margin-bottom: 1rem;
           font-size: 1rem;
           font-weight: 500;
         }
         .sloganContent {
+          // border: 1px solid skyblue;
           margin-top: 1rem;
           width: 90%;
           font-size: 0.6rem;
-          text-align: justify;
+          text-align: center;
           line-height: 150%;
         }
       }
@@ -103,40 +108,45 @@
         border: 1px solid #646ecb;
       }
     }
-    .aboutContentsWrapper {
+    .aboutContentsWrapper {//black
       margin-top: 2rem;
-      width: 100%;
+      width: 90%;
       height: 90vh;
       display: flex;
-      align-items: center;
+      align-items: flex-start;
       .contentImgWrapper {
         display: flex;
         flex-direction: column;
         align-items: center;
+        width: 50%;
         img {
-          width: 90%;
+          width: 100%;
+          
         }
       }
-      .contentsWrapper {
+      .contentsWrapper {//red
         display: flex;
         flex-direction: column;
-        align-items: center;
-        margin-top: 2rem;
-        width: 100%;
+        align-items: flex-start;
+        margin-top: 0rem;
+        width: 50%;
         height: 40vh;
+        padding-left: 5%;
         .strong {
           color: #646ecb;
           font-weight: 800;
         }
         .slogan {
+          // margin-left: 3rem;
           margin-bottom: 1rem;
-          font-size: 1rem;
+          font-size: 1.3rem;
           font-weight: 500;
         }
         .sloganContent {
+          // margin-left: 3rem;
           margin-top: 1rem;
-          width: 90%;
-          font-size: 0.6rem;
+          width: 85%;
+          font-size: 0.8rem;
           text-align: justify;
           line-height: 150%;
         }
@@ -177,39 +187,44 @@
         border: 2px solid #646ecb;
       }
     }
-    .aboutContentsWrapper {
+    .aboutContentsWrapper {//black
       margin-top: 2rem;
       width: 100%;
-      height: 90vh;
+      height: 100vh;
       display: flex;
       align-items: flex-start;
       justify-content: center;
-      .contentImgWrapper {
+      .contentImgWrapper {//blue
         display: flex;
         flex-direction: column;
         align-items: center;
+        width: 50%;
         img {
-          width: 100%;
+          width: 90%;
         }
       }
-      .contentsWrapper {
+      .contentsWrapper {//red
         display: flex;
         flex-direction: column;
-        align-items: center;
-        margin-top: 0.2rem;
+        align-items: flex-start;
+        // margin-top: 0.2rem;
         width: 50%;
         height: 40vh;
+        padding-left: 3rem;
+
         .strong {
           color: #646ecb;
           font-weight: 800;
         }
         .slogan {
           margin-bottom: 2rem;
+          // margin-left: 4rem;
           font-size: 1.7rem;
           font-weight: 500;
         }
         .sloganContent {
-          width: 80%;
+          // margin-left: 4rem;
+          width: 85%;
           font-size: 1.1rem;
           text-align: justify;
           font-weight: 100;
