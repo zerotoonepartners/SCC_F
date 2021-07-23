@@ -17,9 +17,7 @@ function Barifurcation() {
           <div className="btnWrapper">
             <div className="btnItemWrapper">
               <div className="topDesc">
-                <span>
-                  스타트업을 위한 <br /> 퀄리티 있는 교육
-                </span>
+                <span>스타트업에 필요한 맞춤 교육</span>
               </div>
               <div className="imgBox">
                 <img src={p3} alt="" />
@@ -31,9 +29,7 @@ function Barifurcation() {
             <div className="breakLine"></div>
             <div className="btnItemWrapper">
               <div className="topDesc">
-                <span>
-                  기업의 가치를 <br /> 높이는 방법
-                </span>
+                <span>기업의 가치를 높이고 싶다면</span>
               </div>
               <div className="imgBox">
                 <img src={p6} alt="" />
