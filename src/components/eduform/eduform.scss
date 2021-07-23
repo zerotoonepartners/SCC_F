@@ -4,27 +4,27 @@
 //   *:focus {
 //     outline: none;
 //   }
-  
-  @media all and (min-width: 320px) {
-      .eduContentContainer{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-evenly;
-        margin-bottom: 1rem;
-        margin-top: 3rem;
-      .eduContent{
-          border : 10px solid #646ecb;
-          border-radius: 15px;
-          color : white;
-          font-size: 0.7rem;
-          font-weight: 400;
-          background-color: #646ecb;
-          font-family: 'InfinitySans-RegularA1';
-          margin-bottom: 0.5rem;
-          
-      }
+
+@media all and (min-width: 320px) {
+  .eduContentContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 1rem;
+    margin-top: 3rem;
+    .eduContent {
+      width: 18rem;
+      border: 10px solid #646ecb;
+      border-radius: 15px;
+      color: white;
+      font-size: 0.7rem;
+      font-weight: 400;
+      background-color: #646ecb;
+      font-family: 'InfinitySans-RegularA1';
+      margin-bottom: 0.5rem;
     }
+  }
 }
 //       .selectionWrapper {
 //         margin-bottom: 3rem;
@@ -53,7 +53,7 @@
 //       .categoryWrapper {
 //         margin-top: 1.5rem;
 //         height: auto;
-  
+
 //         //   display: flex;
 //         .subcategoryWrapper {
 //           button {
@@ -140,27 +140,27 @@
 //       }
 //     }
 //   }
-  
-  @media all and (min-width: 768px) {
-      .eduContentContainer{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-evenly;
-        margin-bottom: 1.5rem;
-        margin-top: 3rem;
-      .eduContent{
-          border : 10px solid #646ecb;
-          border-radius: 15px;
-          color : white;
-          font-size: 1rem;
-          font-weight: 400;
-          background-color: #646ecb;
-          font-family: 'InfinitySans-RegularA1';
-          margin-bottom: 1rem;
-          
-      }
+
+@media all and (min-width: 768px) {
+  .eduContentContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 1.5rem;
+    margin-top: 3rem;
+    .eduContent {
+      width: 23rem;
+      border: 10px solid #646ecb;
+      border-radius: 15px;
+      color: white;
+      font-size: 1rem;
+      font-weight: 400;
+      background-color: #646ecb;
+      font-family: 'InfinitySans-RegularA1';
+      margin-bottom: 1rem;
     }
+  }
 }
 //       .selectionWrapper {
 //         opacity: 0.8;
@@ -175,7 +175,7 @@
 //           transition: all 1s ease;
 //         }
 //       }
-  
+
 //       .btnContent {
 //         display: flex;
 //         align-items: center;
@@ -183,7 +183,7 @@
 //         width: 10rem;
 //         height: 3rem;
 //         background-color: #303243;
-  
+
 //         // border: 1px solid red;
 //       }
 //       .categoryWrapper {
@@ -191,7 +191,7 @@
 //         height: auto;
 //         display: flex;
 //         width: 100%;
-  
+
 //         .subcategoryWrapper {
 //           height: 3rem;
 //           width: 100%;
@@ -200,7 +200,7 @@
 //           align-items: center;
 //           justify-content: center;
 //           font-family: 'InfinitySans-RegularA1';
-  
+
 //           // border-radius: 5px;
 //         }
 //       }
@@ -274,32 +274,32 @@
 //           height: 2rem;
 //           border: 1px solid #646ecb;
 //           background-color: #646ecb;
-          
+
 //         }
 //       }
 //     }
 //   }
-  
-  @media all and (min-width: 1024px) {
-      .eduContentContainer{
-          display: flex;
-          flex-direction: row;
-          align-items: center;
-          justify-content: space-evenly;
-          margin-bottom: 3rem;
-          margin-top: 3rem;
-        .eduContent{
-            border : 10px solid #646ecb;
-            border-radius: 15px;
-            color : white;
-            font-size: 1rem;
-            font-weight: 400;
-            background-color: #646ecb;
-            font-family: 'InfinitySans-RegularA1';
-            
-        }
-      }
+
+@media all and (min-width: 1024px) {
+  .eduContentContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+    .eduContent {
+      width: 25rem;
+      border: 10px solid #646ecb;
+      border-radius: 15px;
+      color: white;
+      font-size: 1rem;
+      font-weight: 400;
+      background-color: #646ecb;
+      font-family: 'InfinitySans-RegularA1';
     }
+  }
+}
 //       .selectionWrapper {
 //         opacity: 0.8;
 //         background-color: #303243;
@@ -313,7 +313,7 @@
 //           transition: all 1s ease;
 //         }
 //       }
-  
+
 //       .btnContent {
 //         display: flex;
 //         align-items: center;
@@ -321,7 +321,7 @@
 //         width: 100%;
 //         height: 3rem;
 //         background-color: #303243;
-  
+
 //         // border: 1px solid red;
 //       }
 //       .categoryWrapper {
@@ -329,7 +329,7 @@
 //         height: auto;
 //         display: flex;
 //         width: 100%;
-  
+
 //         .subcategoryWrapper {
 //           height: 3rem;
 //           width: 100%;
@@ -338,7 +338,7 @@
 //           align-items: center;
 //           justify-content: center;
 //           font-family: 'InfinitySans-RegularA1';
-  
+
 //           // border-radius: 5px;
 //         }
 //       }
@@ -412,9 +412,8 @@
 //           height: 2rem;
 //           border: 1px solid #646ecb;
 //           background-color: #646ecb;
-          
+
 //         }
 //       }
 //     }
 //   }
-  
