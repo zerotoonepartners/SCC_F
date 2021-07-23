@@ -163,7 +163,7 @@
     height: 10vh;
     width: 100%;
     font-weight: 800;
-    font-size: 3rem;
+    font-size: 1.2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -180,13 +180,13 @@
     }
   }
   .secPartOneWrapper {
-    width: 90%;
+    width: 80%;
     //height: 70vh;
     margin-top: 3rem;
     //border: 1px solid red;
     .secPartOneTitle{
       font-weight: 800;
-      font-size: 3rem;
+      font-size: 1.2rem;
     }
     .secPartOneSubTitle{
       margin-top: 2rem;
@@ -241,7 +241,7 @@
             .processTextContent{
               text-align: center;
               font-weight: 200;
-              font-size: 0.8rem;
+              font-size: 0.6rem;
               margin-top: 0.5rem;
               line-height: 120%;
             }
@@ -262,21 +262,20 @@
     width: 100%;
     height: auto;
     .secTitleWrapper {
-      height: 10vh;
+      //height: 10vh;
       width: 100%;
-      font-weight: 800;
-      font-size: 3rem;
+      font-size: 1.8rem;
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
       margin-top: 2rem;
       span {
-        font-weight: 800;
+        font-weight: bold;
       }
       .secLine {
         margin-top: 1rem;
-        border: 1px solid #000;
+        border: 2px solid #000;
         width: 2rem;
         font-weight: 800;
       }
@@ -284,16 +283,17 @@
     //제목라인
     //프로세스 스타트
     .secPartOneWrapper {
-      width: 90%;
+      width: 80%;
       //height: 70vh;
       margin-top: 8rem;
       //border: 1px solid red;
       .secPartOneTitle{
         font-weight: 800;
-        font-size: 3rem;
+        font-size: 2.2rem;
       }
       .secPartOneSubTitle{
         margin-top: 2rem;
+        margin-bottom: 1rem;
       }
       .processAllContainer{
         display: flex;
@@ -307,7 +307,7 @@
           margin-top: 3rem;
           .processBox{
             width: 20%;
-            height: 50vh;
+            height: 40vh;
             //border : 1px solid orange;
             display: flex;
             flex-direction: column;
@@ -347,6 +347,7 @@
                 font-weight: 200;
                 font-size: 1rem;
                 margin-top: 1rem;
+                line-height: 120%;
               }
             }
           }
