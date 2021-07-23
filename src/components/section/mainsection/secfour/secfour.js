@@ -49,6 +49,7 @@ function SecFour() {
           </div>
         </div>
         <div className="secPartTwoWrapper">partTwo</div>
+        
         <div className="secSlider">
           <Slider>
             <SliderContents dotToggle={dotToggle}>
