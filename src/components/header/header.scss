@@ -278,7 +278,6 @@ button {
         color: #ffffff;
         font-weight: 800;
       }
-
       .menuItem {
         cursor: pointer;
         height: 100%;
@@ -286,11 +285,9 @@ button {
         align-items: center;
         display: none;
       }
-
       .menuItem span {
         position: relative;
       }
-
       .menuItem span:before {
         content: '';
         position: absolute;
@@ -333,7 +330,6 @@ button {
         display: block;
         width: 80%;
         margin-left: 0.5rem;
-
       }
     }
     .menuBlock {
@@ -413,6 +409,7 @@ button {
       }
     }
   }
+
   .menuContents {
     color: #ffffff;
     width: 100%;

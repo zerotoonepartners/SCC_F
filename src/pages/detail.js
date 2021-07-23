@@ -120,7 +120,6 @@ function Detail() {
             <span>복지</span>
           </div>
         </div>
-        {}
         {detNum === '00' ? (
           <>
             <div id="ISO9001">

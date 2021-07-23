@@ -163,7 +163,7 @@ const MenuBox = styled.div`
   ${(props) =>
     props.clickOpenArrow &&
     css`
-      width: 50%;
+      width: 30%;
       height: 100vh;
     `}
 `;

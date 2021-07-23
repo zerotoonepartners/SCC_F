@@ -19,7 +19,12 @@ const SccContextProvider = ({ children }) => {
   async function fetchData() {
     try {
       let temp = await getData();
-      setEvent(temp);
+      temp.map((item,idx)=>{
+        item.startStamp=item.startStamp.slice(0,10);
+        item.endStamp=item.endStamp.slice(0,10);
+      })
+      let temp2 = temp.reverse();
+      setEvent(temp2);
       console.log("here");
       console.log(event);
     } catch (e) {
