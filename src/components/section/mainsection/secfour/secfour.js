@@ -46,7 +46,6 @@ function SecFour() {
           <div className="secLine"></div>
         </div>
         <div className="secPartOneWrapper">
-<<<<<<< HEAD
           <div className="secPartOneTitle">체계적인 교육 시스템</div>
           <div className="secPartOneSubTitle">이미 많은 기업들이 선택한 스타트업 인증센터의 체계적인 교육 시스템</div>
           <div className="processAllContainer">
@@ -172,19 +171,9 @@ function SecFour() {
             </div>
           </div>
         </div>
-        <div className="secSlider">slider</div>
-=======
-          <div className="partOneTitle">
-            <span>개별 기업에 최적화된 인증시스템</span>
-          </div>
-          <div className="partOneDesc">
-            <span>
-              개별 기업 맞춤 인증 안내와 베테랑 심사역들의 신속한 인증 심사
-            </span>
-          </div>
-        </div>
-        <div className="secPartTwoWrapper">partTwo</div>
-        <div className="secSlider">
+
+
+          <div className="secSlider">
           <Slider>
             <SliderContents dotToggle={dotToggle}>
               <SliderItem>
@@ -286,7 +275,8 @@ function SecFour() {
             </div>
           </Slider>
         </div>
->>>>>>> 97fbbacbbb468239cb27ebe8e3a5eaca0c0de690
+       
+        
       </div>
     </>
   );
