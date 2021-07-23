@@ -171,6 +171,7 @@ function SecFour() {
             </div>
           </div>
         </div>
+        <div className="blankLine"></div>
 
 
           <div className="secSlider">
