@@ -35,7 +35,7 @@ function SecFour() {
 
   useInterval(() => {
     setDotToggle(dotToggle + 1);
-  }, 3000);
+  }, 2500);
 
   return (
     <>
