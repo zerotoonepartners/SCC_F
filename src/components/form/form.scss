@@ -62,7 +62,9 @@ input {
         align-items: center;
         flex-wrap: wrap;
         .cateText{
-          color : rgb(238, 144, 144);
+          color : rgb(241, 18, 18);
+          font-weight: 200;
+          font-size: 0.8rem;
           font-family: 'InfinitySans-RegularA1';
         }
         button {
@@ -86,13 +88,18 @@ input {
       }
       .emailTextBox {
         font-size: 0.8rem;
-        font-weight: 800;
-        color: rgb(238, 144, 144);
+        font-weight: 200;
+        color: rgb(241, 18, 18);
+        text-align: center;
         line-height: 120%;
-          text-align: center;
-          .indiBox{
-            color : #646ecb
-          }
+        font-family: 'InfinitySans-RegularA1';
+        
+      }
+      .indiBox{
+        color : #646ecb;
+        font-family: 'InfinitySans-RegularA1';
+        margin-top: 1vh;
+
       }
       .inputcover {
         display: flex;
@@ -117,8 +124,8 @@ input {
         justify-content: center;
         width: 5rem;
         height: 2rem;
-        border: 1px solid #303243;
-        background-color: #303243;
+        border: 1px solid #646ecb;
+        background-color: #646ecb;
       }
     }
   }
@@ -179,7 +186,7 @@ input {
                 width: 100%;
                 margin-bottom: 2rem;
                 .cateText{
-                  color : rgb(238, 144, 144);
+                  color : rgb(241, 18, 18);
                   font-size: 1rem;
                 }
                 .catebox {
@@ -202,15 +209,20 @@ input {
                 }
               }
               .emailTextBox {
-                  font-size: 0.8rem;
-                  font-weight: 800;
-                  color: rgb(238, 144, 144);
-                  line-height: 120%;
-                  text-align: center;
-                  .indiBox{
-                    color : #646ecb
-                  }
-                }
+                font-size: 0.8rem;
+                font-weight: 200;
+                color: rgb(241, 18, 18);
+                text-align: center;
+                line-height: 120%;
+                font-family: 'InfinitySans-RegularA1';
+                
+              }
+              .indiBox{
+                color : #646ecb;
+                font-family: 'InfinitySans-RegularA1';
+                margin-top: 1vh;
+        
+              }
               .inputcover {
                 display: flex;
                 flex-direction: column;
@@ -303,8 +315,10 @@ input {
         width: 100%;
         margin-bottom: 2rem;
         .cateText{
-          color : rgb(238, 144, 144);
+          color: rgb(241, 18, 18);
           font-size: 1rem;
+          font-family: 'InfinitySans-RegularA1';
+          font-weight: 200;
         }
         .catebox {
           button {
@@ -327,13 +341,18 @@ input {
       }
       .emailTextBox {
         font-size: 1rem;
-        font-weight: 800;
-        color: rgb(238, 144, 144);
+        font-weight: 200;
+        color: rgb(241, 18, 18);
         text-align: center;
         line-height: 120%;
-        .indiBox{
-          color : #646ecb
-        }
+        font-family: 'InfinitySans-RegularA1';
+        
+      }
+      .indiBox{
+        color : #646ecb;
+        font-family: 'InfinitySans-RegularA1';
+        margin-top: 1vh;
+
       }
       .inputcover {
         display: flex;

@@ -410,8 +410,9 @@ export default function FormSet() {
             />
             <div class="emailTextBox">
               {emailText}
-              <div className="indiBox"><input type="checkbox" onClick={()=>{acheck?setAcheck(false):setAcheck(true)}}></input>개인약관처리방침 동의<a href="">   상세보기</a></div>
+              
             </div>
+            <div className="indiBox"><input type="checkbox" onClick={()=>{acheck?setAcheck(false):setAcheck(true)}}></input>개인약관처리방침 동의<a href="">   상세보기</a></div>
             <div className="applyBtn" id="btn">
               <button id="button" onClick={onSubmit}>
                 신청하기

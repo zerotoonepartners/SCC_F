@@ -37,9 +37,10 @@ function Footer() {
       </div>
       <div className="footerCopy">
         <span>
-          &copy; 2021 스타트업인증센터. All Rights Reserved.
+        사업자등록번호: 13998 대표자: 김경태
+          
           <span className="businCopy">
-            사업자등록번호: 13998 대표자: 김경태
+          &copy; 2021 스타트업인증센터. All Rights Reserved.
           </span>
         </span>
       </div>
