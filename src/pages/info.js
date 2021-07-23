@@ -5,22 +5,18 @@ import Header from '../components/header/header';
 import InfoSecOne from '../components/section/infosection/secone/infoSecOne';
 import InfoSecThree from '../components/section/infosection/secthree/infoSecThree';
 import InfoSecTwo from '../components/section/infosection/sectwo/infoSecTwo';
-
+import "./scss/info.scss";
 
 function Info() {
   return (
     <div>
-      <>
-        <div className="infoWrapper">
+        <div className="infoPageWrapper">
           <Route component={Header} />
           <Route component={InfoSecOne} />
           <Route component={InfoSecTwo} />
           <Route component={InfoSecThree} />
           <Route component={Footer} />
         </div>
-      </>
-
-      
     </div>
   );
 }
