@@ -63,6 +63,7 @@ input {
         flex-wrap: wrap;
         .cateText{
           color : rgb(238, 144, 144);
+          font-family: 'InfinitySans-RegularA1';
         }
         button {
           img {
@@ -86,7 +87,12 @@ input {
       .emailTextBox {
         font-size: 0.8rem;
         font-weight: 800;
-        color: #646ecb;
+        color: rgb(238, 144, 144);
+        line-height: 120%;
+          text-align: center;
+          .indiBox{
+            color : #646ecb
+          }
       }
       .inputcover {
         display: flex;
@@ -120,8 +126,123 @@ input {
 
 @media all and (min-width: 768px) {
   .formcomWrapper {
-  }
-}
+    .selectionWrapper {
+              opacity: 0.8;
+              background-color: #303243;
+              justify-content: space-around;
+              width: 100%;
+              display: flex;
+              margin-bottom: 3rem;
+              //   transform: translateY(0);
+              .btnContent {
+                background-color: #303243;
+                transition: all 1s ease;
+              }
+            }
+        
+            .btnContent {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              width: 10rem;
+              height: 3rem;
+              background-color: #303243;
+        
+              // border: 1px solid red;
+            }
+            .categoryWrapper {
+              margin-top: 0rem;
+              height: auto;
+              display: flex;
+              width: 100%;
+        
+              .subcategoryWrapper {
+                height: 3rem;
+                width: 100%;
+                background-color: #303243;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-family: 'InfinitySans-RegularA1';
+        
+                // border-radius: 5px;
+              }
+            }
+            .inputContainer {
+              margin-bottom: 5rem;
+              //   display: flex;
+              //   height: 100%;
+              .catecover {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                margin-bottom: 2rem;
+                .cateText{
+                  color : rgb(238, 144, 144);
+                  font-size: 1rem;
+                }
+                .catebox {
+                  button {
+                    color: #000;
+                    img {
+                      margin-top: 0.2rem;
+                      width: 1rem;
+                    }
+                  }
+                  font-size: 0.9rem;
+                  border: 6px solid #ada7a7;
+                  border-radius: 20px;
+                  width: 10rem;
+                  height: 2rem;
+                  display: flex;
+                  align-items: center;
+                  justify-content: space-around;
+                  margin: 2rem 2rem;
+                }
+              }
+              .emailTextBox {
+                  font-size: 0.8rem;
+                  font-weight: 800;
+                  color: rgb(238, 144, 144);
+                  line-height: 120%;
+                  text-align: center;
+                  .indiBox{
+                    color : #646ecb
+                  }
+                }
+              .inputcover {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                .inputBox {
+                  width: 30%;
+                  border: 1px solid gray;
+                  border-radius: 5px;
+                  margin-bottom: 2rem;
+                  padding: 10px 10px;
+                }
+              }
+              .applyBtn {
+                button {
+                  color: #ffffff;
+                  font-size: 1rem;
+                  font-family: 'InfinitySans-RegularA1';
+                }
+                margin-top: 1rem;
+                border-radius: 15px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 8rem;
+                height: 2rem;
+                border: 1px solid #646ecb;
+                background-color: #646ecb;
+                
+              }
+            }
+          }
+        }
 
 @media all and (min-width: 1024px) {
   .formcomWrapper {
@@ -207,7 +328,12 @@ input {
       .emailTextBox {
         font-size: 1rem;
         font-weight: 800;
-        color: #646ecb;
+        color: rgb(238, 144, 144);
+        text-align: center;
+        line-height: 120%;
+        .indiBox{
+          color : #646ecb
+        }
       }
       .inputcover {
         display: flex;

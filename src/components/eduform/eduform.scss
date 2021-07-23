@@ -1,13 +1,11 @@
-input {
-    border: none;
-  }
-  *:focus {
-    outline: none;
-  }
+// input {
+//     border: none;
+//   }
+//   *:focus {
+//     outline: none;
+//   }
   
   @media all and (min-width: 320px) {
-    .formcomWrapper {
-      // border: 1px solid red;
       .eduContentContainer{
         display: flex;
         flex-direction: column;
@@ -27,122 +25,123 @@ input {
           
       }
     }
-      .selectionWrapper {
-        margin-bottom: 3rem;
-        border-top: 1px solid #ffffff;
-        button {
-          color: #ffffff;
-          font-weight: 200;
-        }
-        .btnContent {
-          opacity: 0.8;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          background-color: #303243;
-          height: 3rem;
-          // border: 1px solid red;
-        }
-      }
-      .act {
-        margin-bottom: 3rem;
-        .btnContent {
-          background-color: #303243;
-          // border: 1px solid red;
-        }
-      }
-      .categoryWrapper {
-        margin-top: 1.5rem;
-        height: auto;
+}
+//       .selectionWrapper {
+//         margin-bottom: 3rem;
+//         border-top: 1px solid #ffffff;
+//         button {
+//           color: #ffffff;
+//           font-weight: 200;
+//         }
+//         .btnContent {
+//           opacity: 0.8;
+//           display: flex;
+//           align-items: center;
+//           justify-content: center;
+//           background-color: #303243;
+//           height: 3rem;
+//           // border: 1px solid red;
+//         }
+//       }
+//       .act {
+//         margin-bottom: 3rem;
+//         .btnContent {
+//           background-color: #303243;
+//           // border: 1px solid red;
+//         }
+//       }
+//       .categoryWrapper {
+//         margin-top: 1.5rem;
+//         height: auto;
   
-        //   display: flex;
-        .subcategoryWrapper {
-          button {
-            color: #ffffff;
-            font-weight: 200;
-          }
-          height: 3rem;
-          background-color: #303243;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          font-family: 'InfinitySans-RegularA1';
-          // color: #ffffff;
-          // border-radius: 5px;
-        }
-      }
-      .inputContainer {
-        margin-bottom: 5rem;
-        .catecover {
-          font-family: 'InfinitySans-RegularA1';
-          display: flex;
-          margin-bottom: 2rem;
-          justify-content: center;
-          align-items: center;
-          flex-wrap: wrap;
-          .cateText{
-            color : rgb(238, 144, 144);
-          }
-          button {
-            img {
-              margin-top: 0.2rem;
-              width: 1rem;
-            }
-          }
-          .catebox {
-            font-size: 0.9rem;
-            color: #f0f0f0;
-            background-color: #ada7a7;
-            display: flex;
-            align-items: center;
-            justify-content: space-around;
-            padding: 0.2rem;
-            border: 6px solid #ada7a7;
-            border-radius: 20px;
-            margin: 0.5rem;
-          }
-        }
-        .emailTextBox {
-          font-size: 0.8rem;
-          font-weight: 800;
-          color: #646ecb;
-        }
-        .inputcover {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          .inputBox {
-            width: 80%;
-            border: 1px solid gray;
-            border-radius: 5px;
-            margin-bottom: 1rem;
-            padding: 5px 5px;
-          }
-        }
-        .applyBtn {
-          button {
-            color: #ffffff;
-          }
-          margin-top: 1rem;
-          border-radius: 15px;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          width: 5rem;
-          height: 2rem;
-          border: 1px solid #646ecb;
-          background-color: #646ecb;
-        }
-      }
-    }
-  }
+//         //   display: flex;
+//         .subcategoryWrapper {
+//           button {
+//             color: #ffffff;
+//             font-weight: 200;
+//           }
+//           height: 3rem;
+//           background-color: #303243;
+//           display: flex;
+//           align-items: center;
+//           justify-content: center;
+//           font-family: 'InfinitySans-RegularA1';
+//           // color: #ffffff;
+//           // border-radius: 5px;
+//         }
+//       }
+//       .inputContainer {
+//         margin-bottom: 5rem;
+//         .catecover {
+//           font-family: 'InfinitySans-RegularA1';
+//           display: flex;
+//           margin-bottom: 2rem;
+//           justify-content: center;
+//           align-items: center;
+//           flex-wrap: wrap;
+//           .cateText{
+//             color : rgb(238, 144, 144);
+//           }
+//           button {
+//             img {
+//               margin-top: 0.2rem;
+//               width: 1rem;
+//             }
+//           }
+//           .catebox {
+//             font-size: 0.9rem;
+//             color: #f0f0f0;
+//             background-color: #ada7a7;
+//             display: flex;
+//             align-items: center;
+//             justify-content: space-around;
+//             padding: 0.2rem;
+//             border: 6px solid #ada7a7;
+//             border-radius: 20px;
+//             margin: 0.5rem;
+//           }
+//         }
+//         .emailTextBox {
+//           font-size: 0.8rem;
+//           font-weight: 800;
+//           color: rgb(238, 144, 144);
+//           line-height: 120%;
+//           text-align: center;
+//           .indiBox{
+//             color : #646ecb
+//           }
+//         }
+//         .inputcover {
+//           display: flex;
+//           flex-direction: column;
+//           align-items: center;
+//           .inputBox {
+//             width: 80%;
+//             border: 1px solid gray;
+//             border-radius: 5px;
+//             margin-bottom: 1rem;
+//             padding: 5px 5px;
+//           }
+//         }
+//         .applyBtn {
+//           button {
+//             color: #ffffff;
+//           }
+//           margin-top: 1rem;
+//           border-radius: 15px;
+//           display: flex;
+//           align-items: center;
+//           justify-content: center;
+//           width: 5rem;
+//           height: 2rem;
+//           border: 1px solid #646ecb;
+//           background-color: #646ecb;
+//         }
+//       }
+//     }
+//   }
   
   @media all and (min-width: 768px) {
-    .formcomWrapper {
-      button {
-        color: #ffffff;
-        font-weight: 300;
-      }
       .eduContentContainer{
         display: flex;
         flex-direction: column;
@@ -162,125 +161,126 @@ input {
           
       }
     }
-      .selectionWrapper {
-        opacity: 0.8;
-        background-color: #303243;
-        justify-content: space-around;
-        width: 100%;
-        display: flex;
-        margin-bottom: 3rem;
-        //   transform: translateY(0);
-        .btnContent {
-          background-color: #303243;
-          transition: all 1s ease;
-        }
-      }
+}
+//       .selectionWrapper {
+//         opacity: 0.8;
+//         background-color: #303243;
+//         justify-content: space-around;
+//         width: 100%;
+//         display: flex;
+//         margin-bottom: 3rem;
+//         //   transform: translateY(0);
+//         .btnContent {
+//           background-color: #303243;
+//           transition: all 1s ease;
+//         }
+//       }
   
-      .btnContent {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 10rem;
-        height: 3rem;
-        background-color: #303243;
+//       .btnContent {
+//         display: flex;
+//         align-items: center;
+//         justify-content: center;
+//         width: 10rem;
+//         height: 3rem;
+//         background-color: #303243;
   
-        // border: 1px solid red;
-      }
-      .categoryWrapper {
-        margin-top: 0rem;
-        height: auto;
-        display: flex;
-        width: 100%;
+//         // border: 1px solid red;
+//       }
+//       .categoryWrapper {
+//         margin-top: 0rem;
+//         height: auto;
+//         display: flex;
+//         width: 100%;
   
-        .subcategoryWrapper {
-          height: 3rem;
-          width: 100%;
-          background-color: #303243;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          font-family: 'InfinitySans-RegularA1';
+//         .subcategoryWrapper {
+//           height: 3rem;
+//           width: 100%;
+//           background-color: #303243;
+//           display: flex;
+//           align-items: center;
+//           justify-content: center;
+//           font-family: 'InfinitySans-RegularA1';
   
-          // border-radius: 5px;
-        }
-      }
-      .inputContainer {
-        margin-bottom: 5rem;
-        //   display: flex;
-        //   height: 100%;
-        .catecover {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          width: 100%;
-          margin-bottom: 2rem;
-          .cateText{
-            color : rgb(238, 144, 144);
-            font-size: 1rem;
-          }
-          .catebox {
-            button {
-              color: #000;
-              img {
-                margin-top: 0.2rem;
-                width: 1rem;
-              }
-            }
-            font-size: 0.9rem;
-            border: 6px solid #ada7a7;
-            border-radius: 20px;
-            width: 10rem;
-            height: 2rem;
-            display: flex;
-            align-items: center;
-            justify-content: space-around;
-            margin: 2rem 2rem;
-          }
-        }
-        .emailTextBox {
-          font-size: 1rem;
-          font-weight: 800;
-          color: #646ecb;
-        }
-        .inputcover {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          .inputBox {
-            width: 30%;
-            border: 1px solid gray;
-            border-radius: 5px;
-            margin-bottom: 2rem;
-            padding: 10px 10px;
-          }
-        }
-        .applyBtn {
-          button {
-            color: #ffffff;
-            font-size: 1rem;
-            font-family: 'InfinitySans-RegularA1';
-          }
-          margin-top: 1rem;
-          border-radius: 15px;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          width: 8rem;
-          height: 2rem;
-          border: 1px solid #646ecb;
-          background-color: #646ecb;
+//           // border-radius: 5px;
+//         }
+//       }
+//       .inputContainer {
+//         margin-bottom: 5rem;
+//         //   display: flex;
+//         //   height: 100%;
+//         .catecover {
+//           display: flex;
+//           justify-content: center;
+//           align-items: center;
+//           width: 100%;
+//           margin-bottom: 2rem;
+//           .cateText{
+//             color : rgb(238, 144, 144);
+//             font-size: 1rem;
+//           }
+//           .catebox {
+//             button {
+//               color: #000;
+//               img {
+//                 margin-top: 0.2rem;
+//                 width: 1rem;
+//               }
+//             }
+//             font-size: 0.9rem;
+//             border: 6px solid #ada7a7;
+//             border-radius: 20px;
+//             width: 10rem;
+//             height: 2rem;
+//             display: flex;
+//             align-items: center;
+//             justify-content: space-around;
+//             margin: 2rem 2rem;
+//           }
+//         }
+//         .emailTextBox {
+//             font-size: 0.8rem;
+//             font-weight: 800;
+//             color: rgb(238, 144, 144);
+//             line-height: 120%;
+//             text-align: center;
+//             .indiBox{
+//               color : #646ecb
+//             }
+//           }
+//         .inputcover {
+//           display: flex;
+//           flex-direction: column;
+//           align-items: center;
+//           .inputBox {
+//             width: 30%;
+//             border: 1px solid gray;
+//             border-radius: 5px;
+//             margin-bottom: 2rem;
+//             padding: 10px 10px;
+//           }
+//         }
+//         .applyBtn {
+//           button {
+//             color: #ffffff;
+//             font-size: 1rem;
+//             font-family: 'InfinitySans-RegularA1';
+//           }
+//           margin-top: 1rem;
+//           border-radius: 15px;
+//           display: flex;
+//           align-items: center;
+//           justify-content: center;
+//           width: 8rem;
+//           height: 2rem;
+//           border: 1px solid #646ecb;
+//           background-color: #646ecb;
           
-        }
-      }
-    }
-  }
+//         }
+//       }
+//     }
+//   }
   
   @media all and (min-width: 1024px) {
-    .formcomWrapper {
-      button {
-        color: #ffffff;
-        font-weight: 300;
-      }
       .eduContentContainer{
           display: flex;
           flex-direction: row;
@@ -299,116 +299,122 @@ input {
             
         }
       }
-      .selectionWrapper {
-        opacity: 0.8;
-        background-color: #303243;
-        justify-content: space-around;
-        width: 100%;
-        display: flex;
-        margin-bottom: 3rem;
-        //   transform: translateY(0);
-        .btnContent {
-          background-color: #303243;
-          transition: all 1s ease;
-        }
-      }
-  
-      .btnContent {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-        height: 3rem;
-        background-color: #303243;
-  
-        // border: 1px solid red;
-      }
-      .categoryWrapper {
-        margin-top: 0rem;
-        height: auto;
-        display: flex;
-        width: 100%;
-  
-        .subcategoryWrapper {
-          height: 3rem;
-          width: 100%;
-          background-color: #303243;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          font-family: 'InfinitySans-RegularA1';
-  
-          // border-radius: 5px;
-        }
-      }
-      .inputContainer {
-        margin-bottom: 5rem;
-        //   display: flex;
-        //   height: 100%;
-        .catecover {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          width: 100%;
-          margin-bottom: 2rem;
-          .cateText{
-            color : rgb(238, 144, 144);
-            font-size: 1rem;
-          }
-          .catebox {
-            button {
-              color: #000;
-              img {
-                margin-top: 0.2rem;
-                width: 1rem;
-              }
-            }
-            font-size: 0.9rem;
-            border: 6px solid #ada7a7;
-            border-radius: 20px;
-            width: 10rem;
-            height: 2rem;
-            display: flex;
-            align-items: center;
-            justify-content: space-around;
-            margin: 2rem 2rem;
-          }
-        }
-        .emailTextBox {
-          font-size: 1rem;
-          font-weight: 800;
-          color: #646ecb;
-        }
-        .inputcover {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          .inputBox {
-            width: 30%;
-            border: 1px solid gray;
-            border-radius: 5px;
-            margin-bottom: 2rem;
-            padding: 10px 10px;
-          }
-        }
-        .applyBtn {
-          button {
-            color: #ffffff;
-            font-size: 1rem;
-            font-family: 'InfinitySans-RegularA1';
-          }
-          margin-top: 1rem;
-          border-radius: 15px;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          width: 8rem;
-          height: 2rem;
-          border: 1px solid #646ecb;
-          background-color: #646ecb;
-          
-        }
-      }
     }
-  }
+//       .selectionWrapper {
+//         opacity: 0.8;
+//         background-color: #303243;
+//         justify-content: space-around;
+//         width: 100%;
+//         display: flex;
+//         margin-bottom: 3rem;
+//         //   transform: translateY(0);
+//         .btnContent {
+//           background-color: #303243;
+//           transition: all 1s ease;
+//         }
+//       }
+  
+//       .btnContent {
+//         display: flex;
+//         align-items: center;
+//         justify-content: center;
+//         width: 100%;
+//         height: 3rem;
+//         background-color: #303243;
+  
+//         // border: 1px solid red;
+//       }
+//       .categoryWrapper {
+//         margin-top: 0rem;
+//         height: auto;
+//         display: flex;
+//         width: 100%;
+  
+//         .subcategoryWrapper {
+//           height: 3rem;
+//           width: 100%;
+//           background-color: #303243;
+//           display: flex;
+//           align-items: center;
+//           justify-content: center;
+//           font-family: 'InfinitySans-RegularA1';
+  
+//           // border-radius: 5px;
+//         }
+//       }
+//       .inputContainer {
+//         margin-bottom: 5rem;
+//         //   display: flex;
+//         //   height: 100%;
+//         .catecover {
+//           display: flex;
+//           justify-content: center;
+//           align-items: center;
+//           width: 100%;
+//           margin-bottom: 2rem;
+//           .cateText{
+//             color : rgb(238, 144, 144);
+//             font-size: 1rem;
+//           }
+//           .catebox {
+//             button {
+//               color: #000;
+//               img {
+//                 margin-top: 0.2rem;
+//                 width: 1rem;
+//               }
+//             }
+//             font-size: 0.9rem;
+//             border: 6px solid #ada7a7;
+//             border-radius: 20px;
+//             width: 10rem;
+//             height: 2rem;
+//             display: flex;
+//             align-items: center;
+//             justify-content: space-around;
+//             margin: 2rem 2rem;
+//           }
+//         }
+//         .emailTextBox {
+//             font-size: 0.8rem;
+//             font-weight: 800;
+//             color: rgb(238, 144, 144);
+//             line-height: 120%;
+//             text-align: center;
+//             .indiBox{
+//               color : #646ecb
+//             }
+//           }
+//         .inputcover {
+//           display: flex;
+//           flex-direction: column;
+//           align-items: center;
+//           .inputBox {
+//             width: 30%;
+//             border: 1px solid gray;
+//             border-radius: 5px;
+//             margin-bottom: 2rem;
+//             padding: 10px 10px;
+//           }
+//         }
+//         .applyBtn {
+//           button {
+//             color: #ffffff;
+//             font-size: 1rem;
+//             font-family: 'InfinitySans-RegularA1';
+//           }
+//           margin-top: 1rem;
+//           border-radius: 15px;
+//           display: flex;
+//           align-items: center;
+//           justify-content: center;
+//           width: 8rem;
+//           height: 2rem;
+//           border: 1px solid #646ecb;
+//           background-color: #646ecb;
+          
+//         }
+//       }
+//     }
+//   }
   

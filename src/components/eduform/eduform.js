@@ -22,6 +22,7 @@ export default function FormSet() {
     closebutton: true,
     err: false,
   });
+  const [acheck, setAcheck] = useState(false);
   const cateText = '* 반드시 하나 이상의 교육 항목을 선택해주세요.';
   const {event} = useContext(SccContext);
   const [eselection, setESelection] = useState({ arr: [] });
@@ -56,14 +57,29 @@ export default function FormSet() {
           });
           setMod(true);
         });
-    } else {
+    } else if(acheck===true && check()===false) {
       setMm({
         msg: '이메일 형식 포함 양식에 맞는 지 확인해 주세요.',
         closebutton: true,
         err: true,
       });
       setMod(true);
+    }else if(acheck===false && check()===true){
+      setMm({
+        msg:'개인정보 처리 약관에 동의하여주세요.',
+        closebutton : true,
+        err : true
+      });
+      setMod(true);
+    }else{
+      setMm({
+        msg:'양식을 채워 주세요.',
+        closebutton : true,
+        err : true
+      });
+      setMod(true);
     }
+
   };
   //input part
   const usernameChange = (e) => {
@@ -235,7 +251,8 @@ export default function FormSet() {
               onChange={emailChange}
             />
             <div class="emailTextBox">
-              <p>{emailText}</p>
+              {emailText}
+              <div className="indiBox"><input type="checkbox" onClick={()=>{acheck?setAcheck(false):setAcheck(true)}}></input>개인약관처리방침 동의<a href="">   상세보기</a></div>
             </div>
             <div className="applyBtn" id="btn">
               <button id="button" onClick={onSubmit}>

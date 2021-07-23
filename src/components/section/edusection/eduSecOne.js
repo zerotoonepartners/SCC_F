@@ -51,7 +51,7 @@ function EduSecOne() {
                     history.push('/eduform');
                   }}
                 >
-                  <img className="thumb" src={item.imgUrl} alt="" />
+                  <img className="thumb" src={item.imgUrl===undefined? diu : item.imgUrl } alt="" />
                   <div className="cardContentWrapper">
                     <div className="cardTitleWrapper">
                       <span className="cardTitle">{item.title}</span>
