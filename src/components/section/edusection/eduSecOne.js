@@ -46,9 +46,9 @@ function EduSecOne() {
               return (
                 <div
                   className="card"
-                  key={index}
+                  key={item.id}
                   onClick={() => {
-                    history.push('/form');
+                    history.push('/eduform');
                   }}
                 >
                   <img className="thumb" src={item.imgUrl} alt="" />
