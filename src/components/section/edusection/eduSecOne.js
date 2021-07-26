@@ -48,15 +48,17 @@ function EduSecOne() {
               </div>
             </div>
           ) : (
-            event.map((item, index) => {
+            event.map((item, index) => { 
+              if(item.done===true){return null}
+              else{
               return (
                 <div className="cardWrapper">
                 <div
-                  className="card"
+                  className={"card"}
                   key={item.id}
                   onClick={() => {
-                    setSelectEdu(item.title);
-                    history.push('/eduform');
+                    
+                    setSelectEdu(item.title);history.push('/eduLanding');
                   }}
                 >
                   <img className="thumb" src={item.imgUrl===undefined? diu : item.imgUrl } alt="" />
@@ -78,12 +80,47 @@ function EduSecOne() {
                     </div>
                   </div>
                 </div>
-                <button onClick={()=>{setSelectEdu(item.title);history.push('/eduLanding')}}>자세히 보기</button>
+                <button className="cardText" onClick={()=>{setSelectEdu(item.title);history.push('/eduform');}}>바로 신청하기</button>
                 </div>
               );
-            })
+              }
+            }) 
           )}
-           
+           {
+             event.map((item, index) => { 
+              if(item.done===false){return null}
+              else{
+              return (
+                <div className="cardWrapper">
+                <div
+                  className="donecard"
+                  key={item.id}
+                >
+                  <img className="donethumb" src={item.imgUrl===undefined? diu : item.imgUrl } alt="" />
+                  <div className="cardContentWrapper">
+                    <div className="cardTitleWrapper">
+                      <span className="cardTitle">{item.title}</span>
+                    </div>
+                    <div className="cardDescWrapper">
+                      <span className="cardDesc">{item.content}</span>
+                    </div>
+                    <div className="cardFooterWrapper">
+                      <div className="cardIsFree">
+                        <span>{`기간 : ${item.startStamp} ~ ${item.endStamp}`}</span>
+                      </div>
+                      
+                      <div className="cardPubDateWrapper">
+                        <span>{item.isFree ? '무료' : '유료'}</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <button className="cardText">마감</button>
+                </div>
+              );
+              }
+            })
+           }
         </div>
       </div>
     </>

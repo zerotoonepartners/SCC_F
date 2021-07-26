@@ -17,7 +17,7 @@
         border-radius: 15px;
         border : 5px solid #646ecb;
         width : 90%;
-        height: 5rem;
+        height: 3rem;
         background-color: #646ecb;
         border-color: #646ecb;
         color : white;
@@ -25,7 +25,7 @@
         align-items: center;
         justify-content: center;
         font-weight: 800;
-        font-size: 3rem;
+        font-size: 2rem;
         cursor: pointer;
         margin-top: 3rem;
         margin-bottom: 3rem;
@@ -34,6 +34,9 @@
         background-color: rgb(201, 153, 81);
         border-color: rgb(201, 153, 81);
         color : white;
+    }
+    img{
+        width : 100%
     }
 }
 }
@@ -48,7 +51,13 @@
 @media all and (min-width: 1024px){
     .posterBox{
         .posterBtn{
-            
+            width : 30%;
+            font-weight: 800;
+            font-size: 2rem;
+        }
+        img{
+            width : 70%;
         }
     }
+    
 }
