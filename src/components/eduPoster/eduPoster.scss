@@ -1,0 +1,54 @@
+.posterWrapper{
+    width: 90%;
+    height: 150%;
+    
+}
+.posterBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@media all and (min-width: 320px){
+    .posterBox{
+        margin-top: 8rem;
+    .posterBtn{
+        border-radius: 15px;
+        border : 5px solid #646ecb;
+        width : 90%;
+        height: 5rem;
+        background-color: #646ecb;
+        border-color: #646ecb;
+        color : white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 800;
+        font-size: 3rem;
+        cursor: pointer;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+    .posterBtn:hover{
+        background-color: rgb(201, 153, 81);
+        border-color: rgb(201, 153, 81);
+        color : white;
+    }
+}
+}
+
+@media all and (min-width: 768px){
+    .posterBox{
+        .posterBtn{
+
+        }
+    }
+}
+@media all and (min-width: 1024px){
+    .posterBox{
+        .posterBtn{
+            
+        }
+    }
+}

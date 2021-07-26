@@ -5,7 +5,7 @@ import Modal from 'react-modal'
 import { SccContext, SccContextProvider } from '../../../context/scc';
 
 function EduSecOne() {
-  const { setEvent, event } = useContext(SccContext);
+  const { setEvent, event,selectEdu, setSelectEdu } = useContext(SccContext);
   const [mod, setMod] = useState(false);
   const [mm, setMm] = useState();
   const diu =
@@ -55,6 +55,7 @@ function EduSecOne() {
                   className="card"
                   key={item.id}
                   onClick={() => {
+                    setSelectEdu(item.title);
                     history.push('/eduform');
                   }}
                 >
@@ -77,27 +78,13 @@ function EduSecOne() {
                     </div>
                   </div>
                 </div>
-                <button onClick={()=>{setMod(true)}}>자세히 보기</button>
+                <button onClick={()=>{setSelectEdu(item.title);history.push('/eduLanding')}}>자세히 보기</button>
                 </div>
               );
             })
           )}
            
         </div>
-        {
-          <Modal
-            isOpen={mod}
-            onRequestClose={closeModal}
-            close={closeModal}
-            className="eduModalBody"
-          >
-            <div className="eduModalWrapper">
-              <img className="eduModalCard" src="https://cfile1.onoffmix.com/attach/sytwV81xljhIruO23S0FaMi6Zpn4TXDK"/>
-              <button className="modal_btn" onClick={closeModal}>닫기</button>
-            </div>
-            
-          </Modal>
-        }
       </div>
     </>
   );
