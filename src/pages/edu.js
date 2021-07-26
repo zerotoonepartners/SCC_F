@@ -3,8 +3,6 @@ import { Route } from 'react-router-dom';
 import Kakao from '../components/kakao/kakao';
 import Header from '../components/header/header';
 import Footer from '../components/footer/footer';
-import HideShow from '../components/hideshow/hideshow';
-import { getData } from '../api/api.js';
 import { SccContext, SccContextProvider } from '../context/scc';
 import EduSecOne from '../components/section/edusection/eduSecOne';
 

@@ -8,6 +8,7 @@ import cancel from '../../static/images/cancel.png';
 import { SccContext } from '../../context/scc';
 
 export default function FormSet() {
+  const {event,selectEdu,setSelectEdu} = useContext(SccContext);
   const [toSend, setToSend] = useState({
     authlist: [],
     username: '',
@@ -24,7 +25,6 @@ export default function FormSet() {
   });
   const [acheck, setAcheck] = useState(false);
   const cateText = '* 반드시 하나 이상의 교육 항목을 선택해주세요.';
-  const {event} = useContext(SccContext);
   const [eselection, setESelection] = useState({ arr: [] });
   const re = /\S+@\S+\.\S+/;
   //mail send
@@ -112,6 +112,10 @@ export default function FormSet() {
 
   useEffect(() => {
       console.log(eselection.arr);
+    if (selectEdu!==undefined){
+      addHandler(selectEdu);
+      setSelectEdu(undefined);
+    }
     if (toSend.call.length === 11) {
       setToSend({
         ...toSend,

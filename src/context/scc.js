@@ -9,6 +9,7 @@ const SccContextProvider = ({ children }) => {
       title: undefined,
       content: undefined,
       imgUrl: undefined,
+      LandingUrl : undefined,
       done: undefined,
       isFree: undefined,
       startStamp: undefined,
@@ -16,6 +17,7 @@ const SccContextProvider = ({ children }) => {
       created_at: undefined,
     },
   ]);
+  const [selectEdu,setSelectEdu] = useState();
   async function fetchData() {
     try {
       let temp = await getData();
@@ -41,6 +43,8 @@ const SccContextProvider = ({ children }) => {
       value={{
         event,
         setEvent,
+        setSelectEdu,
+        selectEdu
       }}
     >
       {children}
