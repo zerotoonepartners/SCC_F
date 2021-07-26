@@ -68,6 +68,7 @@ function Detail() {
     '공동근로복지기금설립',
   ];
   const [detNum, setDetNum] = useState('00');
+  const [temp,setTemp] = useState("ISO9001");
   const [remoteMenu, setRemoteMenu] = useState(isoMenu);
   useEffect(() => {
     if (detNum === '00') {
@@ -79,6 +80,8 @@ function Detail() {
     } else {
       setRemoteMenu(welMenu);
     }
+    console.log(isoMenu[0]);
+    console.log(typeof(isoMenu[0]));
   }, [detNum]);
 
   return (
@@ -123,7 +126,8 @@ function Detail() {
         {detNum === '00' ? (
           <>
             <div id="ISO9001">
-              <ISO9001 />
+              {/* <ISO9001 /> */}
+              <Route component={ISO9001}/>
             </div>
             <div id="ISO13485">
               <ISO13485 />

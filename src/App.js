@@ -8,6 +8,7 @@ import Form from './pages/form';
 import EduForm from './pages/eduform';
 import NotFound from './pages/notfound';
 import Barifurcation from './pages/barifurcation';
+import EduLanding from './pages/eduLanding';
 import Edu from './pages/edu';
 import { SccContextProvider } from './context/scc';
 import Info from './pages/info';
@@ -27,6 +28,7 @@ function App() {
           <Route path="/info" component={Info} />
           <Route path="/eduform" component={EduForm} />
           <Route path="/edu" component={Edu} />
+          <Route path="/eduLanding" component={EduLanding}/>
           <Route component={NotFound} />
         </Switch>
       </BrowserRouter>

@@ -1,14 +1,20 @@
-import react, { useContext, useEffect } from 'react';
+import react, { useContext, useState } from 'react';
 import { Route, useHistory } from 'react-router-dom';
 import './eduSecOne.scss';
+import Modal from 'react-modal'
 import { SccContext, SccContextProvider } from '../../../context/scc';
 
 function EduSecOne() {
-  const { setEvent, event } = useContext(SccContext);
+  const { setEvent, event,selectEdu, setSelectEdu } = useContext(SccContext);
+  const [mod, setMod] = useState(false);
+  const [mm, setMm] = useState();
   const diu =
     'https://images.unsplash.com/photo-1560439514-e960a3ef5019?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80';
   let history = useHistory();
   console.log(event);
+  const closeModal = () => {
+    setMod(false);
+  };
   return (
     <>
       <div className="eduLandingWrapper">
@@ -44,10 +50,12 @@ function EduSecOne() {
           ) : (
             event.map((item, index) => {
               return (
+                <div className="cardWrapper">
                 <div
                   className="card"
                   key={item.id}
                   onClick={() => {
+                    setSelectEdu(item.title);
                     history.push('/eduform');
                   }}
                 >
@@ -63,15 +71,19 @@ function EduSecOne() {
                       <div className="cardIsFree">
                         <span>{`기간 : ${item.startStamp} ~ ${item.endStamp}`}</span>
                       </div>
+                      
                       <div className="cardPubDateWrapper">
                         <span>{item.isFree ? '무료' : '유료'}</span>
                       </div>
                     </div>
                   </div>
                 </div>
+                <button onClick={()=>{setSelectEdu(item.title);history.push('/eduLanding')}}>자세히 보기</button>
+                </div>
               );
             })
           )}
+           
         </div>
       </div>
     </>
