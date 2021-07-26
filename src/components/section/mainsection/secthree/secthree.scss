@@ -28,6 +28,7 @@
           width: 1.8rem;
           height: 0;
           border: 1px solid #ffffff;
+          background-color: #ffffff;
         }
       }
       .serviceBoxWrapper {
@@ -37,13 +38,15 @@
         align-items: center;
         width: 100%;
         .serviceBox {
+          // .boxDescWrapper {
+          //   display: none;
+          // }
           .iconWrapper {
             img {
               display: block;
               width: 3rem;
             }
           }
-
           display: flex;
           flex-direction: column;
           align-items: center;
@@ -90,6 +93,7 @@
           width: 1.8rem;
           height: 0;
           border: 1px solid #ffffff;
+          background-color: #ffffff;
         }
       }
       .serviceBoxWrapper {
@@ -148,6 +152,7 @@
           font-weight: 800;
         }
         .smallLine {
+          background-color: #ffffff;
           margin-top: 1rem;
           width: 2.4rem;
           height: 0;
@@ -162,14 +167,9 @@
         width: 100%;
         justify-content: space-around;
         .serviceBox {
+          cursor: pointer;
           -webkit-box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.34);
           box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.34);
-          .iconWrapper {
-            img {
-              display: block;
-              width: 7rem;
-            }
-          }
           display: flex;
           flex-direction: column;
           align-items: center;
@@ -179,10 +179,60 @@
           background-color: rgba(255, 255, 255, 0.5);
           margin: 1rem 0;
           border-radius: 15px;
-          color: #494848;
-          font-weight: 800;
-          font-size: 1.7rem;
+          transition: all 0.3s ease-in-out;
+          .boxDescWrapper {
+            overflow: hidden;
+            border: 1px solid transparent;
+            align-items: center;
+            justify-content: center;
+            white-space: nowrap;
+            width: 0%;
+            height: 0%;
+            span {
+              width: 100%;
+              display: block;
+              font-weight: 100;
+              line-height: 140%;
+            }
+          }
+          &:hover {
+            background-color: rgba(0, 0, 0, 0.3);
+            .boxDescWrapper {
+              border: 1px solid #ffffff;
+              transition: all 0.3s ease-in-out;
+              display: flex;
+              width: 80%;
+              height: 80%;
+              align-items: center;
+              justify-content: center;
+              span {
+                display: block;
+                width: 80%;
+                color: #ffffff;
+                font-size: 0.8rem;
+              }
+            }
+            .iconWrapper {
+              display: none;
+            }
+            .boxTitle {
+              display: none;
+              color: #ffffff;
+            }
+          }
+          .iconWrapper {
+            img {
+              display: block;
+              width: 7rem;
+            }
+          }
+          .boxTitle {
+            color: #494848;
+            font-weight: 800;
+            font-size: 1.7rem;
+          }
         }
+
         .pur {
           background-color: rgba(100, 110, 203, 0.5);
         }

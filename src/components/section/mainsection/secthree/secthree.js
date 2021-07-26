@@ -18,22 +18,37 @@ function SecThree() {
           </div>
           <div className="serviceBoxWrapper">
             <div className="serviceBox">
-              <div className="iconWrapper iso">
+              <div className="boxDescWrapper">
+                <span>
+                  여기는 신청하는 박스입니다. <br /> 설명이 많이 들어갈거같아요
+                </span>
+              </div>
+              <div className="iconWrapper">
                 <img src={ISO} alt="" />
               </div>
-              <span>교육</span>
+              <span className="boxTitle">교육</span>
             </div>
             <div className="serviceBox pur">
+              <div className="boxDescWrapper">
+                <span>
+                  여기는 신청하는 박스입니다. <br /> 설명이 많이 들어갈거같아요
+                </span>
+              </div>
               <div className="iconWrapper">
                 <img src={EDU} alt="" />
               </div>
-              <span>인증</span>
+              <span className="boxTitle">인증</span>
             </div>
             <div className="serviceBox">
+              <div className="boxDescWrapper">
+                <span>
+                  여기는 신청하는 박스입니다. <br /> 설명이 많이 들어갈거같아요
+                </span>
+              </div>
               <div className="iconWrapper">
                 <img src={MARK} alt="" />
               </div>
-              <span>마케팅</span>
+              <span className="boxTitle">마케팅</span>
             </div>
           </div>
         </div>
