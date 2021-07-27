@@ -34,9 +34,10 @@ function Barifurcation() {
               </div>
               <div className="bariCardContent">
                 <ul>
-                  <li>설명</li>
-                  <li>설명</li>
-                  <li>설명</li>
+                  <li>스타트업 필수 인증 교육</li>
+                  <li>정부지원사업 교육</li>
+                  <li>ISO 심사원 양성과정</li>
+                  <span>※ 위 항목은 상시 교육이 아니며, 시기 별로 다양한 교육이 진행됩니다.</span>
                 </ul>
               </div>
               <div className="bariCardMookup" onClick={()=>{history.push('/edu')}}>
@@ -52,9 +53,10 @@ function Barifurcation() {
               </div>
               <div className="bariCardContent">
                 <ul>
-                  <li>설명</li>
-                  <li>설명</li>
-                  <li>설명</li>
+                  <li>ISO 인증</li>
+                  <li>연구소 설립 신고</li>
+                  <li>경영 인증</li>
+                  <li>복지 인증</li>
                 </ul>
               </div>
               <div className="bariCardMookup"  onClick={()=>{history.push('/detail')}}>
