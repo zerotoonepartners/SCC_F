@@ -48,7 +48,7 @@ function SecThree() {
               <div className="iconWrapper">
                 <img src={MARK} alt="" />
               </div>
-              <span className="boxTitle">마케팅</span>
+              <span className="boxTitle">컨설팅</span>
             </div>
           </div>
         </div>

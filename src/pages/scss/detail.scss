@@ -35,19 +35,31 @@
     color: #ffffff;
     font-weight: 300;
     margin-bottom: 1rem;
+
     .detailItem {
       cursor: pointer;
     }
+    .iso {
+      border: 1px solid red;
+    }
   }
-  // .detailContentWrapper{
-  //   width : 100%;
-  //   display: flex;
-  //   align-items: center;
-  //   justify-content: center;
-  //   flex-direction: column;
-  //   .detailContentTitle{
-  //     font-size: 10rem;
-  //     border : 1px solid red;
-  //   }
-  // }
+  .hoverMenuWrapper {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid red;
+    .menuUlWrapper {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      border: 1px solid navy;
+      align-items: center;
+      li {
+        width: 5rem;
+        height: 2rem;
+        text-align: center;
+      }
+    }
+  }
 }
