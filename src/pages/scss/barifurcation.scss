@@ -3,26 +3,21 @@
   height: auto;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  position: fixed;
-  background: url('https://images.unsplash.com/photo-1497493292307-31c376b6e479?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1351&q=80');
+  // align-items: center;
+  // position: fixed;
+  // background: url('https://images.unsplash.com/photo-1497493292307-31c376b6e479?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1351&q=80');
   font-family: 'InfinitySans-RegularA1';
 }
 @media all and (min-width: 320px) and (max-width: 768px) {
   .bariWrapper {
-    height: 100vh;
-    .bariHeaderBox{
-      width : 100%;
-      height: 15vh;
-      background-color: transparent;
-    }
-    .bariContentWrapper{
-      width : 100%;
-      height:  70vh;
+    .bariContentWrapper {
+      width: 100%;
+      height: 100vh;
       display: flex;
       flex-direction: column;
-      background-color: white;
-      .bariContentTitleWrapper{
+      background-color: #ffffff;
+      .bariContentTitleWrapper {
+        margin-bottom: 2rem;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -30,15 +25,15 @@
         width: 100%;
         height: 15%;
         //border : 1px solid blue;
-        .bariContentTitleBox{
+        .bariContentTitleBox {
           width: 10rem;
           height: 2rem;
           font-weight: 600;
           font-size: 1.2rem;
           text-align: center;
         }
-        .bariContentDot{
-          width : 1.5rem;
+        .bariContentDot {
+          width: 1.5rem;
           height: 1rem;
           display: flex;
 
@@ -46,88 +41,86 @@
           .dot {
             display: block;
             height: 5px;
-            width : 5px;
-            border : 1px solid black;
+            width: 5px;
+            border: 1px solid black;
             border-radius: 50%;
             background-color: black;
           }
-          .dot1{
+          .dot1 {
             border-color: #4f4f4f;
             background-color: #4f4f4f;
           }
-          .dot2{
+          .dot2 {
             border-color: #c4c4c4;
             background-color: #c4c4c4;
           }
         }
       }
-      .bariContentCardWrapper{
-        height : auto;
-        width : 100%;
+      .bariContentCardWrapper {
+        height: auto;
+        width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
-        .bariCard{
-          width : 19rem;
+        .bariCard {
+          width: 19rem;
           height: 12rem;
-          display:flex;
+          display: flex;
           flex-direction: column;
           align-items: center;
           //border : 1px solid red;
           border-radius: 15px;
           margin-bottom: 1rem;
-          -webkit-box-shadow: 0px 0px 26px -3px rgba(0,0,0,0.20); 
-          box-shadow: 0px 0px 26px -3px rgba(0,0,0,0.20);
-          .bariCardTitle{
-            margin : 1rem 0;
-            span{
+          -webkit-box-shadow: 0px 0px 26px -3px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 0px 26px -3px rgba(0, 0, 0, 0.2);
+          .bariCardTitle {
+            margin: 1rem 0;
+            span {
               font-weight: 800;
               font-size: 1.2rem;
             }
           }
-          .bariCardContent{
-            width : 100%;
-            height: 35%; 
+          .bariCardContent {
+            width: 100%;
+            height: 35%;
 
-            ul{
+            ul {
               width: 100%;
               height: 100%;
               display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: space-evenly;
-            li{
-              font-size: 0.6rem;
+              flex-direction: column;
+              align-items: center;
+              justify-content: space-evenly;
+              li {
+                font-size: 0.6rem;
+              }
             }
-            }
-
           }
-          .bariCardMookup{
+          .bariCardMookup {
             width: 100%;
             height: 1.5rem;
             display: flex;
             align-items: center;
             justify-content: center;
-            span{
+            span {
               font-weight: 200;
-              font-size : 0.6rem;
-              color : #3442c6;
+              font-size: 0.6rem;
+              color: #3442c6;
             }
-
           }
-          .bariCardBtn{
+          .bariCardBtn {
             width: 100%;
             height: auto;
             display: flex;
             align-items: center;
             justify-content: center;
-            span{
+            span {
               display: flex;
-              width : 9rem;
+              width: 9rem;
               height: 2rem;
               border-radius: 20px;
-              border : 1px solid #646ecb; 
+              border: 1px solid #646ecb;
               background-color: #646ecb;
               align-items: center;
               justify-content: center;
@@ -142,36 +135,35 @@
 
 @media all and (min-width: 768px) and (max-width: 1024px) {
   .bariWrapper {
-    height: 100vh;
-    .bariHeaderBox{
-      width : 100%;
-      height: 12vh;
+    .bariHeaderBox {
+      width: 100%;
+      height: 10vh;
       background-color: transparent;
     }
-    .bariContentWrapper{
-      width : 100%;
-      height:  70vh;
+    .bariContentWrapper {
+      width: 100%;
+      height: 70vh;
       display: flex;
       flex-direction: column;
       background-color: white;
-      .bariContentTitleWrapper{
+      .bariContentTitleWrapper {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: flex-end;
         width: 100%;
         height: 15%;
-        margin-bottom : 2rem;
+        margin-bottom: 2rem;
         //border : 1px solid blue;
-        .bariContentTitleBox{
+        .bariContentTitleBox {
           width: 10rem;
           height: 2rem;
           font-weight: 600;
           font-size: 1.2rem;
           text-align: center;
         }
-        .bariContentDot{
-          width : 1.5rem;
+        .bariContentDot {
+          width: 1.5rem;
           height: 1rem;
           display: flex;
           //border:1px solid red;
@@ -179,66 +171,65 @@
           .dot {
             display: block;
             height: 5px;
-            width : 5px;
-            border : 1px solid black;
+            width: 5px;
+            border: 1px solid black;
             border-radius: 50%;
             background-color: black;
           }
-          .dot1{
+          .dot1 {
             border-color: #4f4f4f;
             background-color: #4f4f4f;
           }
-          .dot2{
+          .dot2 {
             border-color: #c4c4c4;
             background-color: #c4c4c4;
           }
         }
       }
-      .bariContentCardWrapper{
-        height : auto;
-        width : 100%;
+      .bariContentCardWrapper {
+        height: auto;
+        width: 100%;
         display: flex;
         //flex-direction: column;
         justify-content: space-around;
         align-items: center;
         //border: 1px solid red;
-        .bariCard{
-          width : 20rem;
+        .bariCard {
+          width: 20rem;
           height: 20rem;
-          display:flex;
+          display: flex;
           flex-direction: column;
           align-items: center;
           justify-content: center;
           //border : 1px solid red;
           border-radius: 15px;
           margin-bottom: 1rem;
-          -webkit-box-shadow: 0px 0px 26px -3px rgba(0,0,0,0.20); 
-          box-shadow: 0px 0px 26px -3px rgba(0,0,0,0.20);
-          .bariCardTitle{
-            margin : 1rem 0;
-            span{
+          -webkit-box-shadow: 0px 0px 26px -3px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 0px 26px -3px rgba(0, 0, 0, 0.2);
+          .bariCardTitle {
+            margin: 1rem 0;
+            span {
               font-weight: 800;
               font-size: 1.2rem;
             }
           }
-          .bariCardContent{
-            width : 100%;
-            height: 45%; 
+          .bariCardContent {
+            width: 100%;
+            height: 45%;
 
-            ul{
+            ul {
               width: 100%;
               height: 100%;
               display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: space-evenly;
-            li{
-              font-size: 1.2rem;
+              flex-direction: column;
+              align-items: center;
+              justify-content: space-evenly;
+              li {
+                font-size: 1.2rem;
+              }
             }
-            }
-
           }
-          .bariCardMookup{
+          .bariCardMookup {
             width: 100%;
             height: 3rem;
             display: flex;
@@ -247,26 +238,22 @@
             cursor: pointer;
             span{
               font-weight: 200;
-              font-size : 1rem;
-              color : #3442c6;
+              font-size: 1rem;
+              color: #3442c6;
             }
-            span:hover{
-              color : #b623b6;
-            }
-
           }
-          .bariCardBtn{
+          .bariCardBtn {
             width: 100%;
             height: auto;
             display: flex;
             align-items: center;
             justify-content: center;
-            span{
+            span {
               display: flex;
-              width : 9rem;
+              width: 9rem;
               height: 2rem;
               border-radius: 20px;
-              border : 1px solid #646ecb; 
+              border: 1px solid #646ecb;
               background-color: #646ecb;
               align-items: center;
               justify-content: center;
@@ -281,35 +268,32 @@
 
 @media all and (min-width: 1025px) {
   .bariWrapper {
-    height: 100vh;
-    .bariHeaderBox{
-      width : 100%;
-      height: 15vh;
-      background-color: transparent;
-    }
-    .bariContentWrapper{
-      width : 100%;
-      height:  70vh;
+    width: 100%;
+    height: 120vh;
+    .bariContentWrapper {
+      width: 100%;
+      height: 100%;
       display: flex;
       flex-direction: column;
       background-color: white;
-      .bariContentTitleWrapper{
+      .bariContentTitleWrapper {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: flex-end;
         width: 100%;
         height: 15%;
+        margin-bottom: 3rem;
         //border : 1px solid blue;
-        .bariContentTitleBox{
+        .bariContentTitleBox {
           width: 10rem;
           height: 2rem;
           font-weight: 600;
           font-size: 1.2rem;
           text-align: center;
         }
-        .bariContentDot{
-          width : 1.5rem;
+        .bariContentDot {
+          width: 1.5rem;
           height: 1rem;
           display: flex;
 
@@ -317,88 +301,86 @@
           .dot {
             display: block;
             height: 5px;
-            width : 5px;
-            border : 1px solid black;
+            width: 5px;
+            border: 1px solid black;
             border-radius: 50%;
             background-color: black;
           }
-          .dot1{
+          .dot1 {
             border-color: #4f4f4f;
             background-color: #4f4f4f;
           }
-          .dot2{
+          .dot2 {
             border-color: #c4c4c4;
             background-color: #c4c4c4;
           }
         }
       }
-      .bariContentCardWrapper{
-        height : auto;
-        width : 100%;
+      .bariContentCardWrapper {
+        height: auto;
+        width: 100%;
         display: flex;
         justify-content: space-around;
         align-items: center;
-        .bariCard{
-          width : 40rem;
+        .bariCard {
+          width: 40rem;
           height: 25rem;
-          display:flex;
+          display: flex;
           flex-direction: column;
           align-items: center;
           justify-content: space-evenly;
           //border : 1px solid red;
           border-radius: 15px;
           margin-bottom: 1rem;
-          -webkit-box-shadow: 0px 0px 26px -3px rgba(0,0,0,0.20); 
-          box-shadow: 0px 0px 26px -3px rgba(0,0,0,0.20);
-          .bariCardTitle{
-            margin : 1rem 0;
-            span{
+          -webkit-box-shadow: 0px 0px 26px -3px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 0px 26px -3px rgba(0, 0, 0, 0.2);
+          .bariCardTitle {
+            margin: 1rem 0;
+            span {
               font-weight: 800;
               font-size: 1.8rem;
             }
           }
-          .bariCardContent{
-            width : 100%;
-            height: 35%; 
+          .bariCardContent {
+            width: 100%;
+            height: 35%;
 
-            ul{
+            ul {
               width: 100%;
               height: 100%;
               display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: space-evenly;
-            li{
-              font-size: 1rem;
+              flex-direction: column;
+              align-items: center;
+              justify-content: space-evenly;
+              li {
+                font-size: 1rem;
+              }
             }
-            }
-
           }
-          .bariCardMookup{
+          .bariCardMookup {
             width: 100%;
             height: 1.5rem;
             display: flex;
             align-items: center;
             justify-content: center;
-            span{
+            span {
               font-weight: 200;
-              font-size : 1rem;
-              color : #3442c6;
+              font-size: 1rem;
+              color: #3442c6;
             }
-
           }
-          .bariCardBtn{
+          .bariCardBtn {
             width: 100%;
             height: auto;
             display: flex;
             align-items: center;
             justify-content: center;
-            span{
+            span {
               display: flex;
-              width : 15rem;
+              width: 15rem;
               height: 3rem;
               border-radius: 30px;
-              border : 1px solid #646ecb; 
+              border: 1px solid #646ecb;
               background-color: #646ecb;
               align-items: center;
               justify-content: center;
