@@ -185,6 +185,17 @@ export default function FormSet() {
 
   return (
     <div className="formcomWrapper">
+        <div className="eduformCutting"></div>
+      <form noValidate className="formBox" target="if">
+        <div className="formContentTitleWrapper">
+          <div className="formContentTitleBox">
+            교육 신청
+          </div>
+          <div className="formContentDot">
+            <div className="dot dot2"></div>
+            <div className="dot dot1"></div>
+          </div>
+        </div>
         {
             event===undefined ? 
             <div className="eduContentContainer"><div className="eduContent">현재 진행중인 교육이 없습니다.</div></div>
@@ -195,7 +206,7 @@ export default function FormSet() {
                   if(item.done===false){
                     return(
                         <button className="eduContent" key={idx} onClick={()=>{addHandler(item.title)}}>
-                        {item.title}
+                        <span>{item.title}</span>
                         </button>
                     )
                   }
@@ -204,7 +215,6 @@ export default function FormSet() {
             }
             </div>
         }
-      <form noValidate className="formBox" target="if">
         <div className="inputContainer">
           <div className="catecover">
           { eselection.arr.length===0? 

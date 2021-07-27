@@ -1,7 +1,10 @@
 .formWrapper {
   width: 100%;
   height: auto;
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 @media all and (min-width: 320px) {
