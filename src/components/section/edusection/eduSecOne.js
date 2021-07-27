@@ -49,6 +49,7 @@ function EduSecOne() {
             </div>
           ) : (
             event.map((item, index) => { 
+              
               if(item.done===true){return null}
               else{
               return (

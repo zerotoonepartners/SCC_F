@@ -24,6 +24,7 @@ const SccContextProvider = ({ children }) => {
       temp.map((item,idx)=>{
         item.startStamp=item.startStamp.slice(0,10);
         item.endStamp=item.endStamp.slice(0,10);
+        item.content = item.content.length > 100? `${item.content.substring(0,100)}...` : item.content;
       })
       let temp2 = temp.reverse();
       setEvent(temp2);
