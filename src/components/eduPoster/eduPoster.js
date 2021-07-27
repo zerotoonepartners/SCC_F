@@ -4,6 +4,7 @@ import {Route, useHistory} from 'react-router-dom'
 import NotFound from '../../pages/notfound';
 import './eduPoster.scss';
 import { useEffect } from 'react';
+import p1 from "../../static/images/land_main.jpg"
 
 export default function EduPoster(){
     const {event,selectEdu,setSelectEdu} = useContext(SccContext);
@@ -15,8 +16,14 @@ export default function EduPoster(){
         }
     }
     else{
+        if(selectEdu===undefined){
         setSelectEdu(sessionStorage.getItem('edu'));
+        }else{
+            sessionStorage.setItem('edu',selectEdu);
+        }
+        
     }
+
     },[])
     return(
         <div className="posterWrapper">
@@ -25,11 +32,13 @@ export default function EduPoster(){
                 <Route component={NotFound}/>
                 :
                 event.map((item,index)=>{
-                        console.log(item.landingUrl);
+                        
                         if(item.title===selectEdu){
+                            console.log(selectEdu);
+                            console.log(item.landingUrl);
                             return(
                             <div className="posterBox">
-                                <img src={item.landingUrl} width="90%"/>
+                                <img src={item.landingUrl}/>
                                 <div className="posterBtn" onClick={()=>{history.push('/eduform');}}>
                                     신청하기
                                 </div>

@@ -192,12 +192,15 @@ export default function FormSet() {
             <div className="eduContentContainer">
             {
                 event.map((item,idx)=>{
+                  if(item.done===false){
                     return(
                         <button className="eduContent" key={idx} onClick={()=>{addHandler(item.title)}}>
                         {item.title}
                         </button>
                     )
+                  }
                 })
+              
             }
             </div>
         }

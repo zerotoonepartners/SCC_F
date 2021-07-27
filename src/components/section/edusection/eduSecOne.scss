@@ -88,6 +88,63 @@
           margin-top: 2rem;
         }
       }
+      .donecard {
+        margin-bottom: 2rem;
+        cursor: pointer;
+        border-radius: 1px;
+        padding: 1rem 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-self: center;
+        align-self: center;
+        //border: 1px solid #eeeeee;
+        width: 80%;
+        height: auto;
+        transition: 0.5s all ease-in-out;
+        -webkit-box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.38);
+        box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.38);
+        background-color: rgb(183, 184, 182);
+        
+        .donethumb {
+          opacity: 0.5;
+          display: block;
+          width: 90%;
+        }
+        .cardContentWrapper {
+          width: 90%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          font-size: 0.5rem;
+
+          margin-top: 1rem;
+          .cardTitle {
+            display: block;
+            font-size: 1rem;
+            font-weight: 200;
+            color: #000;
+            margin-bottom: 1rem;
+          }
+          .cardDescWrapper {
+            .cardDesc {
+              font-weight: 200;
+              font-size: 0.7rem;
+            }
+          }
+        }
+        .cardFooterWrapper {
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          margin-top: 2rem;
+        }
+      }
+    }
+    .cardText{
+      font-weight: 400;
+      font-size: 1rem;
     }
   }
   }
@@ -184,6 +241,59 @@
           margin-top: 2rem;
         }
       }
+      .donecard {
+        margin-bottom: 2rem;
+        cursor: pointer;
+        border-radius: 1px;
+        padding: 1rem 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-self: center;
+        align-self: center;
+        //border: 1px solid #eeeeee;
+        width: 80%;
+        height: auto;
+        transition: 0.5s all ease-in-out;
+        -webkit-box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.38);
+        box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.38);
+        background-color: rgb(158, 160, 157);
+        
+        .donethumb {
+          opacity: 0.4;
+          display: block;
+          width: 90%;
+        }
+        .cardContentWrapper {
+          width: 90%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          font-size: 0.5rem;
+
+          margin-top: 1rem;
+          .cardTitle {
+            display: block;
+            font-size: 1rem;
+            font-weight: 200;
+            color: #000;
+            margin-bottom: 1rem;
+          }
+          .cardDescWrapper {
+            .cardDesc {
+              font-weight: 200;
+              font-size: 0.7rem;
+            }
+          }
+        }
+        .cardFooterWrapper {
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          margin-top: 2rem;
+        }
+      }
     }
   }
   }
@@ -201,6 +311,10 @@
     .eduModalCard{
       width : 50%;
       height: 50%;
+    }
+    .cardText{
+      font-weight: 400;
+      font-size: 1rem;
     }
   }
 }
