@@ -24,7 +24,6 @@ function Main() {
       <Route component={SecFour} />
       <Route component={Kakao} />
       <Route component={Footer} />
-      <Route component={NewFooter} />
       <Route component={ContactBtn} />
     </div>
   );
