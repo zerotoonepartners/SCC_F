@@ -10,6 +10,7 @@ import SecTwo from '../components/section/mainsection/sectwo/sectwo';
 import SecThree from '../components/section/mainsection/secthree/secthree';
 import SecFour from '../components/section/mainsection/secfour/secfour';
 import './scss/main.scss';
+import ContactBtn from '../components/contact/contact';
 
 function Main() {
   return (
@@ -22,6 +23,7 @@ function Main() {
       <Route component={SecFour} />
       <Route component={Kakao} />
       <Route component={Footer} />
+      <Route component={ContactBtn} />
     </div>
   );
 }
