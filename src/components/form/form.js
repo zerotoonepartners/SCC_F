@@ -356,6 +356,15 @@ export default function FormSet() {
         )}
       </div>
       <form noValidate class="formBox" target="if">
+        <div className="formContentTitleWrapper">
+          <div className="formContentTitleBox">
+            인증 신청
+          </div>
+          <div className="formContentDot">
+            <div className="dot dot2"></div>
+            <div className="dot dot1"></div>
+          </div>
+        </div>
         <div class="inputContainer">
           <div className="catecover">
             { selection.arr.length===0? 

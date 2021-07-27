@@ -11,6 +11,7 @@ import ContactBtn from '../components/contact/contact';
 import NewFooter from '../components/newFooter/newFooter';
 
 function Barifurcation() {
+  let history = useHistory();
   return (
     <>
       <Header />
@@ -38,10 +39,10 @@ function Barifurcation() {
                   <li>설명</li>
                 </ul>
               </div>
-              <div className="bariCardMookup">
+              <div className="bariCardMookup" onClick={()=>{history.push('/edu')}}>
                 <span>더 알아보기</span>
               </div>
-              <div className="bariCardBtn">
+              <div className="bariCardBtn" onClick={()=>{history.push('/eduform')}}>
                 <span>신청하기</span>
               </div>
             </div>
@@ -56,10 +57,10 @@ function Barifurcation() {
                   <li>설명</li>
                 </ul>
               </div>
-              <div className="bariCardMookup">
+              <div className="bariCardMookup"  onClick={()=>{history.push('/detail')}}>
                 <span>더 알아보기</span>
               </div>
-              <div className="bariCardBtn">
+              <div className="bariCardBtn" onClick={()=>{history.push('/form')}}>
                 <span>신청하기</span>
               </div>
             </div>
