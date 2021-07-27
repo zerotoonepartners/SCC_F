@@ -38,9 +38,9 @@
         align-items: center;
         width: 100%;
         .serviceBox {
-          // .boxDescWrapper {
-          //   display: none;
-          // }
+          .boxDescWrapper {
+            display: none;
+          }
           .iconWrapper {
             img {
               display: block;
@@ -203,14 +203,43 @@
               display: flex;
               width: 80%;
               height: 80%;
-              align-items: center;
+              flex-direction: column;
               justify-content: center;
-              span {
-                display: block;
-                width: 80%;
+              //align-items: center;
+
+              .boxDescTitle{
                 color: #ffffff;
-                font-size: 0.8rem;
+                font-weight: bold;
+                // border: 1px solid blue;
+                font-size: 2rem;
+                padding-top: 1.5rem;
+                text-align: center;
               }
+              .boxLine{
+                color: #ffffff;
+                background-color: #ffffff;
+                width: 2rem;
+                height: 0;
+                border: 1px solid white;
+                margin: 1rem 0;
+              }
+              .boxDescContent{
+                // border: 1px solid red;
+                color: #ffffff;
+                width: 70%;
+                height: 70%;
+                display: flex;
+                white-space: normal;
+                text-align: center;
+                span{ 
+                  display: block;
+                  font-size: 1.2rem;
+                  font-weight: 200;
+                  margin-top: 1rem;
+                }
+               
+              }
+
             }
             .iconWrapper {
               display: none;

@@ -14,34 +14,57 @@ function Barifurcation() {
     <>
       <div className="bariWrapper">
         <Header />
-        <div className="bariBody">
-          <div className="btnWrapper">
-            <div className="btnItemWrapper">
-              <div className="topDesc">
-                <span>스타트업에 필요한 맞춤 교육</span>
-              </div>
-              <div className="imgBox">
-                <img src={p3} alt="" />
-              </div>
-              <NavLink to="/eduform" className="navlink">
-                <div className="twopill">교육 신청</div>
-              </NavLink>
-            </div>
-            <div className="breakLine"></div>
-            <div className="btnItemWrapper">
-              <div className="topDesc">
-                <span>기업의 가치를 높이고 싶다면</span>
-              </div>
-              <div className="imgBox">
-                <img src={p6} alt="" />
-              </div>
-              <NavLink to="/form" className="navlink">
-                <div className="twopill">인증 신청</div>
-              </NavLink>
+        <div className="bariHeaderBox"></div>
+        <div className="bariContentWrapper">
+          <div className="bariContentTitleWrapper">
+            <div className="bariContentTitleBox">교육/인증 신청</div>
+            <div className="bariContentDot">
+              <span className="dot dot1"></span>
+              <span className="dot dot2"></span>
             </div>
           </div>
-          <Kakao />
+          <div className="bariContentCardWrapper">
+            <div className="bariCard">
+              <div className="bariCardTitle">
+                <span>스타트업에 필요한 맞춤 교육</span>
+              </div>
+              <div className="bariCardContent">
+                <ul>
+                  <li>설명</li>
+                  <li>설명</li>
+                  <li>설명</li>
+                </ul>
+              </div>
+              <div className="bariCardMookup">
+                <span>더 알아보기</span>
+              </div>
+              <div className="bariCardBtn">
+                <span>신청하기</span>
+              </div>
+            </div>
+            <div className="bariCard">
+              <div className="bariCardTitle">
+                <span>기업의 가치를 높이고 싶다면</span>
+              </div>
+              <div className="bariCardContent">
+                <ul>
+                  <li>설명</li>
+                  <li>설명</li>
+                  <li>설명</li>
+                </ul>
+              </div>
+              <div className="bariCardMookup">
+                <span>더 알아보기</span>
+              </div>
+              <div className="bariCardBtn">
+                <span>신청하기</span>
+              </div>
+            </div>
+          </div>
         </div>
+
+        <Kakao />
+
         <Footer />
       </div>
       <ContactBtn />

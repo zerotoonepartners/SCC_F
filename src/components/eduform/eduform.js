@@ -243,7 +243,7 @@ export default function FormSet() {
             />
             <input
               class="inputBox"
-              placeholder="기업형(업태/종목)"
+              placeholder="기업명(업태/종목)"
               type="text"
               name="enter"
               value={toSend.enter}
