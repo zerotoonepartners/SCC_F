@@ -40,6 +40,7 @@
         flex-direction: column;
       .card {
         cursor: pointer;
+        margin-bottom: 1rem;
         border-radius: 15px;
         padding: 1rem 0;
         display: flex;
@@ -90,7 +91,7 @@
         }
       }
       .donecard {
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
         cursor: pointer;
         border-radius: 15px;
         padding: 1rem 0;
@@ -143,10 +144,19 @@
           margin-top: 2rem;
         }
       }
-    }
-    .cardText{
-      font-weight: 400;
-      font-size: 1rem;
+      .cardText{
+        font-weight: 600;
+        font-size: 0.6rem;
+        color : white;
+        border : 1px solid #646ecb;
+        border-radius: 10px;
+        display: block;
+        width : 6rem;
+        height: 1.5rem;
+        background-color: #646ecb;
+        -webkit-box-shadow: 0px 2px 13px -3px rgba(0,0,0,0.86); 
+        box-shadow: 0px 2px 13px -3px rgba(0,0,0,0.86);
+      }
     }
   }
   }
@@ -201,7 +211,7 @@
           -webkit-box-shadow: 0px 8px 16px -1px rgba(100,110,203,0.5); 
           box-shadow: 0px 8px 16px -1px rgba(100,110,203,0.5);
         }
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
         cursor: pointer;
         border-radius: 15px;
         padding: 1rem 0;
@@ -257,7 +267,7 @@
         }
       }
       .donecard {
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
         cursor: pointer;
         border-radius: 15px;
         padding: 1rem 0;
@@ -313,6 +323,19 @@
           margin-top: 2rem;
         }
       }
+      .cardText{
+        font-weight: 600;
+        font-size: 1rem;
+        color : white;
+        border : 1px solid #646ecb;
+        border-radius: 10px;
+        display: block;
+        width : 8rem;
+        height: 2rem;
+        background-color: #646ecb;
+        -webkit-box-shadow: 0px 2px 13px -3px rgba(0,0,0,0.86); 
+        box-shadow: 0px 2px 13px -3px rgba(0,0,0,0.86);
+      }
     }
   }
   }
@@ -331,10 +354,7 @@
       width : 50%;
       height: 50%;
     }
-    .cardText{
-      font-weight: 400;
-      font-size: 1rem;
-    }
+    
   }
 }
 
