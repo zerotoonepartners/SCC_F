@@ -6,6 +6,7 @@ import FlowBanner from '../../../flowbanner/flowbanner';
 import Avatar1 from '../../../../img/avatar1.png';
 import Avatar2 from '../../../../img/avatar2.png';
 import Avatar3 from '../../../../img/avatar3.png';
+import Avatar4 from '../../../../img/avatar4.png';
 import './secfour.scss';
 import p1 from '../../../../static/images/p1.png';
 import p2 from '../../../../static/images/p2.png';
@@ -36,7 +37,7 @@ function SecFour() {
 
   useInterval(() => {
     setDotToggle(dotToggle + 1);
-  }, 2500);
+  }, 3500);
 
   return (
     <>
@@ -124,7 +125,7 @@ function SecFour() {
                     <span>STEP 3. 인증서 발행 및 사후관리</span>
                   </div>
                   <div className="processTextContent">
-                    <span>인증서 발행 후 사후관리를 통해 고객만족도를 제고합니다.</span>
+                    <span>인증서 발행 후 사후관리를 통해 </span><span>고객만족도를 제고합니다.</span>
                   </div>
                 </div>
               </div>
@@ -176,7 +177,7 @@ function SecFour() {
                     <span>STEP 2. 교육 신청</span>
                   </div>
                   <div className="processTextContent">
-                    <span>전화 혹은 홈페이지 폼을 통해 진행 중인 교육을 신청합니다.</span>
+                    <span>전화 혹은 홈페이지 폼을 통해 </span><span>진행 중인 교육을 신청합니다.</span>
                   </div>
                 </div>
               </div>
@@ -234,17 +235,16 @@ function SecFour() {
               <SliderItem>
                 <div className="sliderItemWrapper">
                   <div className="avatar">
-                    <img src={Avatar2} alt="" />
+                    <img src={Avatar4} alt="" />
                   </div>
                   <div className="commentWrapaper">
                     <span className="comment">
-                      “정책자금을 준비하며 느낀 어려움을 해소할 수 있었고, 강의
-                      후 개인적인 궁금증에 대해 정책자금 상담을 해주셔서
-                      좋았습니다.”
+                      “처음 내부적인 문서 시스템을 갖추는 것에 대한 두려움이 있었지만,
+                      인증서 발급까지 세세하게 신경써 주셔서 어려움 없이 마무리 되었습니다.”
                       <br />
                       <br />
                       <span className="auth">
-                        정책자금 신의한수 교육생 -hm***-
+                      ISO 9001 & 14001 -OO바이오-
                       </span>
                     </span>
                   </div>
@@ -253,7 +253,7 @@ function SecFour() {
               <SliderItem>
                 <div className="sliderItemWrapper">
                   <div className="avatar">
-                    <img src={Avatar3} alt="" />
+                    <img src={Avatar2} alt="" />
                   </div>
                   <div className="commentWrapaper">
                     <span className="comment">
@@ -272,12 +272,64 @@ function SecFour() {
               <SliderItem>
                 <div className="sliderItemWrapper">
                   <div className="avatar">
+                    <img src={Avatar3} alt="" />
+                  </div>
+                  <div className="commentWrapaper">
+                    <span className="comment">
+                    “내부 사정으로 촉박한 시간에도 불구하고, 연구소와 ISO 인증을 동시에 시간 내로 진행해 주셔서 대단히 감사드립니다.”
+                      <br />
+                      <br />
+                      <span className="auth">
+                      기업부설연구소, ISO 9001 & 14001 -OO벤처스-
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </SliderItem>
+              <SliderItem>
+                <div className="sliderItemWrapper">
+                  <div className="avatar">
+                    <img src={Avatar2} alt="" />
+                  </div>
+                  <div className="commentWrapaper">
+                    <span className="comment">
+                    “정책자금을 준비하며 느낀 어려움을 해소할 수 있었고, 강의
+                      후 개인적인 궁금증에 대해 정책자금 상담을 해주셔서
+                      좋았습니다.”
+                      <br />
+                      <br />
+                      <span className="auth">
+                        정책자금 신의한수 교육생 -hm***-
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </SliderItem>
+              <SliderItem>
+                <div className="sliderItemWrapper">
+                  <div className="avatar">
+                    <img src={Avatar4} alt="" />
+                  </div>
+                  <div className="commentWrapaper">
+                    <span className="comment">
+                      “벤처기업과 성과공유기업 관련하여 컨설팅을 의뢰드렸는데,
+                      처음부터 끝까지 쉽고 자세하게 알려주시고 진행해 주셔서 만족스러웠습니다.”
+                      <br />
+                      <br />
+                      <span className="auth">벤처기업, 성과공유기업 -해OO-</span>
+                    </span>
+                  </div>
+                </div>
+              </SliderItem>
+              <SliderItem>
+                <div className="sliderItemWrapper">
+                  <div className="avatar">
                     <img src={Avatar1} alt="" />
                   </div>
                   <div className="commentWrapaper">
                     <span className="comment">
-                      “각 팀별 IR 준비, 심사와 더불어 실제 기업 IR 심사를 통해
-                      투자심사역으로써 실전감각을 키울 수 있었습니다!”
+                    “심사를 나가시는 심사원이 직접 교육을 진행하셔서 생생한 심사 현장 이야기를 들을 수 있었습니다.”<br />
+                    <span className="comment2">“핵심 위주로 설명해 주셔서 이해가 쉬웠습니다!”</span>
                       <br />
                       <br />
                       <span className="auth">ISO 교육생 -이oo, 최oo-</span>
@@ -311,6 +363,24 @@ function SecFour() {
                   setDotToggle(4);
                 }}
               />
+              <DotBtn
+                dotToggle={dotToggle}
+                onClick={() => {
+                  setDotToggle(5);
+                }}
+              />
+              <DotBtn
+                dotToggle={dotToggle}
+                onClick={() => {
+                  setDotToggle(6);
+                }}
+              />
+              <DotBtn
+                dotToggle={dotToggle}
+                onClick={() => {
+                  setDotToggle(7);
+                }}
+              />
             </div>
           </Slider>
         </div>
@@ -333,13 +403,14 @@ const SliderItem = styled.div`
   @media only screen and (min-width: 768px) {
   }
   @media only screen and (min-width: 320px) {
+    // border:1px solid red;
     width: 25%;
     height: 100%;
   }
 `;
 
 const SliderContents = styled.div`
-  width: 400%;
+  width: 700%;
   height: 100%;
   display: flex;
   transform: translateX(-0%);
@@ -352,18 +423,33 @@ const SliderContents = styled.div`
   ${(props) =>
     props.dotToggle === 2 &&
     css`
-      transform: translateX(-25%);
+      transform: translateX(-14.28%);
     `}
-      ${(props) =>
+  ${(props) =>
     props.dotToggle === 3 &&
     css`
-      transform: translateX(-50%);
+      transform: translateX(-28.56%);
     `}
-        ${(props) =>
+  ${(props) =>
     props.dotToggle === 4 &&
     css`
-      transform: translateX(-75%);
+      transform: translateX(-42.84%);
     `}
+  ${(props) =>
+    props.dotToggle === 5 &&
+    css`
+      transform: translateX(-57.12%);
+    `}
+  ${(props) =>
+    props.dotToggle === 6 &&
+    css`
+      transform: translateX(-71.4%);
+    `}
+  ${(props) =>
+    props.dotToggle === 7 &&
+    css`
+      transform: translateX(-85.68%);
+    `}  
 `;
 
 const Slider = styled.div`
