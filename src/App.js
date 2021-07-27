@@ -28,7 +28,7 @@ function App() {
           <Route path="/info" component={Info} />
           <Route path="/eduform" component={EduForm} />
           <Route path="/edu" component={Edu} />
-          <Route path="/eduLanding" component={EduLanding}/>
+          <Route path="/eduLanding" component={EduLanding} />
           <Route component={NotFound} />
         </Switch>
       </BrowserRouter>

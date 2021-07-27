@@ -7,6 +7,7 @@ import FormSecOne from '../components/section/formsection/formsecone/formsecone'
 import { Route } from 'react-router-dom';
 import './scss/form.scss';
 import HideShow from '../components/hideshow/hideshow';
+import ContactBtn from '../components/contact/contact';
 
 function Form() {
   return (
@@ -17,6 +18,7 @@ function Form() {
         <Route component={FormSet} />
         <Route component={Kakao} />
         <Route component={Footer} />
+        <Route component={ContactBtn} />
       </div>
     </>
   );

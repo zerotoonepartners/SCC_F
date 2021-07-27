@@ -7,6 +7,7 @@ import Header from '../components/header/header';
 import Footer from '../components/footer/footer';
 import p3 from '../../src/static/images/p3.png';
 import p6 from '../../src/static/images/p6.png';
+import ContactBtn from '../components/contact/contact';
 
 function Barifurcation() {
   return (
@@ -42,6 +43,7 @@ function Barifurcation() {
           <Kakao />
         </div>
       </div>
+      <ContactBtn />
     </>
   );
 }

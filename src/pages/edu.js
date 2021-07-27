@@ -5,6 +5,7 @@ import Header from '../components/header/header';
 import Footer from '../components/footer/footer';
 import { SccContext, SccContextProvider } from '../context/scc';
 import EduSecOne from '../components/section/edusection/eduSecOne';
+import ContactBtn from '../components/contact/contact';
 
 function Edu() {
   const { setEvent, event } = useContext(SccContext);
@@ -15,6 +16,7 @@ function Edu() {
           <Route component={Header} />
           <Route component={EduSecOne} event />
           <Route component={Footer} />
+          <Route component={ContactBtn} />
         </div>
       </>
 

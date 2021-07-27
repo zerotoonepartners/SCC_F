@@ -37,6 +37,7 @@ import styled, { css, keyframes } from 'styled-components';
 import Remote from '../components/detailComp/remote';
 import './scss/detail.scss';
 import TopCircle from '../components/topcircle/topcircle';
+import ContactBtn from '../components/contact/contact';
 function Detail() {
   const isoMenu = [
     'ISO9001',
@@ -224,6 +225,7 @@ function Detail() {
       <Kakao />
       <TopCircle />
       <Footer />
+      <Route component={ContactBtn} />
     </>
   );
 }
