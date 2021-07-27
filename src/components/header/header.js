@@ -76,6 +76,14 @@ function Header() {
               <div
                 className="menuItem"
                 onClick={() => {
+                  history.push('/barifurcation');
+                }}
+              >
+                <span>신청하기</span>
+              </div>
+              <div
+                className="menuItem"
+                onClick={() => {
                   window.open('https://blog.naver.com/ztop021', '_blank');
                 }}
               >
@@ -119,6 +127,14 @@ function Header() {
               }}
             >
               <span>인증</span>
+            </div>
+            <div
+              className="menuItem"
+              onClick={() => {
+                history.push('/barifurcation');
+              }}
+            >
+              <span>신청하기</span>
             </div>
             <div className="menuItem">
               <span>

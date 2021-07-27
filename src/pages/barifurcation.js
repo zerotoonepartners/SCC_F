@@ -42,6 +42,7 @@ function Barifurcation() {
           </div>
           <Kakao />
         </div>
+        <Footer />
       </div>
       <ContactBtn />
     </>
