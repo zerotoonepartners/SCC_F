@@ -19,9 +19,13 @@ function SecThree() {
           <div className="serviceBoxWrapper">
             <div className="serviceBox">
               <div className="boxDescWrapper">
-                <span>
-                  여기는 신청하는 박스입니다. <br /> 설명이 많이 들어갈거같아요
-                </span>
+                <div className="boxDescTitle">
+                  <span>교육</span>
+                </div>
+                <div className="boxLine"></div>
+                <div className="boxDescContent">
+                  <span>스타트업에<br/>실질적인 도움이 되는<br/>전문적인 교육을 통해<br/>성장해보세요.</span>
+                </div>
               </div>
               <div className="iconWrapper">
                 <img src={ISO} alt="" />
@@ -30,9 +34,13 @@ function SecThree() {
             </div>
             <div className="serviceBox pur">
               <div className="boxDescWrapper">
-                <span>
-                  여기는 신청하는 박스입니다. <br /> 설명이 많이 들어갈거같아요
-                </span>
+                <div className="boxDescTitle">
+                  <span>인증</span>
+                </div>
+                <div className="boxLine"></div>
+                <div className="boxDescContent">
+                  <span>분야에 맞는<br/>인증심사를 통해<br/>기업의 가치를<br/>높여보세요.</span>
+                </div>
               </div>
               <div className="iconWrapper">
                 <img src={EDU} alt="" />
@@ -41,9 +49,13 @@ function SecThree() {
             </div>
             <div className="serviceBox">
               <div className="boxDescWrapper">
-                <span>
-                  여기는 신청하는 박스입니다. <br /> 설명이 많이 들어갈거같아요
-                </span>
+                <div className="boxDescTitle">
+                  <span>컨설팅</span>
+                </div>
+                <div className="boxLine"></div>
+                <div className="boxDescContent">
+                  <span>기업의<br/>특성과 분야를 고려한<br/>맞춤형 인증과 교육을<br/>설계해드립니다.</span>
+                </div>
               </div>
               <div className="iconWrapper">
                 <img src={MARK} alt="" />
