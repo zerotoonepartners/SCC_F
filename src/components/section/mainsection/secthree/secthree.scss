@@ -52,7 +52,7 @@
           align-items: center;
           justify-content: space-around;
           width: 15rem;
-          height: 7rem;
+          height: 9rem;
           background-color: rgba(255, 255, 255, 0.5);
           margin: 1rem 0;
           border-radius: 15px;
@@ -207,7 +207,7 @@
               justify-content: center;
               //align-items: center;
 
-              .boxDescTitle{
+              .boxDescTitle {
                 color: #ffffff;
                 font-weight: bold;
                 // border: 1px solid blue;
@@ -215,7 +215,7 @@
                 padding-top: 1.5rem;
                 text-align: center;
               }
-              .boxLine{
+              .boxLine {
                 color: #ffffff;
                 background-color: #ffffff;
                 width: 2rem;
@@ -223,7 +223,7 @@
                 border: 1px solid white;
                 margin: 1rem 0;
               }
-              .boxDescContent{
+              .boxDescContent {
                 // border: 1px solid red;
                 color: #ffffff;
                 width: 70%;
@@ -231,15 +231,13 @@
                 display: flex;
                 white-space: normal;
                 text-align: center;
-                span{ 
+                span {
                   display: block;
                   font-size: 1.2rem;
                   font-weight: 200;
                   margin-top: 1rem;
                 }
-               
               }
-
             }
             .iconWrapper {
               display: none;
