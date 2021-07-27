@@ -11,6 +11,7 @@ import SecThree from '../components/section/mainsection/secthree/secthree';
 import SecFour from '../components/section/mainsection/secfour/secfour';
 import './scss/main.scss';
 import ContactBtn from '../components/contact/contact';
+import NewFooter from '../components/newFooter/newFooter';
 
 function Main() {
   return (
@@ -23,6 +24,7 @@ function Main() {
       <Route component={SecFour} />
       <Route component={Kakao} />
       <Route component={Footer} />
+      <Route component={NewFooter} />
       <Route component={ContactBtn} />
     </div>
   );
