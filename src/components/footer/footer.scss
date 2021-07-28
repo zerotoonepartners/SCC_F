@@ -78,6 +78,11 @@
       text-align: center;
       display: block;
       font-size: 0.1rem;
+
+      span{
+        color: rgb(105, 105, 105);
+      }
+
     }
   }
 }
@@ -148,6 +153,12 @@
       color: gray;
       background-color: #303243;
       text-align: center;
+      span{
+        color: rgb(105, 105, 105);
+      }
+      br{
+        display: none;
+      }
     }
   }
 }
@@ -225,6 +236,9 @@
 
       span{
         color: rgb(105, 105, 105);
+      }
+      br{
+        display: none;
       }
     }
   }
