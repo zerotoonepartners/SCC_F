@@ -38,6 +38,8 @@ import Remote from '../components/detailComp/remote';
 import './scss/detail.scss';
 import TopCircle from '../components/topcircle/topcircle';
 import ContactBtn from '../components/contact/contact';
+import Carousel from '../components/detailslider/detailslider';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
 function Detail() {
   const isoMenu = [
     'ISO 9001',
@@ -87,7 +89,8 @@ function Detail() {
   return (
     <>
       <Header />
-      <DetailSecOne/>
+
+      <Carousel />
       <Kakao />
       <TopCircle />
       <Footer />
