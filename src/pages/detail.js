@@ -38,15 +38,17 @@ import Remote from '../components/detailComp/remote';
 import './scss/detail.scss';
 import TopCircle from '../components/topcircle/topcircle';
 import ContactBtn from '../components/contact/contact';
+import Carousel from '../components/detailslider/detailslider';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
 function Detail() {
   const isoMenu = [
-    'ISO9001',
-    'ISO13485',
-    'ISO14001',
-    'ISO22000',
-    'FSSC22000',
-    'ISO22716',
-    'ISO45001',
+    'ISO 9001',
+    'ISO 14001',
+    'ISO 45001',
+    'ISO 22716',
+    'ISO 22000',
+    'FSSC 22000',
+    'ISO 13485',
   ];
   const labMenu = [
     '기업부설연구소/연구개발전담부서',
@@ -69,7 +71,6 @@ function Detail() {
     '공동근로복지기금설립',
   ];
   const [detNum, setDetNum] = useState('00');
-  const [temp, setTemp] = useState('ISO9001');
   const [remoteMenu, setRemoteMenu] = useState(isoMenu);
   useEffect(() => {
     if (detNum === '00') {
@@ -87,141 +88,9 @@ function Detail() {
 
   return (
     <>
-      <div>
-        <Header />
-        <Route component={DetailSecOne} detNum={detNum} />
-        <div className="detailMenuWrapper">
-          <div
-            className="detailItem iso"
-            onClick={() => {
-              setDetNum('00');
-            }}
-          >
-            <span>ISO</span>
-          </div>
-          <div
-            className="detailItem lab"
-            onClick={() => {
-              setDetNum('01');
-            }}
-          >
-            <span>연구소</span>
-          </div>
-          <div
-            className="detailItem busin"
-            onClick={() => {
-              setDetNum('10');
-            }}
-          >
-            <span>경영</span>
-          </div>
-          <div
-            className="detailItem wel"
-            onClick={() => {
-              setDetNum('11');
-            }}
-          >
-            <span>복지</span>
-          </div>
-        </div>
-        <div className="hoverMenuWrapper">
-          <div className="hoverMenuItem">
-            <ul className="menuUlWrapper">
-              <li>ISO9001</li>
-              <li>ISO3489</li>
-              <li>ISO1234</li>
-              <li>ISO9582</li>
-              <li>ISO1925</li>
-            </ul>
-          </div>
-          <div className="hoverMenuItem">item2</div>
-          <div className="hoverMenuItem">item3</div>
-          <div className="hoverMenuItem">item4</div>
-        </div>
-        {detNum === '00' ? (
-          <>
-            <div id="ISO9001">
-              <Route component={ISO9001} />
-            </div>
-            <div id="ISO13485">
-              <ISO13485 />
-            </div>
-            <div id="ISO14001">
-              <ISO14001 />
-            </div>
-            <div id="ISO22000">
-              <ISO22000 />
-            </div>
-            <div id="FSSC22000">
-              <FSSC22000 />
-            </div>
-            <div id="ISO22716">
-              <ISO22716 />
-            </div>
-            <div id="ISO45001">
-              <ISO45001 />
-            </div>
-            <Remote remoteMenu={remoteMenu} />
-          </>
-        ) : null}
-        {detNum === '01' ? (
-          <>
-            <div id="기업부설연구소/연구개발전담부서">
-              <기업부설연구소 />
-            </div>
-            <div id="기업창작연구소/창작전담부서">
-              <기업부설창작연구소 />
-            </div>
-            <Remote remoteMenu={remoteMenu} />
-          </>
-        ) : null}
-        {detNum === '10' ? (
-          <>
-            <div id="성과공유기업">
-              <성과공유기업 />
-            </div>
-            <div id="여성기업">
-              <여성기업 />
-            </div>
-            <div id="이노비즈">
-              <이노비즈 />
-            </div>
-            <div id="메인비즈">
-              <메인비즈 />
-            </div>
-            <div id="벤처기업">
-              <벤처기업 />
-            </div>
-            <div id="뿌리기술전문기업">
-              <뿌리기술전문기업 />
-            </div>
-            <Remote remoteMenu={remoteMenu} />
-          </>
-        ) : null}
-        {detNum === '11' ? (
-          <>
-            <div id="가족친화인증">
-              <가족친화인증 />
-            </div>
-            <div id="병역특례업체">
-              <병역특례업체 />
-            </div>
-            <div id="노사문화우수기업">
-              <노사문화우수기업 />
-            </div>
-            <div id="청년친화강소기업">
-              <청년친화강소기업 />
-            </div>
-            <div id="인재육성형중소기업">
-              <인재육성형중소기업 />
-            </div>
-            <div id="공동근로복지기금설립">
-              <공동근로복지기금설립 />
-            </div>
-            <Remote remoteMenu={remoteMenu} />
-          </>
-        ) : null}
-      </div>
+      <Header />
+
+      <Carousel />
       <Kakao />
       <TopCircle />
       <Footer />

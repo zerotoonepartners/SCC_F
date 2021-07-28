@@ -1,65 +1,8 @@
 @media all and (min-width: 320px) {
-  .detailMenuWrapper {
-    width: 100%;
-    height: 7vh;
-    background-color: #303243;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    font-size: 0.9rem;
-    color: #ffffff;
-    font-weight: 300;
-    margin-bottom: 1rem;
-    .detailItem {
-      cursor: pointer;
-      transition: 0.3s all ease;
-    }
-    .detailItem:hover {
-      color: #646ecb;
-    }
-  }
 }
 
 @media all and (min-width: 768px) {
 }
 
 @media all and (min-width: 1024px) {
-  .detailMenuWrapper {
-    width: 100%;
-    height: 7vh;
-    background-color: #303243;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    font-size: 0.9rem;
-    color: #ffffff;
-    font-weight: 300;
-    margin-bottom: 1rem;
-
-    .detailItem {
-      cursor: pointer;
-    }
-    .iso {
-      border: 1px solid red;
-    }
-  }
-  .hoverMenuWrapper {
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: space-around;
-    border: 1px solid red;
-    .menuUlWrapper {
-      display: flex;
-      flex-direction: column;
-      width: 100%;
-      border: 1px solid navy;
-      align-items: center;
-      li {
-        width: 5rem;
-        height: 2rem;
-        text-align: center;
-      }
-    }
-  }
 }

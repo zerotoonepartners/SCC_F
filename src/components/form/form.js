@@ -24,13 +24,15 @@ export default function FormSet() {
   });
   const [iso, setIso] = useState(false);
   const Iso = [
-    'ISO 9001',
-    'ISO 13485',
-    'ISO 14001',
+    'ISO 9001', 
+    'ISO 9001 & 14001',
+    'ISO 45001',
+    'ISO 22716',
     'ISO 22000',
     'FSSC 22000',
-    'ISO 22716',
-    'ISO 45001',
+    'ISO 13485',
+    
+    
     
   ];
   const [oper, setOper] = useState(false);
