@@ -38,7 +38,7 @@ function Footer() {
       <div className="footerCopy">
         <span>
           <span className="businCopy">
-              사업자등록번호: 288-87-00902 대표자: 김경태
+          대표자: 김경태 | 사업자 등록번호: 288-87-00902 | 통신판매업 신고번호: 제2019-서울서초-3027호
           </span>     
           <span className="businCopy">
           &copy; 2021 스타트업인증센터. All Rights Reserved.

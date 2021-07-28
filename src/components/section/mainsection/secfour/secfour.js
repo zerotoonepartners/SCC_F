@@ -324,7 +324,7 @@ function SecFour() {
               <SliderItem>
                 <div className="sliderItemWrapper">
                   <div className="avatar">
-                    <img src={Avatar1} alt="" />
+                    <img src={Avatar3} alt="" />
                   </div>
                   <div className="commentWrapaper">
                     <span className="comment">
