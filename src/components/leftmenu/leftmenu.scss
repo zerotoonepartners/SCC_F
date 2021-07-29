@@ -1,0 +1,21 @@
+@media all and (min-width: 320px) {
+  .leftMenu {
+    width: 100%;
+    height: auto;
+  }
+  .cateTitleWrapper {
+    display: none;
+  }
+}
+
+@media all and (min-width: 768px) {
+}
+
+@media all and (min-width: 1024px) {
+  .leftMenuWrapper {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

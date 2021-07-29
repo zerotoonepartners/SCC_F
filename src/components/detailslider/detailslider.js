@@ -3,7 +3,7 @@ import { Carousel } from 'react-responsive-carousel';
 
 export default () => (
   <Carousel autoPlay>
-    <div>
+    <div className="sliderDiv">
       <img
         className="slider"
         alt=""
@@ -11,9 +11,7 @@ export default () => (
       />
       <p className="legend">ISO9001</p>
     </div>
-    <div className="sliderDiv">
-      <span>ISO9001</span>
-    </div>
+
     <div>
       <img
         className="slider"
@@ -43,7 +41,7 @@ export default () => (
         alt=""
         src="https://images.unsplash.com/photo-1610593250734-2c03ea85b99d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
       />
-      <p className="legend">ISOxxxx5</p>
+      <p className="legend">ISOxxxx2</p>
     </div>
     <div>
       <img

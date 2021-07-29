@@ -1,86 +1,81 @@
-.ISOlinebox{
-    border-top: 1px solid rgb(196, 194, 194);
-    margin : 0 auto;
-    width: 60%;
+.ISOlinebox {
+  margin: 0 auto;
+  width: 60%;
 }
 
-.ISOsec{
-    
-    margin-bottom: 5rem;
-    width : 100%;
-    display: flex;
-    justify-content: center;
-    
+.ISOsec {
+  margin-bottom: 5rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
-.ISOsec1{
-    margin-top : 0rem;
-    padding-top : 10rem;
-    width : 100%;
-    display: flex;
-    justify-content: center;
+.ISOsec1 {
+  margin-top: 0rem;
+  padding-top: 10rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
-@media all and (min-width: 320px){
-    .ISOsec{
-        margin-top: 1rem;
-        padding-top: 1rem;
-        .ISObox{
-            width: 70%;
-            line-height: 120%;
-            font-family: "ONE-Mobile-Regular";
-            .ISOtitle{
-                font-size: 1.4rem;
-                font-weight: 600;
-                margin-bottom: 2rem;
-                line-height: 150%;
-            }
-            .ISOcontent{
-                text-align: justify;
-                font-size : 1rem;
-                font-weight: 200;
-                line-height: 150%;
-            }
-        }
+@media all and (min-width: 320px) {
+  .ISOsec {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    .ISObox {
+      width: 70%;
+      line-height: 120%;
+      font-family: 'ONE-Mobile-Regular';
+      .ISOtitle {
+        font-size: 1.4rem;
+        font-weight: 600;
+        margin-bottom: 2rem;
+        line-height: 150%;
+      }
+      .ISOcontent {
+        text-align: justify;
+        font-size: 1rem;
+        font-weight: 200;
+        line-height: 150%;
+      }
     }
+  }
 }
-@media all and (min-width: 768px){
-    .ISOsec{padding-top: 3rem;
-        .ISObox{
-            width: 70%;
-            line-height: 120%;
-            font-family: "ONE-Mobile-Regular";
-            .ISOtitle{
-                font-size: 2rem;
-                font-weight: 600;
-                margin-bottom: 3rem;
-                line-height: 150%;
-            }
-            .ISOcontent{
-                font-size : 1.5rem;
-                font-weight: 200;
-                line-height: 150%;
-            }
-        }
+@media all and (min-width: 768px) {
+  .ISOsec {
+    padding-top: 3rem;
+    .ISObox {
+      width: 70%;
+      line-height: 120%;
+      font-family: 'ONE-Mobile-Regular';
+      .ISOtitle {
+        font-size: 2rem;
+        font-weight: 600;
+        margin-bottom: 3rem;
+        line-height: 150%;
+      }
+      .ISOcontent {
+        font-size: 1.5rem;
+        font-weight: 200;
+        line-height: 150%;
+      }
     }
+  }
 }
-@media all and (min-width: 1024px){
-    .ISOsec{
-        padding-top : 10rem;
-        margin-top: 5rem;
-        .ISObox{
-            width: 70%;
-            line-height: 120%;
-            font-family: "ONE-Mobile-Regular";
-            .ISOtitle{
-                font-size: 2rem;
-                font-weight: 600;
-                margin-bottom: 3rem;
-                
-            }
-            .ISOcontent{
-                font-size : 1.5rem;
-                font-weight: 200;
-                line-height: 150%;
-            }
-        }
+@media all and (min-width: 1024px) {
+  .ISOsec {
+    .ISObox {
+      width: 90%;
+      line-height: 120%;
+      font-family: 'ONE-Mobile-Regular';
+      .ISOtitle {
+        font-size: 1.6rem;
+        font-weight: 600;
+        margin-bottom: 3rem;
+      }
+      .ISOcontent {
+        font-size: 1.3rem;
+        font-weight: 200;
+        line-height: 150%;
+      }
     }
+  }
 }
