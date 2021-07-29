@@ -81,7 +81,8 @@
                 //transform: translateY(-50%);
               }
 
-              .imgSubBox{//모바일에서는 안보임
+              .imgSubBox {
+                //모바일에서는 안보임
                 // border : 1px solid blue;
                 width: 100%;
                 height: 20vh;
@@ -90,7 +91,7 @@
                 justify-content: center;
                 align-items: center;
                 display: none; //NONE
-                .checkimg{
+                .checkimg {
                   // border : 1px solid yellow;
                   width: 10%;
                   // height: auto;
@@ -103,8 +104,6 @@
                   line-height: 120%;
                 }
               }
-
-
             }
             .processTextBox {
               display: flex;
@@ -145,7 +144,7 @@
       .sliderItemWrapper {
         display: flex;
         flex-direction: column;
-        align-items : center;
+        align-items: center;
         width: 100%;
         height: 100%;
         .avatar {
@@ -164,7 +163,7 @@
           justify-content: center;
           width: 100%;
           height: 60%;
-          .comment{
+          .comment {
             margin-top: 1rem;
             display: block;
             width: 80%;
@@ -176,7 +175,7 @@
               font-weight: 800;
             }
           }
-          .comment2{
+          .comment2 {
             display: none;
           }
         }
@@ -267,15 +266,14 @@
               transform: translateY(-50%);
             }
 
-
-            .imgSubBox{
+            .imgSubBox {
               // border : 1px solid blue;
               width: 100%;
               display: flex;
               flex-direction: column;
               justify-content: center;
               align-items: center;
-              .checkimg{
+              .checkimg {
                 // border : 1px solid yellow;
                 width: 20%;
                 // height: auto;
@@ -288,7 +286,6 @@
                 line-height: 120%;
               }
             }
-
           }
           .processTextBox {
             display: flex;
@@ -430,12 +427,13 @@
             align-items: center;
             justify-content: center;
 
-
             .imgBox {
-              width: 100%;
+              // width: 100%;
+              width: 28vh;
               height: 28vh;
               position: relative;
               .pimg {
+                // border: 1px solid red;
                 width: 100%;
                 height: 100%;
               }
@@ -449,7 +447,7 @@
                 transform: translateY(-50%);
               }
 
-              .imgSubBox{
+              .imgSubBox {
                 // border : 1px solid blue;
                 width: 100%;
                 display: flex;
@@ -457,20 +455,20 @@
                 justify-content: center;
                 align-items: center;
                 padding-top: 1rem;
-                .checkimg{
+                .checkimg {
                   // border : 1px solid yellow;
-                  width: 20%;
+                  width: 15%;
                   // height: auto;
+                  margin-bottom: 0.5rem;
                 }
                 .processSubTextContent {
                   // border : 1px solid blueviolet;
                   text-align: center;
                   font-weight: 200;
-                  font-size: 1rem;
+                  font-size: 0.8rem;
                   line-height: 120%;
                 }
               }
-
             }
             .processTextBox {
               display: flex;
@@ -490,7 +488,7 @@
                 font-size: 1rem;
                 margin-top: 1rem;
                 line-height: 120%;
-                span{
+                span {
                   white-space: nowrap;
                   display: flex;
                   flex-direction: column;
@@ -534,7 +532,7 @@
           align-items: center;
           width: 80%;
           height: 100%;
-          .comment{
+          .comment {
             margin-top: 1rem;
             display: block;
             width: 80%;
@@ -545,7 +543,6 @@
               font-weight: 800;
             }
           }
-
         }
       }
       .dotWrapper {
