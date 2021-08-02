@@ -16,9 +16,9 @@ import p5 from '../../../../static/images/p5.png';
 import p6 from '../../../../static/images/p6.png';
 import check from '../../../../static/images/check.png';
 
+
 function SecFour() {
   const [dotToggle, setDotToggle] = useState(1);
-
   function useInterval(callback, delay) {
     const savedCallback = useRef();
     useEffect(() => {

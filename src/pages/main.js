@@ -12,7 +12,6 @@ import SecFour from '../components/section/mainsection/secfour/secfour';
 import './scss/main.scss';
 import ContactBtn from '../components/contact/contact';
 import NewFooter from '../components/newFooter/newFooter';
-
 function Main() {
   return (
     <div class="mainWrapper">

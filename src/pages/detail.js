@@ -80,8 +80,6 @@ function Detail() {
     } else {
       setRemoteMenu(welMenu);
     }
-    console.log(isoMenu[0]);
-    console.log(typeof isoMenu[0]);
   }, [detNum]);
 
   return (
