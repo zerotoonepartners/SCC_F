@@ -9,7 +9,7 @@ const SccContextProvider = ({ children }) => {
       title: undefined,
       content: undefined,
       imgUrl: undefined,
-      LandingUrl : undefined,
+      LandingUrl: undefined,
       done: undefined,
       isFree: undefined,
       startStamp: undefined,
@@ -17,18 +17,22 @@ const SccContextProvider = ({ children }) => {
       created_at: undefined,
     },
   ]);
-  const [selectEdu,setSelectEdu] = useState();
+  const [selectEdu, setSelectEdu] = useState();
+  const [contentToggle, setContentToggle] = useState('00');
   async function fetchData() {
     try {
       let temp = await getData();
-      temp.map((item,idx)=>{
-        item.startStamp=item.startStamp.slice(0,10);
-        item.endStamp=item.endStamp.slice(0,10);
-        item.content = item.content.length > 100? `${item.content.substring(0,100)}...` : item.content;
-      })
+      temp.map((item, idx) => {
+        item.startStamp = item.startStamp.slice(0, 10);
+        item.endStamp = item.endStamp.slice(0, 10);
+        item.content =
+          item.content.length > 100
+            ? `${item.content.substring(0, 100)}...`
+            : item.content;
+      });
       let temp2 = temp.reverse();
       setEvent(temp2);
-      console.log("here");
+      console.log('here');
       console.log(event);
     } catch (e) {
       console.log(e);
@@ -36,7 +40,7 @@ const SccContextProvider = ({ children }) => {
   }
 
   useEffect(() => {
-    console.log("나 몇번?");
+    console.log('나 몇번?');
     fetchData();
   }, []);
   return (
@@ -45,7 +49,9 @@ const SccContextProvider = ({ children }) => {
         event,
         setEvent,
         setSelectEdu,
-        selectEdu
+        selectEdu,
+        contentToggle,
+        setContentToggle,
       }}
     >
       {children}

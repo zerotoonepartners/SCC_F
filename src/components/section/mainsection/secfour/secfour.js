@@ -65,9 +65,7 @@ function SecFour() {
                     <span>STEP 1. 고객 문의 및 상담</span>
                   </div>
                   <div className="processTextContent">
-                    <span>
-                      개인별/회사별 맞춤형 상담을 진행합니다.
-                    </span>
+                    <span>개인별/회사별 맞춤형 상담을 진행합니다.</span>
                   </div>
                 </div>
               </div>
@@ -76,19 +74,16 @@ function SecFour() {
                 <div className="imgBox">
                   <div className="imgSubBox">
                     <img src={check} className="checkimg" />
-                      <div className="processSubTextContent">
-                        <span>
-                        인증 신청 후 견적 서류를 요청합니다.
-                        </span>
-                      </div>
+                    <div className="processSubTextContent">
+                      <span>인증 신청 후 견적 서류를 요청합니다.</span>
+                    </div>
                   </div>
 
                   <div className="processline"></div>
                 </div>
                 <div className="processTextBox"></div>
-
               </div>
-              
+
               <div className="processBox">
                 <div className="imgBox">
                   <img src={p5} className="pimg" />
@@ -105,12 +100,10 @@ function SecFour() {
               <div className="processBox">
                 <div className="imgBox">
                   <div className="imgSubBox">
-                      <img src={check} className="checkimg" />
-                        <div className="processSubTextContent">
-                          <span>
-                          문서심사/현장심사를 진행합니다.
-                          </span>
-                        </div>
+                    <img src={check} className="checkimg" />
+                    <div className="processSubTextContent">
+                      <span>문서심사/현장심사를 진행합니다.</span>
+                    </div>
                   </div>
                   <div className="processline"></div>
                 </div>
@@ -125,7 +118,8 @@ function SecFour() {
                     <span>STEP 3. 인증서 발행 및 사후관리</span>
                   </div>
                   <div className="processTextContent">
-                    <span>인증서 발행 후 사후관리를 통해 </span><span>고객만족도를 제고합니다.</span>
+                    <span>인증서 발행 후 사후관리를 통해 </span>
+                    <span>고객만족도를 제고합니다.</span>
                   </div>
                 </div>
               </div>
@@ -148,22 +142,21 @@ function SecFour() {
                     <span>STEP 1. 고객 문의 및 상담</span>
                   </div>
                   <div className="processTextContent">
-                    <span>
-                      개인별/회사별 맞춤형 상담을 진행합니다.
-                    </span>
+                    <span>개인별/회사별 맞춤형 상담을 진행합니다.</span>
                   </div>
                 </div>
               </div>
               <div className="processBox">
                 <div className="imgBox">
                   <div className="imgSubBox">
-                      <img src={check} className="checkimg" />
-                        <div className="processSubTextContent">
-                          <span>
-                          맞춤상담을 통해 고객에 최적화된 교육을 제안합니다.
-                          </span>
-                        </div>
+                    <img src={check} className="checkimg" />
+                    <div className="processSubTextContent">
+                      <span>
+                        맞춤상담을 통해 <br /> 고객에 최적화된 교육을
+                        제안합니다.
+                      </span>
                     </div>
+                  </div>
                   <div className="processline"></div>
                 </div>
                 <div className="processTextBox"></div>
@@ -177,20 +170,21 @@ function SecFour() {
                     <span>STEP 2. 교육 신청</span>
                   </div>
                   <div className="processTextContent">
-                    <span>전화 혹은 홈페이지 폼을 통해 </span><span>진행 중인 교육을 신청합니다.</span>
+                    <span>전화 혹은 홈페이지 폼을 통해 </span>
+                    <span>진행 중인 교육을 신청합니다.</span>
                   </div>
                 </div>
               </div>
               <div className="processBox">
                 <div className="imgBox">
                   <div className="imgSubBox">
-                      <img src={check} className="checkimg" />
-                        <div className="processSubTextContent">
-                          <span>
-                          고객의 이해도에 따른 교육과 보충을 진행합니다.
-                          </span>
-                        </div>
+                    <img src={check} className="checkimg" />
+                    <div className="processSubTextContent">
+                      <span>
+                        고객의 이해도에 따른 <br /> 교육과 보충을 진행합니다.
+                      </span>
                     </div>
+                  </div>
                   <div className="processline"></div>
                 </div>
                 <div className="processTextBox"></div>
@@ -239,13 +233,12 @@ function SecFour() {
                   </div>
                   <div className="commentWrapaper">
                     <span className="comment">
-                      “처음 내부적인 문서 시스템을 갖추는 것에 대한 두려움이 있었지만,
-                      인증서 발급까지 세세하게 신경써 주셔서 어려움 없이 마무리 되었습니다.”
+                      “처음 내부적인 문서 시스템을 갖추는 것에 대한 두려움이
+                      있었지만, 인증서 발급까지 세세하게 신경써 주셔서 어려움
+                      없이 마무리 되었습니다.”
                       <br />
                       <br />
-                      <span className="auth">
-                      ISO 9001 & 14001 -OO바이오-
-                      </span>
+                      <span className="auth">ISO 9001 & 14001 -OO바이오-</span>
                     </span>
                   </div>
                 </div>
@@ -276,11 +269,13 @@ function SecFour() {
                   </div>
                   <div className="commentWrapaper">
                     <span className="comment">
-                    “내부 사정으로 촉박한 시간에도 불구하고, 연구소와 ISO 인증을 동시에 시간 내로 진행해 주셔서 대단히 감사드립니다.”
+                      “내부 사정으로 촉박한 시간에도 불구하고, 연구소와 ISO
+                      인증을 동시에 시간 내로 진행해 주셔서 대단히
+                      감사드립니다.”
                       <br />
                       <br />
                       <span className="auth">
-                      기업부설연구소, ISO 9001 & 14001 -OO벤처스-
+                        기업부설연구소, ISO 9001 & 14001 -OO벤처스-
                       </span>
                     </span>
                   </div>
@@ -293,7 +288,7 @@ function SecFour() {
                   </div>
                   <div className="commentWrapaper">
                     <span className="comment">
-                    “정책자금을 준비하며 느낀 어려움을 해소할 수 있었고, 강의
+                      “정책자금을 준비하며 느낀 어려움을 해소할 수 있었고, 강의
                       후 개인적인 궁금증에 대해 정책자금 상담을 해주셔서
                       좋았습니다.”
                       <br />
@@ -313,10 +308,13 @@ function SecFour() {
                   <div className="commentWrapaper">
                     <span className="comment">
                       “벤처기업과 성과공유기업 관련하여 컨설팅을 의뢰드렸는데,
-                      처음부터 끝까지 쉽고 자세하게 알려주시고 진행해 주셔서 만족스러웠습니다.”
+                      처음부터 끝까지 쉽고 자세하게 알려주시고 진행해 주셔서
+                      만족스러웠습니다.”
                       <br />
                       <br />
-                      <span className="auth">벤처기업, 성과공유기업 -해OO-</span>
+                      <span className="auth">
+                        벤처기업, 성과공유기업 -해OO-
+                      </span>
                     </span>
                   </div>
                 </div>
@@ -324,12 +322,16 @@ function SecFour() {
               <SliderItem>
                 <div className="sliderItemWrapper">
                   <div className="avatar">
-                    <img src={Avatar1} alt="" />
+                    <img src={Avatar3} alt="" />
                   </div>
                   <div className="commentWrapaper">
                     <span className="comment">
-                    “심사를 나가시는 심사원이 직접 교육을 진행하셔서 생생한 심사 현장 이야기를 들을 수 있었습니다.”<br />
-                    <span className="comment2">“핵심 위주로 설명해 주셔서 이해가 쉬웠습니다!”</span>
+                      “심사를 나가시는 심사원이 직접 교육을 진행하셔서 생생한
+                      심사 현장 이야기를 들을 수 있었습니다.”
+                      <br />
+                      <span className="comment2">
+                        “핵심 위주로 설명해 주셔서 이해가 쉬웠습니다!”
+                      </span>
                       <br />
                       <br />
                       <span className="auth">ISO 교육생 -이oo, 최oo-</span>
@@ -449,7 +451,7 @@ const SliderContents = styled.div`
     props.dotToggle === 7 &&
     css`
       transform: translateX(-85.68%);
-    `}  
+    `}
 `;
 
 const Slider = styled.div`
