@@ -128,7 +128,7 @@
   @media all and (min-width: 1024px) {
     .testWrapper{
         background-color: #F1F1F1;
-        // border: 1px solid pink;
+        border: 2px solid pink;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -139,7 +139,7 @@
             flex-direction: row;
             // border: 3px solid red;
             width: 80%;
-            height: 90vh;
+            height: 100vh;
             .pictureWrapper{
                 // border: 1px solid blue;
                 width: 50%;
