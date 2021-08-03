@@ -1,6 +1,6 @@
 import React from 'react';
 import './scss/test.scss';
-import samplepic from '../static/images/samplepic.png';
+
 
 
 function Test() {
@@ -9,8 +9,7 @@ function Test() {
     <div className="testWrapper">
         <div className="picAndContents">
             <div className="pictureWrapper">
-                <img src={samplepic} className="img" />
-                {/* <img src="https://lh3.googleusercontent.com/proxy/LSgsqaUYZMUqImrFd-uySO82tXs5VgWvyjQAkKn4ZDVDgLtLewB9ddlZt9rlJw_2vTOxqRVVab4YCnUQ8pW_SDhqzn8pErQMHoJ3qB2V9uH_MBQaW1b48EtBDqyG" alt="" /> */}
+                <img src="https://lh3.googleusercontent.com/proxy/LSgsqaUYZMUqImrFd-uySO82tXs5VgWvyjQAkKn4ZDVDgLtLewB9ddlZt9rlJw_2vTOxqRVVab4YCnUQ8pW_SDhqzn8pErQMHoJ3qB2V9uH_MBQaW1b48EtBDqyG" alt="" />
             </div>
             <div className="contentsWrapper">
                 <div className="name">
