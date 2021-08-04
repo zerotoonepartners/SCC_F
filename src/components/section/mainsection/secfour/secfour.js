@@ -75,7 +75,7 @@ function SecFour() {
                   <div className="imgSubBox">
                     <img src={check} className="checkimg" />
                     <div className="processSubTextContent">
-                      <span>인증 신청 후 견적 서류를 요청합니다.</span>
+                      <span>맞춤상담을 통해 개별 기업에 최적화된 인증을 제안합니다.</span>
                     </div>
                   </div>
 
