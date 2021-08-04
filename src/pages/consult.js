@@ -1,20 +1,25 @@
-import './scss/consult.scss';
+import { Route } from 'react-router-dom';
+import Kakao from '../components/kakao/kakao';
+import Header from '../components/header/header';
+import Footer from '../components/footer/footer';
+import ConsultSection from "../components/section/consultsection/consultSection";
+import ContactBtn from '../components/contact/contact';
 
 function Consult() {
-    return (
+  return (
+    <div>
       <>
-        <div className="conLandingWrapper">
-          <div className="conLanding"></div>
-          <div className="conLine">
-            <span className="conTitle">스타트업 인증센터만의 컨설팅</span>
-          </div>
-
-          werwerewrwerewr
-          wqrqrqererqerqrqreqr
-
+        <div className="consultPageWrapper">
+          <Route component={Header} />
+          <Route component={ConsultSection} />
+          <Route component={Footer} />
+          <Route component={ContactBtn} />
         </div>
       </>
-    );
-  }
-  
-  export default Consult;
+
+      <Kakao />
+    </div>
+  );
+}
+
+export default Consult;
