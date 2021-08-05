@@ -37,7 +37,7 @@ function InfoSecThree() {
                 <div className="imgWrapper"><img src="https://images.unsplash.com/photo-1496681859237-6039cd585c4e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="" /></div>
                 <div className="contentWrapper">
                 <span className="serviceContentTitle">맞춤형 컨설팅</span>
-                <span className="serviceContent">업자료 검토를 통해 기업 내 존재하는 문제점과 방향성을 맞춤형으로 제시해 드립니다.<br/>
+                <span className="serviceContent">기업자료 검토를 통해 기업 내 존재하는 문제점과 방향성을 맞춤형으로 제시해 드립니다.<br/>
                 또한 전문 인력 부재로 인해 고민인 기업에게 전담관리팀장을 배정하여 기업의 CFO, COO 역할이 될 것을 약속드립니다. <br/>
                 단발성이 아닌 상시 관리 체계로 원격+정기방문 방식으로 서비스를 제공합니다.</span>
                 </div>

@@ -24,7 +24,7 @@ function Detail() {
     'ISO 13485',
   ];
   const labMenu = [
-    '기업부설연구소/연구개발전담부서',
+    '기업부설연구소/연구개발전담부서',
     '기업창작연구소/창작전담부서',
   ];
   const businMenu = [
