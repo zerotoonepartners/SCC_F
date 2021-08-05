@@ -1,0 +1,283 @@
+* {
+    font-family: 'ONE-Mobile-Regular';
+  }
+  @media all and (min-width: 320px) {
+    .consultSecTwoWrapper {
+
+      .consultTitleWrapper{
+        // border: 3px solid yellow;
+        display: flex;
+        flex-direction: column;
+        margin: 10% 0%;
+
+        .title1{
+          display: flex;
+          justify-content: flex-end;
+          align-items: center;
+          width: 70vw;
+          height: 15vw;
+          border: 1px solid #E0E1EE;
+          background-color: #E0E1EE;
+          border-radius: 30px;
+          color: black;
+          font-size: 7vw;
+          font-weight: 800;
+
+          padding-right: 10%;
+          margin-left: -9%;
+        }
+
+        .title2{
+          // border: 1px solid green;
+          display: flex;
+          justify-content: flex-end;
+          align-items: center;
+          width: 74vw;
+          height: 2rem;
+          font-size: 3vw;
+          font-weight: 800;
+          white-space: nowrap;
+        }
+
+
+      }
+
+      .consultContentsWrapper{
+        // border: 3px solid pink;
+        display: flex;
+        flex-direction: column;
+        margin: 15% 0%;
+        
+        .cooImgWrapper{
+          // border: 1px solid red;
+          width:100%;
+          height: auto;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          // z-index: 2;
+
+
+          .cooImg{
+            width: 80%;
+
+          }
+          span{
+            color: white;
+            font-size: 9vw;
+            font-weight: 900;
+            display: flex;
+            position: absolute;
+          }
+
+        }
+
+        .cooContentsWrapper{
+          // border: 1px solid blue;
+          width:100%;
+          position: relative;
+          display: flex;
+          justify-content: flex-end;
+          
+          margin-top: 6%;
+          // z-index: 1;
+
+
+          .cooContent{
+            // border: 1px solid green;
+            width: 100%;
+
+
+            .cooSentenceEmpty{
+              display: none;
+            }
+
+            .cooSentence{
+              display: flex;
+              flex-direction: column;
+              align-items: flex-end;
+              justify-content: center;
+              height: 13vw;
+              border: 1px solid #E0E1EE;
+              background-color: #E0E1EE;
+              padding-right: 3%;
+              margin: 1.5vw 0;
+              
+              span{
+                font-size: 4vw;
+              }
+
+            }
+
+            .cooSentenceSmall{
+              display: flex;
+              flex-direction: column;
+              align-items: flex-end;
+              justify-content: center;
+              height: 3rem;
+              padding-right: 3%;
+              margin: -1rem 0;
+
+              span{
+                font-size: 3vw;
+              }
+            }
+
+          }
+
+        }
+        
+      }
+
+     
+    }
+
+    
+  }
+  
+  @media all and (min-width: 768px) {
+  }
+  
+  @media all and (min-width: 1024px) {
+    .consultSecTwoWrapper {
+
+      .consultTitleWrapper{
+        // border: 3px solid yellow;
+        display: flex;
+        flex-direction: column;
+        margin: 5% 0%;
+
+        .title1{
+          display: flex;
+          justify-content: flex-end;
+          align-items: center;
+          width: 38vw;
+          height: 5vw;
+          border: 1px solid #E0E1EE;
+          background-color: #E0E1EE;
+          border-radius: 30px;
+          color: black;
+          font-size: 2.8vw;
+          font-weight: 800;
+
+          padding-right: 4%;
+          margin-left: -4%;
+        }
+
+        .title2{
+          // border: 1px solid green;
+          display: flex;
+          justify-content: flex-end;
+          align-items: center;
+          width: 40vw;
+          height: 2rem;
+          font-size: 1.3vw;
+          font-weight: 800;
+        }
+
+
+      }
+
+      .consultContentsWrapper{
+        // border: 3px solid pink;
+        display: flex;
+        flex-direction: row;
+        margin: 10% 0%;
+        
+        .cooImgWrapper{
+          // border: 1px solid red;
+          width:45%;
+          height: auto;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          z-index: 2;
+          margin-left: 5%;
+
+          .cooImg{
+            width: 80%;
+
+          }
+          span{
+            color: white;
+            font-size: 3.5vw;
+            font-weight: 900;
+            display: flex;
+            position: absolute;
+          }
+
+        }
+
+        .cooContentsWrapper{
+          // border: 1px solid blue;
+          width:65%;
+          position: absolute;
+          display: flex;
+          justify-content: flex-end;
+          margin-left: 35%;
+          margin-top: 3%;
+          z-index: 1;
+
+
+          .cooContent{
+            // border: 1px solid green;
+            width: 100%;
+
+
+            .cooSentenceEmpty{
+              display: flex;
+              flex-direction: column;
+              align-items: flex-end;
+              justify-content: center;
+              height: 4vw;
+              border: 1px solid #AFB3D5;
+              background-color: #AFB3D5;
+              padding-right: 20%;
+              margin: 1.5vw 0;
+            }
+
+            .cooSentence{
+              display: flex;
+              flex-direction: column;
+              align-items: flex-end;
+              justify-content: center;
+              height: 4vw;
+              border: 1px solid #E0E1EE;
+              background-color: #E0E1EE;
+              padding-right: 20%;
+              margin: 1.5vw 0;
+              
+
+
+              span{
+                font-size: 1.3vw;
+              }
+
+            }
+
+            .cooSentenceSmall{
+              display: flex;
+              flex-direction: column;
+              align-items: flex-end;
+              justify-content: center;
+              height: 3rem;
+              padding-right: 20%;
+              margin: -1rem 0;
+
+              span{
+                font-size: 1rem;
+              }
+            }
+
+          }
+
+        }
+        
+      }
+
+     
+    }
+
+  
+  }
+  

@@ -1,0 +1,247 @@
+* {
+    font-family: 'ONE-Mobile-Regular';
+  }
+  @media all and (min-width: 320px) {
+    .consultSecThreeWrapper {
+      background-color: #F4F4F8;
+      
+
+      .titleWrapper{
+        // border:3px solid yellow;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+       
+
+        .mainTitle{
+          margin: 10% 8%;
+          span{
+            font-size: 5vw;
+            font-weight: 900;
+          }
+          .strong{
+            font-size: 7vw;
+            font-weight: 900;
+
+          }
+
+        }
+        .subTitle{
+          margin: -4% 8%;
+          font-size: 4vw;
+          line-height: 120%;
+
+        }
+      }
+
+      .contentsWrapper{
+        // border:3px solid pink;
+        display: flex;
+        margin: 10% 0%;
+        justify-content: center;
+
+
+
+        .iconAndNameWrapper{
+          // border:1px solid red;
+          width: 90%;
+          margin: 10% 0%;
+          display: flex;
+          flex-direction: column;
+
+
+          .iconAndName{
+            // border:1px solid blue;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+            
+
+            .cooIcon{
+              // border:1px solid goldenrod;
+              width: 40%;
+              margin-bottom: 0%;
+
+            }
+            .cooIconContent{
+                // border:1px solid violet;
+                display: flex;
+                align-items: center;
+                height: 20vh;
+                white-space: nowrap;
+                // width: 40%;
+
+
+              span{
+                line-height: 170%;
+                font-size: 1.3vw;
+                
+  
+              }
+
+            }
+
+            
+          }
+          .arrowIcon{
+            // border:3px solid red;
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            padding-top: 0%;
+            margin: 3% 0%;
+
+            img{
+              // border:1px solid violet;
+              width: 2rem;
+              height: 2rem;
+              transform: rotate(90deg);
+            }
+            
+
+          }
+
+
+
+
+        }
+
+
+
+
+
+      }
+
+
+      
+
+    }
+
+
+    
+  }
+  
+  @media all and (min-width: 768px) {
+  }
+  
+  @media all and (min-width: 1024px) {
+    .consultSecThreeWrapper {
+      background-color: #F4F4F8;
+
+      .titleWrapper{
+        // border:3px solid yellow;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        height: 25vh;
+
+        .mainTitle{
+          margin: 1% 8%;
+          span{
+            font-size: 2rem;
+            font-weight: 900;
+          }
+          .strong{
+            font-size: 3rem;
+            font-weight: 900;
+
+          }
+          br{
+            display: none;
+          }
+
+        }
+        .subTitle{
+          margin: 1% 8%;
+          font-size: 1.4rem;
+
+        }
+      }
+
+      .contentsWrapper{
+        // border:3px solid pink;
+        display: flex;
+        justify-content: center;
+        margin: 0% 0%;
+
+
+        .iconAndNameWrapper{
+          // border:1px solid red;
+          width: 80%;
+          margin: 10% 0%;
+          display: flex;
+          flex-direction: row;
+
+          
+
+          .iconAndName{
+            // border:1px solid blue;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+
+            .cooIcon{
+              // border:1px solid goldenrod;
+              width: 70%;
+              margin-bottom: 10%;
+
+            }
+            .cooIconContent{
+                // border:1px solid violet;
+                display: flex;
+                align-items: center;
+                height: 20vh;
+                white-space: nowrap;
+                
+
+
+              span{
+                line-height: 170%;
+                font-size: 1.3vw;
+                
+  
+              }
+
+            }
+
+            
+          }
+          .arrowIcon{
+            // border:3px solid red;
+            display: flex;
+            justify-content: center;
+            width: 10%;
+            padding-top: 10%;
+            margin: 0% 0%;
+
+            img{
+              // border:1px solid violet;
+              width: 4rem;
+              height: 4rem;
+              transform: rotate(0deg);
+            }
+            
+
+          }
+
+
+
+
+        }
+
+
+
+
+
+      }
+
+
+      
+
+    }
+
+  
+  }
+  
