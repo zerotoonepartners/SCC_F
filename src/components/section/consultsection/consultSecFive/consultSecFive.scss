@@ -1,18 +1,164 @@
-* {
+.consultSecFiveWrapper{
     font-family: 'ONE-Mobile-Regular';
   }
   @media all and (min-width: 320px) {
     .consultSecFiveWrapper {
+      background-color: #F4F4F8;
+      display: flex;
+      align-items: center;
+
+
+      .consultContentsWrapper{
+        // border: 1px solid red;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin: 10% 0%;
+
+
+
+        .jungbu{
+          border-bottom: 1px solid #727A98;
+          width: 80%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          padding-bottom: 5%;
+
+            span{
+            font-weight: 800;
+            line-height: 250%;
+            font-size: 3vw;
+            }
+            .strong{
+              color: #727A98;
+              font-size: 7vw;
+
+            }
+        }
+
+
+        .checkSentence{
+          // border: 1px solid gray;
+          width: 80%;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+          margin-top: 5%;
+          
+
+
+          .ACheckSen{
+            margin: 4% 4%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+
+            span{
+              font-size: 3vw;
+              font-weight: 600;
+              line-height: 120%;
+            }
+            .check{
+              font-weight: 800;
+              margin-right: 3%;
+              font-size: 6vw;
+            }
+
+          }
+
+
+        }
+
+      }
     }
 
     
   }
   
   @media all and (min-width: 768px) {
+
   }
   
   @media all and (min-width: 1024px) {
     .consultSecFiveWrapper {
+      background-color: #F4F4F8;
+      display: flex;
+      align-items: center;
+
+
+      .consultContentsWrapper{
+        // border: 1px solid red;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        width: 100%;
+        margin: 5% 0%;
+
+
+
+        .jungbu{
+          // border-right: 1px solid #727A98;
+          // border: 1px solid red;
+          border-bottom: none;
+          width: 40%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          padding-bottom: 0%;
+
+            span{
+            font-weight: 800;
+            line-height: 200%;
+            font-size: 1vw;
+            }
+            .strong{
+              color: #727A98;
+              font-size: 1.9vw;
+
+            }
+        }
+
+
+        .checkSentence{
+          border-left: 1px solid #727A98;
+          width: 60%;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+          margin-top: 0%;
+          
+
+
+          .ACheckSen{
+            
+            margin: 4% 10%;
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+
+
+            span{
+              font-size: 1vw;
+              font-weight: 600;
+            }
+            .check{
+              font-weight: 800;
+              margin-right: 3%;
+              font-size: 1.5vw;
+            }
+
+          }
+
+
+        }
+
+      }
     }
   }
   

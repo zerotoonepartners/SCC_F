@@ -1,0 +1,264 @@
+.consultSecSixWrapper{
+    font-family: 'ONE-Mobile-Regular';
+  }
+  @media all and (min-width: 320px) {
+    .consultSecSixWrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .applyBox{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 3px solid #3D6889;
+        margin: 5%;
+        width: 90%;
+        height: auto;
+        border-radius: 20px;
+        
+
+        .applyTitleWrapper{
+          // border: 2px solid red;
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          
+
+          .title{
+            width: 100%;
+            height: 10vw;
+            border: 3px solid #3D6889;
+            background-color: #3D6889;
+            border-top-right-radius: 20px;
+            border-top-left-radius: 20px;
+            color: white;
+            text-align: center;
+            font-size: 5.5vw;
+            font-weight: 900;
+            padding: 0% 0%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: -1%;
+
+
+          }
+
+          .subTitle{
+            text-align: center;
+            margin:4% 0%;
+            line-height: 150%;
+            font-size: 2vw;
+            font-weight: 800;
+            color: #3D6889;
+          }
+        }
+
+        .applyContentsWrapper{
+          width: 90%;
+          border: 1px solid #ECF0F3;
+          background-color: #ECF0F3;
+          border-radius: 20px;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          padding: 5% 0%;
+          
+          
+
+          .iconWrapper{
+            border-right: 1.5px solid #3D6889;
+            width: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .cooIcon{
+              width: 70%;
+            }
+
+          }
+          .sentenceWrapper{
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            
+            .sentence{
+              // border: 1px solid red;
+              width: 70%;
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              line-height: 350%;
+              font-size: 2vw;
+              font-weight: 800;
+              white-space: nowrap;
+              color: #3D6889;
+
+            }
+
+          }
+
+        }
+
+        .buttonWrapper{
+          // border: 1px solid red;
+          margin: 4% 0%;
+          .applyButton{
+            border: 1px solid #3D6889;
+            background-color: #3D6889;
+            border-radius: 60px;
+            width: 40vw;
+            height: 9vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 2px 3px 4px gray;
+            span{
+              text-align: center;
+              color: white;
+              font-size: 4vw;
+              font-weight: 800;
+
+            }
+          }
+        }
+      }
+    }
+
+    
+  }
+  
+  @media all and (min-width: 768px) {
+  }
+  
+  @media all and (min-width: 1024px) {
+    .consultSecSixWrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .applyBox{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 4px solid #3D6889;
+        margin: 5%;
+        width: 50%;
+        height: auto;
+        border-radius: 30px;
+        padding:0% 0%;
+
+        .applyTitleWrapper{
+          // border: 2px solid red;
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        
+
+          .title{
+            width: 100%;
+            height: 4vw;
+            border: 4px solid #3D6889;
+            background-color: #3D6889;
+            border-top-right-radius: 30px;
+            border-top-left-radius: 30px;
+            color: white;
+            text-align: center;
+            font-size: 2vw;
+            font-weight: 900;
+            padding: 0% 0%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+
+          }
+
+          .subTitle{
+            text-align: center;
+            margin:2% 0%;
+            line-height: 180%;
+            font-size: 1vw;
+            font-weight: 900;
+            color: #3D6889;
+          }
+        }
+
+        .applyContentsWrapper{
+          width: 80%;
+          border: 1px solid #ECF0F3;
+          background-color: #ECF0F3;
+          border-radius: 20px;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          padding: 5% 0%;
+          
+          
+
+          .iconWrapper{
+            border-right: 2px solid #3D6889;
+            width: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .cooIcon{
+              width: 50%;
+            }
+
+          }
+          .sentenceWrapper{
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            
+            .sentence{
+              // border: 1px solid red;
+              width: 70%;
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              line-height: 350%;
+              font-size: 1.1vw;
+              font-weight: 800;
+              color: #3D6889;
+            }
+
+          }
+
+        }
+
+        .buttonWrapper{
+          // border: 1px solid red;
+          margin: 4% 0%;
+          .applyButton{
+            border: 1px solid #3D6889;
+            background-color: #3D6889;
+            border-radius: 60px;
+            width: 15vw;
+            height: 3vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 4px 4px 5px gray;
+            
+            span{
+              text-align: center;
+              color: white;
+              font-size: 1.5vw;
+              font-weight: 800;
+
+            }
+          }
+        }
+      }
+    }
+  }
+  
