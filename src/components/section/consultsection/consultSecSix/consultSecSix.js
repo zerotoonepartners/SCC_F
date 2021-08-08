@@ -32,14 +32,13 @@ function ConsultSecSix() {
             </div>
             
             <div className="buttonWrapper">
-              <div className="applyButton">
-                <span>기업검토 문의</span>
+              <div className="applyButton" onClick={() => window.open('http://pf.kakao.com/_Ejxcxns/chat', '_blank', 'width=340,height=520')}>
+              <span>기업검토 문의</span>
               </div>
 
             </div>
 
           </div>
-
 
         </div>
       </>
