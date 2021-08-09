@@ -40,11 +40,11 @@ function Barifurcation() {
                   <span>※ 위 항목은 상시 교육이 아니며, 시기 별로 다양한 교육이 진행됩니다.</span>
                 </ul>
               </div>
-              <div className="bariCardMookup" onClick={()=>{history.push('/edu')}}>
-                <span>더 알아보기</span>
+              <div className="bariCardMookup" >
+                <span onClick={()=>{history.push('/edu')}}>더 알아보기</span>
               </div>
-              <div className="bariCardBtn" onClick={()=>{history.push('/eduform')}}>
-                <span>신청하기</span>
+              <div className="bariCardBtn" >
+                <span onClick={()=>{history.push('/eduform')}}>신청하기</span>
               </div>
             </div>
             <div className="bariCard">
