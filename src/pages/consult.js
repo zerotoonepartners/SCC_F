@@ -9,6 +9,7 @@ import ConsultSecTwo from '../components/section/consultsection/consultSecTwo/co
 import ConsultSecThree from '../components/section/consultsection/consultSecThree/consultSecThree';
 import ConsultSecFour from '../components/section/consultsection/consultSecFour/consultSecFour';
 import ConsultSecFive from '../components/section/consultsection/consultSecFive/consultSecFive';
+import ConsultSecSix from '../components/section/consultsection/consultSecSix/consultSecSix';
 
 function Consult() {
   return (
@@ -21,6 +22,7 @@ function Consult() {
           <Route component={ConsultSecThree} />
           <Route component={ConsultSecFour} />
           <Route component={ConsultSecFive} />
+          <Route component={ConsultSecSix} />
           <Route component={Footer} />
           <Route component={ContactBtn} />
         </div>

@@ -25,7 +25,7 @@ function InfoSecThree() {
               </div>
 
               <div className="imgAndContent">
-                <div className="imgWrapperReverse"><img src="https://images.unsplash.com/photo-1497215728101-856f4ea42174?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="" /></div>
+                <div className="imgWrapperReverse"><img src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="" /></div>
                 <div className="contentWrapperReverse">
                 <span className="serviceContentTitle">스타트업 교육</span>
                 <span className="serviceContent">초기 스타트업을 운영하면서 어려움을 겪는 대표님들이 대부분입니다.<br/>하지만 걱정하실 필요 없습니다.<br/>

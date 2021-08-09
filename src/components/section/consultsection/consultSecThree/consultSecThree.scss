@@ -1,4 +1,4 @@
-* {
+.consultSecThreeWrapper{
     font-family: 'ONE-Mobile-Regular';
   }
   @media all and (min-width: 320px) {
@@ -55,13 +55,14 @@
             display: flex;
             flex-direction: row;
             align-items: center;
-            justify-content: space-around;
+            justify-content: flex-start;
             
 
             .cooIcon{
               // border:1px solid goldenrod;
-              width: 40%;
+              width: 35%;
               margin-bottom: 0%;
+              margin-left: 8%;
 
             }
             .cooIconContent{
@@ -70,12 +71,13 @@
                 align-items: center;
                 height: 20vh;
                 white-space: nowrap;
+                margin-left: 15%;
                 // width: 40%;
 
 
               span{
                 line-height: 170%;
-                font-size: 1.3vw;
+                font-size: 3vw;
                 
   
               }
@@ -90,7 +92,7 @@
             justify-content: center;
             width: 100%;
             padding-top: 0%;
-            margin: 3% 0%;
+            margin: 4% 0%;
 
             img{
               // border:1px solid violet;
@@ -186,6 +188,7 @@
               // border:1px solid goldenrod;
               width: 70%;
               margin-bottom: 10%;
+              margin-left: 0%;
 
             }
             .cooIconContent{
@@ -194,7 +197,7 @@
                 align-items: center;
                 height: 20vh;
                 white-space: nowrap;
-                
+                margin-left: 0%;
 
 
               span{
