@@ -12,11 +12,9 @@ import SecFour from '../components/section/mainsection/secfour/secfour';
 import './scss/main.scss';
 import ContactBtn from '../components/contact/contact';
 import NewFooter from '../components/newFooter/newFooter';
-<<<<<<< HEAD
-import SecBanner from '../components/section/mainsection/secbanner/secbanner';
-=======
 import Submitbutton from '../components/submitbutton/submitbutton';
->>>>>>> c8b4f401ad541d1605069602ca8379861534fdf7
+import SecBanner from '../components/section/mainsection/secbanner/secbanner';
+
 function Main() {
   return (
     <div class="mainWrapper">

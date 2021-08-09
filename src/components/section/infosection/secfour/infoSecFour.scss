@@ -1,28 +1,193 @@
-.content{
+.infoSecFourWrapper{
     font-family: 'InfinitySans-RegularA1';
+  }
+  .newsTitle{
+    font-family: 'ONE-Mobile-Regular';
   }
 
  
 @media all and (min-width: 320px) {
-    .infoSecTwoWrapper{
+    .infoSecFourWrapper{
+        display: flex;
+        justify-content: flex-start;
+        
 
+
+        .newsWrapper{
+            width: 70%;
+            margin-right: 0%;
+            margin-bottom: 10%;
+            margin-left: 10%;
+            margin-top: 10%;
+
+            .newsTitle{
+                display: flex;
+                border: 1px solid #EFF0FA;
+                background-color: #EFF0FA;
+                padding: 6% 0%;
+
+                span{
+                    font-size: 6vw;
+                    font-weight: 800;
+                    // text-shadow: 0px 2px 3px;
+
+                }
+
+            }
+
+            .newsContents{
+                margin: 5% 0%;
+                
+
+                span{
+                    font-size: 3.6vw;
+                    line-height: 170%;
+                    position: absolute;
+                }
+
+                .iconWrapper{
+                    // border: 1px solid blue;
+                    display: flex;
+                    justify-content: flex-end;
+                    
+    
+                    img{
+                        margin-top: 7%;
+                        margin-right: 30%;
+                        width: 15%;
+                        cursor: pointer;
+                        
+                    }
+                }
+
+            }
+
+        }
+        
     }
 
 }
 
 @media all and (min-width: 768px) {
+    .infoSecFourWrapper{
+        display: flex;
+        justify-content: flex-start;
+        
 
 
-    .infoSecTwoWrapper{
+        .newsWrapper{
+            width: 40%;
+            margin-right: 0%;
+            margin-bottom: 5%;
+            margin-left: 5%;
+            margin-top: 0%;
+
+            .newsTitle{
+                display: flex;
+                border: 1px solid #EFF0FA;
+                background-color: #EFF0FA;
+                padding: 4% 1%;
+
+                span{
+                    font-size: 4vw;
+                    font-weight: 800;
+                    // text-shadow: 0px 2px 3px;
+
+                }
 
             }
+
+            .newsContents{
+                margin: 5% 0%;
+                
+
+                span{
+                    font-size: 2vw;
+                    line-height: 170%;
+                    position: absolute;
+                }
+
+                .iconWrapper{
+                    // border: 1px solid blue;
+                    display: flex;
+                    justify-content: flex-end;
+                    
+    
+                    img{
+                        margin-top: 8%;
+                        margin-right: -3%;
+                        width: 15%;
+                        cursor: pointer;
+                        
+                    }
+                }
+
+            }
+
+        }
+        
+    }
 
     
 }
 
 @media all and (min-width: 1024px) {
-    .infoSecTwoWrapper{
+    .infoSecFourWrapper{
+        display: flex;
+        justify-content: flex-end;
         
 
+
+        .newsWrapper{
+            width: 30%;
+            margin-right: 10%;
+            margin-bottom: 5%;
+            margin-left: 0%;
+            margin-top: 0%;
+
+            .newsTitle{
+                display: flex;
+                border: 1px solid #EFF0FA;
+                background-color: #EFF0FA;
+                padding: 3% 1%;
+
+                span{
+                    font-size: 3vw;
+                    font-weight: 800;
+                    // text-shadow: 0px 2px 3px;
+
+                }
+
+            }
+
+            .newsContents{
+                margin: 5% 0%;
+                
+
+                span{
+                    font-size: 1.4vw;
+                    line-height: 170%;
+                    position: absolute;
+                }
+
+                .iconWrapper{
+                    // border: 1px solid blue;
+                    display: flex;
+                    justify-content: flex-end;
+                    
+    
+                    img{
+                        margin-top: 8%;
+                        margin-right: -3%;
+                        width: 15%;
+                        cursor: pointer;
+                        
+                    }
+                }
+
+            }
+
+        }
+        
     }
 }
