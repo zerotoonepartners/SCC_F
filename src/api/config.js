@@ -1,1 +1,1 @@
-export const url = 'https://ztopserver.com/edu';
+export const url = 'https://ztopserver.com/event';

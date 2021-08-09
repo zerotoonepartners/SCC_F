@@ -32,15 +32,12 @@ const SccContextProvider = ({ children }) => {
       });
       let temp2 = temp.reverse();
       setEvent(temp2);
-      console.log('here');
-      console.log(event);
     } catch (e) {
       console.log(e);
     }
   }
 
   useEffect(() => {
-    console.log('나 몇번?');
     fetchData();
   }, []);
   return (

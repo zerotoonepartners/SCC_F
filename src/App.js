@@ -13,6 +13,8 @@ import Edu from './pages/edu';
 import { SccContextProvider } from './context/scc';
 import Info from './pages/info';
 import ScrollToTop from './components/common/scrollToTop';
+import Test from './pages/test';
+import Consult from './pages/consult';
 
 function App() {
   const history = useHistory();
@@ -29,6 +31,8 @@ function App() {
           <Route path="/eduform" component={EduForm} />
           <Route path="/edu" component={Edu} />
           <Route path="/eduLanding" component={EduLanding} />
+          <Route path="/test" component={Test} />
+          <Route path="/consult" component={Consult} />
           <Route component={NotFound} />
         </Switch>
       </BrowserRouter>
