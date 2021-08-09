@@ -1,0 +1,176 @@
+.secBannerWrapper {
+  font-family: 'InfinitySans-RegularA1';
+  background-color: #ffffff;
+}
+
+@media all and (min-width: 320px) {
+  .secBannerWrapper {
+    border: 1px solid white;
+    width: 100%;
+    height: 100%;
+
+    .bannerWrraper{
+      // border: 1px solid green;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      width: 100%;
+      height: 100%;
+      margin-top: 10%;
+      margin-bottom: 15%;
+      .smallBanner{
+
+        span{
+          color:#737373;
+          font-size: 2vw;
+        }
+
+      }
+      .bigBanner{
+        // border: 1px solid red;
+        width: 100%;
+        margin: 1.5% 0%;
+        line-height: 200%;
+        display: flex;
+        justify-content: center;
+
+
+
+        .bigBannerOne{
+          // border:1px solid #1F2F59;
+          margin:0% 2%;
+          color:#535353;
+          font-size: 5vw;
+          font-weight: 800;
+
+        }
+        .bigBannerTwo{
+
+          color:#1F2F59;
+          font-size: 5vw;
+          font-weight: 800;
+        }
+
+      
+
+      }
+    }
+  
+  }
+  
+}
+
+@media all and (min-width: 768px) {
+  .secBannerWrapper {
+    border: 1px solid white;
+    width: 100%;
+    height: 100%;
+
+    .bannerWrraper{
+      // border: 1px solid green;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      width: 100%;
+      height: 100%;
+      margin-top: 10%;
+      margin-bottom: 15%;
+      .smallBanner{
+
+        span{
+          color:#737373;
+          font-size: 2.5vw;
+        }
+
+      }
+      .bigBanner{
+        // border: 1px solid red;
+        width: 100%;
+        margin: 3% 0%;
+        line-height: 200%;
+        display: flex;
+        justify-content: center;
+
+
+
+        .bigBannerOne{
+          // border:1px solid #1F2F59;
+          margin:0% 2%;
+          color:#535353;
+          font-size: 5vw;
+          font-weight: 800;
+
+        }
+        .bigBannerTwo{
+
+          color:#1F2F59;
+          font-size: 5vw;
+          font-weight: 800;
+        }
+
+      
+
+      }
+    }
+  
+  }
+}
+
+@media all and (min-width: 1024px) {
+  .secBannerWrapper {
+    border: 1px solid white;
+    width: 100%;
+    height: 100%;
+
+    .bannerWrraper{
+      // border: 1px solid green;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      width: 100%;
+      height: 100%;
+      margin-top: 2%;
+      margin-bottom: 10%;
+      .smallBanner{
+
+        span{
+          color:#737373;
+          font-size: 1.5vw;
+        }
+
+      }
+      .bigBanner{
+        // border: 1px solid red;
+        width: 100%;
+        margin: 1.5% 0%;
+        line-height: 500%;
+        display: flex;
+        justify-content: center;
+
+
+
+        .bigBannerOne{
+          // border:1px solid #1F2F59;
+          margin:0% 2%;
+          color:#535353;
+          font-size: 3vw;
+          font-weight: 800;
+
+        }
+        .bigBannerTwo{
+
+          color:#1F2F59;
+          font-size: 3vw;
+          font-weight: 800;
+        }
+
+      
+
+      }
+    }
+  
+  }
+}

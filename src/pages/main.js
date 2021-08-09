@@ -12,6 +12,7 @@ import SecFour from '../components/section/mainsection/secfour/secfour';
 import './scss/main.scss';
 import ContactBtn from '../components/contact/contact';
 import NewFooter from '../components/newFooter/newFooter';
+import SecBanner from '../components/section/mainsection/secbanner/secbanner';
 function Main() {
   return (
     <div class="mainWrapper">
@@ -19,6 +20,8 @@ function Main() {
       <Route component={Header} />
       <Route component={SecOne} />
       <Route component={SecTwo} />
+      <Route component={SecBanner} />
+      
       <Route component={SecThree} />
       <Route component={SecFour} />
       <Route component={Kakao} />

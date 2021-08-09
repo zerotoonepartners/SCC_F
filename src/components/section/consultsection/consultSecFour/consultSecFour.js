@@ -1,6 +1,21 @@
 import './consultSecFour.scss'
 import consultImg from '../../../../static/images/consultImage.png';
 import cooIcon4 from '../../../../static/images/cooIcon4.png';
+import FadeIn from 'react-fade-in/lib/FadeIn';
+import "animate.css/animate.min.css";
+import ScrollAnimation from 'react-animate-on-scroll';
+
+import React from "react";
+import styled, { keyframes } from 'styled-components';
+import { bounce, fadeInUp } from 'react-animations';
+
+
+
+const fadeAnimation = keyframes`${fadeInUp}`;
+
+const FadeInUpDiv = styled.div`
+  animation: 1s ${fadeAnimation};
+`;
 
 function ConsultSecFour() {
     return (
@@ -41,12 +56,16 @@ function ConsultSecFour() {
               </div>
             </div>   
             <div className="resultWrapper">
+              <FadeInUpDiv>
               <div className="arrowIcon">
               <img src={cooIcon4} alt=""/>
               </div>
+              </FadeInUpDiv>
+              <FadeInUpDiv delay='500'>
               <div className="result">
                 <span>기업별 맞춤형 정부지원사업 전담 매니저가 필요</span>
               </div>
+              </FadeInUpDiv>
             </div>         
           </div>
 

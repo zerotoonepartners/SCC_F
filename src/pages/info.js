@@ -4,6 +4,7 @@ import ContactBtn from '../components/contact/contact';
 import Footer from '../components/footer/footer';
 import Header from '../components/header/header';
 import Kakao from '../components/kakao/kakao';
+import InfoSecFour from '../components/section/infosection/secfour/infoSecFour';
 import InfoSecOne from '../components/section/infosection/secone/infoSecOne';
 import InfoSecThree from '../components/section/infosection/secthree/infoSecThree';
 import InfoSecTwo from '../components/section/infosection/sectwo/infoSecTwo';
@@ -17,6 +18,7 @@ function Info() {
         <Route component={InfoSecOne} />
         <Route component={InfoSecTwo} />
         <Route component={InfoSecThree} />
+        <Route component={InfoSecFour} />
         <Route component={Footer} />
         <Route component={ContactBtn} />
         <Route component={Kakao}/>
