@@ -60,6 +60,14 @@ function Header() {
               <div
                 className="menuItem"
                 onClick={() => {
+                  history.push('/detail');
+                }}
+              >
+                <span>인증</span>
+              </div>
+              <div
+                className="menuItem"
+                onClick={() => {
                   history.push('/edu');
                 }}
               >
@@ -68,10 +76,10 @@ function Header() {
               <div
                 className="menuItem"
                 onClick={() => {
-                  history.push('/detail');
+                  history.push('/consult');
                 }}
               >
-                <span>인증</span>
+                <span>컨설팅</span>
               </div>
               <div
                 className="menuItem"
@@ -115,6 +123,14 @@ function Header() {
             <div
               className="menuItem"
               onClick={() => {
+                history.push('/detail');
+              }}
+            >
+              <span>인증</span>
+            </div>
+            <div
+              className="menuItem"
+              onClick={() => {
                 history.push('/edu');
               }}
             >
@@ -123,10 +139,10 @@ function Header() {
             <div
               className="menuItem"
               onClick={() => {
-                history.push('/detail');
+                history.push('/consult');
               }}
             >
-              <span>인증</span>
+              <span>컨설팅</span>
             </div>
             <div
               className="menuItem"

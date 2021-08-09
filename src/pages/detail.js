@@ -147,7 +147,6 @@ function Detail() {
         />
       </div>
       <Kakao />
-      <TopCircle />
       <Footer />
       <Route component={ContactBtn} />
     </>

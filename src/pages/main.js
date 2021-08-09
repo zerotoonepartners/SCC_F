@@ -12,7 +12,11 @@ import SecFour from '../components/section/mainsection/secfour/secfour';
 import './scss/main.scss';
 import ContactBtn from '../components/contact/contact';
 import NewFooter from '../components/newFooter/newFooter';
+<<<<<<< HEAD
 import SecBanner from '../components/section/mainsection/secbanner/secbanner';
+=======
+import Submitbutton from '../components/submitbutton/submitbutton';
+>>>>>>> c8b4f401ad541d1605069602ca8379861534fdf7
 function Main() {
   return (
     <div class="mainWrapper">
@@ -24,9 +28,10 @@ function Main() {
       
       <Route component={SecThree} />
       <Route component={SecFour} />
-      <Route component={Kakao} />
       <Route component={Footer} />
+      <Route component={Kakao} />
       <Route component={ContactBtn} />
+      {/* <Route component={Submitbutton} /> */}
     </div>
   );
 }

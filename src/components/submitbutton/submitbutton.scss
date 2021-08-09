@@ -1,0 +1,18 @@
+a {
+  text-decoration: none;
+}
+
+@media all and (min-width: 320px) {
+  .submitButtonWrapper {
+    position: fixed;
+    right: 2rem;
+    bottom: 30%;
+    width: 5rem;
+    height: 3rem;
+    background-color: #ffffff;
+  }
+}
+@media all and (min-width: 768px) {
+}
+@media all and (min-width: 1024px) {
+}
