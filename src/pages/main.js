@@ -12,6 +12,7 @@ import SecFour from '../components/section/mainsection/secfour/secfour';
 import './scss/main.scss';
 import ContactBtn from '../components/contact/contact';
 import NewFooter from '../components/newFooter/newFooter';
+import Submitbutton from '../components/submitbutton/submitbutton';
 function Main() {
   return (
     <div class="mainWrapper">
@@ -21,9 +22,10 @@ function Main() {
       <Route component={SecTwo} />
       <Route component={SecThree} />
       <Route component={SecFour} />
-      <Route component={Kakao} />
       <Route component={Footer} />
+      <Route component={Kakao} />
       <Route component={ContactBtn} />
+      {/* <Route component={Submitbutton} /> */}
     </div>
   );
 }

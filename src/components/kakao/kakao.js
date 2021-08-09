@@ -6,7 +6,9 @@ export default function Kakao() {
     const script = document.createElement('script');
     script.async = true;
     //kakao api
-    try{window.Kakao.init('0bb9e084ab14a4bc648238354b0cabd0');} catch(e){}
+    try {
+      window.Kakao.init('0bb9e084ab14a4bc648238354b0cabd0');
+    } catch (e) {}
     window.Kakao.Channel.createChatButton({
       container: '#kakao-talk-channel-chat-button',
       //channel personal id

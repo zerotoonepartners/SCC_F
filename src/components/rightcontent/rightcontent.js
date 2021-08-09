@@ -1,5 +1,5 @@
 import react, { useEffect, useState, useContext } from 'react';
-import { Route } from 'react-router-dom';
+import { Route, useHistory } from 'react-router-dom';
 import styled, { css, keyframes } from 'styled-components';
 import { SccContext } from '../../context/scc';
 import './rightcontent.scss';
@@ -48,6 +48,7 @@ const compNameArr = [
 ];
 
 function RightContent({ menuItem, itemToggleNum }) {
+  const history = useHistory();
   const { contentToggle, setContentToggle } = useContext(SccContext);
 
   let DynamicComp =
@@ -58,6 +59,14 @@ function RightContent({ menuItem, itemToggleNum }) {
     <>
       <div className="rightContentWrapper">
         <Route component={DynamicComp} />
+        <div
+          className="submitBtn"
+          onClick={() => {
+            history.push('/barifurcation');
+          }}
+        >
+          <span>신청하기</span>
+        </div>
       </div>
     </>
   );
