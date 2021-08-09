@@ -55,6 +55,9 @@ const LeftMenuItem = styled.div`
     css`
       background-color: #646ecb;
       color: #ffffff;
+      &:hover {
+        background-color: #646ecb;
+      }
     `}
 `;
 
