@@ -62,7 +62,7 @@ function RightContent({ menuItem, itemToggleNum }) {
         <div
           className="submitBtn"
           onClick={() => {
-            history.push('/barifurcation');
+            history.push('/form');
           }}
         >
           <span>신청하기</span>
