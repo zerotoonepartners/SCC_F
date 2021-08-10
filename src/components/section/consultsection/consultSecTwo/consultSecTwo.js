@@ -1,7 +1,17 @@
 import './consultSecTwo.scss'
 import cooImg from '../../../../static/images/cooImg.png';
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function ConsultSecTwo() {
+
+  useEffect(() => {
+    AOS.init({
+      
+    });
+  }, []);
+
     return (
       <>
         <div className="consultSecTwoWrapper">
@@ -14,6 +24,7 @@ function ConsultSecTwo() {
             </div>
           </div>
 
+          <div data-aos="fade-left" data-aos-offset="400" data-aos-duration="3000">
           <div className="consultContentsWrapper">
             <div className="cooImgWrapper">
               <img src={cooImg} className="cooImg" />
@@ -37,6 +48,7 @@ function ConsultSecTwo() {
                 <div className="cooSentenceSmall">
                   <span>* COO: Chief Operating Officer</span>
                 </div>
+              </div>
               </div>
 
             </div>
