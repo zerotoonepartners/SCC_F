@@ -73,7 +73,7 @@ function ConsultSecFour() {
             </div> 
 
 
-            <div data-aos="fade-down" data-aos-offset="300" data-aos-duration="3000">
+            <div data-aos="fade-down" data-aos-offset="500" data-aos-duration="3000" data-aos-delay="400">
             <div className="resultWrapper">
 
               <div className="arrowIcon">
