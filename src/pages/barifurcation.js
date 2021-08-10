@@ -43,8 +43,8 @@ function Barifurcation() {
               <div className="bariCardMookup" >
                 <span onClick={()=>{history.push('/edu')}}>더 알아보기</span>
               </div>
-              <div className="bariCardBtn" >
-                <span onClick={()=>{history.push('/eduform')}}>신청하기</span>
+              <div className="bariCardBtn" onClick={()=>{history.push('/eduform')}}>
+                <span>신청하기</span>
               </div>
             </div>
             <div className="bariCard">
@@ -59,8 +59,8 @@ function Barifurcation() {
                   <li>복지 인증</li>
                 </ul>
               </div>
-              <div className="bariCardMookup"  onClick={()=>{history.push('/detail')}}>
-                <span>더 알아보기</span>
+              <div className="bariCardMookup">
+                <span onClick={()=>{history.push('/detail')}}>더 알아보기</span>
               </div>
               <div className="bariCardBtn" onClick={()=>{history.push('/form')}}>
                 <span>신청하기</span>
