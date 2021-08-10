@@ -8,7 +8,7 @@ function ConsultSecTwo() {
 
   useEffect(() => {
     AOS.init({
-      
+      once: true
     });
   }, []);
 
@@ -24,7 +24,7 @@ function ConsultSecTwo() {
             </div>
           </div>
 
-          <div data-aos="fade-left" data-aos-offset="400" data-aos-duration="3000">
+          <div data-aos="fade-left" data-aos-offset="350" data-aos-duration="3000" data-aos-delay="200">
           <div className="consultContentsWrapper">
             <div className="cooImgWrapper">
               <img src={cooImg} className="cooImg" />

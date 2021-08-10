@@ -73,14 +73,14 @@ function ConsultSecFour() {
             </div> 
 
 
-            <div data-aos="fade-down" data-aos-offset="200" data-aos-duration="3000">
+            <div data-aos="fade-down" data-aos-offset="300" data-aos-duration="3000">
             <div className="resultWrapper">
 
               <div className="arrowIcon">
                  <img src={cooIcon4} alt=""/>
 
               </div>
-
+        
               <div className="result">
                 <span>기업별 맞춤형 정부지원사업 전담 매니저가 필요</span>
               </div>
