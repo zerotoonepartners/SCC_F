@@ -20,7 +20,7 @@ function ConsultSecTwo() {
               <span>1. Virtual COO</span>
             </div>
             <div className="title2">
-              <span>Your personal trainer Your personal trainer</span>
+              <span>Be your personal trainer</span>
             </div>
           </div>
 
