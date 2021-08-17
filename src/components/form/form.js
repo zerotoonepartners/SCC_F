@@ -235,6 +235,23 @@ export default function FormSet() {
         <div
           className="subcategoryWrapper"
           onClick={() => {
+            if (labor) {
+              setLabor(false);
+            } else {
+              setIso(false);
+              setOper(false);
+              setWelfare(false);
+              setLabor(true);
+            }
+          }}
+        >
+          <div id="btn_3">
+            <button>{labor ? '▾ 연구소 인증' : '▸ 연구소 인증'}</button>
+          </div>
+        </div>
+        <div
+          className="subcategoryWrapper"
+          onClick={() => {
             if (oper) {
               setOper(false);
             } else {
@@ -264,23 +281,6 @@ export default function FormSet() {
         >
           <div id="btn_3">
             <button>{welfare ? '▾ 복지 인증' : '▸ 복지 인증'}</button>
-          </div>
-        </div>
-        <div
-          className="subcategoryWrapper"
-          onClick={() => {
-            if (labor) {
-              setLabor(false);
-            } else {
-              setIso(false);
-              setOper(false);
-              setWelfare(false);
-              setLabor(true);
-            }
-          }}
-        >
-          <div id="btn_3">
-            <button>{labor ? '▾ 연구소 인증' : '▸ 연구소 인증'}</button>
           </div>
         </div>
       </div>
