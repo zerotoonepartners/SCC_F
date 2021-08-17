@@ -1,0 +1,146 @@
+.formsectwoWrapper{
+    font-family: 'ONE-Mobile-Regular';
+  }
+  @media all and (min-width: 320px) {
+    .formsectwoWrapper{
+
+        display: none;
+        .listWrapper{
+            
+
+
+            .list{
+
+
+                .listTitle{
+
+                }
+
+                .listSub{
+
+                }
+            }
+
+
+
+        }
+
+    }
+  
+  }
+  
+  @media all and (min-width: 768px) {
+    .formsectwoWrapper{
+        // border: 1px solid red;
+        width: 100%;
+        height: 30vh;
+        background-color: rgb(240, 243, 248);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .listWrapper{
+            // border: 1px solid blue;
+            width: 80%;
+            height: 70%;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            padding-left: 2%;
+
+
+            .list{
+                // border: 1px solid green;
+                width: 25%;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+
+                .listTitle{
+                    // border: 1px solid blue;
+                    margin-bottom: 2vw;
+                    span{
+                        font-weight: 800;
+                        text-align: start;
+                        font-size: 2vw;
+                    }
+
+                }
+
+                .listSub{
+                    // border: 1px solid pink;
+                    display: flex;
+                    flex-direction: column;
+                    span{
+                        text-align: start;
+                        margin-bottom: 1.2vw;
+                        color:gray;
+                    }
+                }
+            }
+
+
+
+        }
+
+    }
+
+  }
+  
+  @media all and (min-width: 1024px) {
+
+    .formsectwoWrapper{
+        // border: 1px solid red;
+        width: 100%;
+        height: 50vh;
+        background-color: rgb(240, 243, 248);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .listWrapper{
+            // border: 1px solid blue;
+            width: 80%;
+            height: 70%;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            padding-left: 12%;
+
+
+            .list{
+                // border: 1px solid green;
+                width: 25%;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+
+                .listTitle{
+                    // border: 1px solid blue;
+                    margin-bottom: 2vw;
+                    span{
+                        font-weight: 800;
+                        text-align: start;
+                        font-size: 1.3vw;
+                    }
+
+                }
+
+                .listSub{
+                    // border: 1px solid pink;
+                    display: flex;
+                    flex-direction: column;
+                    span{
+                        text-align: start;
+                        margin-bottom: 1.2vw;
+                        color:gray;
+                    }
+                }
+            }
+
+
+
+        }
+
+    }
+
+  }
+  

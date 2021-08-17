@@ -9,7 +9,7 @@ function HideShow(){
     const [product,setProduct] =useState(false);
     const Product = ['FSSC 22000'];
     const [welfare,setWelfare] =useState(false);
-    const Welfare = ['가족친화인증','병역특례','노사문화 우수기업','청년친화 강소기업','인재육성형 중소기업','공동근로복지재단설립'];
+    const Welfare = ['가족친화인증','병역특례','노사문화 우수기업','청년친화 강소기업','인재육성형 중소기업','공동근로복지기금설립'];
     const [labor,setLabor] =useState(false);
     const Labor = ['기업부설연구소','기업전담부서','기업창작연구소','창작전담부서'];
     const selection = [];
