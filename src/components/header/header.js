@@ -23,7 +23,7 @@ function Header() {
 
   return (
     <>
-      <div className={scrollPosition < 100 ? 'header' : 'newHeader'}>
+      <div className="newHeader">
         <MenuBox
           clickCloseArrow={clickCloseArrow}
           clickOpenArrow={clickOpenArrow}

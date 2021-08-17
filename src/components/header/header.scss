@@ -19,6 +19,7 @@ button {
   z-index: 1000;
   top: 0;
   font-family: 'ONE-Mobile-Regular';
+
   button {
     background-color: transparent;
     border: none;
@@ -33,7 +34,7 @@ button {
   align-items: center;
   position: fixed;
   z-index: 1000;
-  background-color: rgba(48, 50, 67, 1);
+  background-color: rgba(48, 50, 67, 0.5);
   top: 0;
   font-family: 'ONE-Mobile-Regular';
   button {
