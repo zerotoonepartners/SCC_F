@@ -51,7 +51,7 @@ export default function FormSet() {
     '노사문화 우수기업',
     '청년친화 강소기업',
     '인재육성형 중소기업',
-    '공동근로복지재단설립',
+    '공동근로복지기금설립',
   ];
   const [labor, setLabor] = useState(false);
   const Labor = [
