@@ -37,7 +37,7 @@ function ConsultSecFour() {
               <span>2. 정부지원사업 컨설팅</span>
             </div>
             <div className="title2">
-              <span>Your personal trainer Your personal trainer</span>
+              <span>기업의 여건을 고려한 전문가의 지원사업 설계</span>
             </div>
           </div>
           
@@ -73,7 +73,7 @@ function ConsultSecFour() {
             </div> 
 
 
-            <div data-aos="fade-down" data-aos-offset="500" data-aos-duration="3000" data-aos-delay="400">
+            <div data-aos="fade-down" data-aos-offset="200" data-aos-duration="3000" data-aos-delay="600">
             <div className="resultWrapper">
 
               <div className="arrowIcon">

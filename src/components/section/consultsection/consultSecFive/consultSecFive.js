@@ -26,22 +26,22 @@ function ConsultSecFive() {
             </div>
             <div className="checkSentence">
 
-            <div data-aos="fade-left" data-aos-offset="300" data-aos-duration="3000" data-aos-delay="400">
+            <div data-aos="fade-right" data-aos-offset="200" data-aos-duration="3000" data-aos-delay="400">
               <div className="ACheckSen">
                 <span className="check">✓</span><span>기업의 규모, 업종, 여건 등을 종합적으로 고려하여 지원사업을 추천합니다.</span>
               </div>
             </div>
-            <div data-aos="fade-left" data-aos-offset="300" data-aos-duration="3000" data-aos-delay="500">
+            <div data-aos="fade-right" data-aos-offset="200" data-aos-duration="3000" data-aos-delay="600">
               <div className="ACheckSen">
                 <span className="check">✓</span><span>지원사업별 사업계획서 자문을 진행합니다.</span>
               </div>
             </div>
-            <div data-aos="fade-left" data-aos-offset="300" data-aos-duration="3000" data-aos-delay="600">
+            <div data-aos="fade-right" data-aos-offset="200" data-aos-duration="3000" data-aos-delay="800">
               <div className="ACheckSen">
                 <span className="check">✓</span><span>서류통과 후 2차 대면평가를 위한 PT 리허설을 실시합니다.</span>
               </div>
             </div>
-            <div data-aos="fade-left" data-aos-offset="300" data-aos-duration="3000" data-aos-delay="700">
+            <div data-aos="fade-right" data-aos-offset="200" data-aos-duration="3000" data-aos-delay="1000">
               <div className="ACheckSen">
                 <span className="check">✓</span><span>사업과제 선정 후 사업비의 올바른 진행 및 관리를 돕습니다.</span>
               </div>

@@ -20,11 +20,11 @@ function ConsultSecTwo() {
               <span>1. Virtual COO</span>
             </div>
             <div className="title2">
-              <span>Your personal trainer Your personal trainer</span>
+              <span>Be your personal trainer</span>
             </div>
           </div>
 
-          <div data-aos="fade-left" data-aos-offset="350" data-aos-duration="3000" data-aos-delay="200">
+          <div data-aos="fade-up" data-aos-offset="350" data-aos-duration="3000" data-aos-delay="200" >
           <div className="consultContentsWrapper">
             <div className="cooImgWrapper">
               <img src={cooImg} className="cooImg" />
