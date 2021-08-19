@@ -4,6 +4,7 @@ import Modal from 'react-modal';
 import './form.scss';
 import './modal.scss';
 import cancel from '../../static/images/cancel.png';
+import styled, { css, keyframes } from 'styled-components';
 
 export default function FormSet() {
   const [toSend, setToSend] = useState({
@@ -245,6 +246,7 @@ export default function FormSet() {
             }
           }}
         >
+
           <div id="btn_3">
             <button>{labor ? '▾ 연구소 인증' : '▸ 연구소 인증'}</button>
           </div>
@@ -470,4 +472,7 @@ export default function FormSet() {
       <iframe id="if" name="if" style={{ display: 'none' }}></iframe>
     </div>
   );
+
+
+
 }

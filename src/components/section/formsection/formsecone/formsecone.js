@@ -7,7 +7,6 @@ function FormSecOne() {
     <>
       <div className="formseconeWrapper">
         <div className="fsec1">
-          
           <div className="formLandingWrapper">
 
           </div>
