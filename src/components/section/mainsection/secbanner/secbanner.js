@@ -35,7 +35,7 @@ function SecBanner() {
           </div>
           <div className="bigBanner">
             <div className="bigBannerOne">
-              <span>스타트업 인증센터는</span>
+              <span>스타트업인증센터는</span>
             </div>
             <div className="bigBannerTwo">
               <span><TextTransition text={TEXTS[index % TEXTS.length]} springConfig={presets.wobbly}/></span>
