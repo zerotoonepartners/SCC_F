@@ -7,7 +7,10 @@ function FormSecOne() {
     <>
       <div className="formseconeWrapper">
         <div className="fsec1">
-          <div className="formLandingWrapper"></div>
+          
+          <div className="formLandingWrapper">
+
+          </div>
         </div>
       </div>
     </>
