@@ -70,10 +70,10 @@ export default function FormSet() {
       setMod(true);
       e.preventDefault();
       send(
-        'service_2gdjk0y',
-        'template_xbhsdep',
+        'service_6dcpags', //service ID
+        'template_lthzijg', //template ID
         toSend,
-        'user_zD0dr13eGKGyjsGZGCdKa',
+        'user_IC1FAzC3AFBY7NflAfgxo', //userID
       )
         .then((response) => {
           console.log('SUCCESS!', response.status, response.text);
