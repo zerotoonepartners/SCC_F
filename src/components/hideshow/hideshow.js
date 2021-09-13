@@ -21,11 +21,11 @@ function HideShow(){
         });
         if(중복){}
         else{selection.push(e);}
-        console.log(selection);
+        //(selection);
     }
     const tmp = () => {
         selection.map((value,key)=>{
-            console.log(typeof(value));
+            //console.log(typeof(value));
         });
     }
 

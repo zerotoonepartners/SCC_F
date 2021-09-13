@@ -20,7 +20,7 @@ function ConsultSecThree() {
           <div className="contentsWrapper">
             <div className="iconAndNameWrapper">
               <div className="iconAndName">
-                <img src={cooIcon1} className="cooIcon" />
+                <img src={cooIcon1} className="cooIcon" alt="cooIcon"/>
                 <div className="cooIconContent">
                   <span>
                     · 전문적인 경험 부족<br/>
@@ -34,16 +34,16 @@ function ConsultSecThree() {
                <img src={cooIcon4} alt=""/>
               </div>
               <div className="iconAndName">
-                <img src={cooIcon2} className="cooIcon" />
+                <img src={cooIcon2} className="cooIcon" alt="cooIcon"/>
                 <div className="cooIconContent">
                   <span>기업 성장 정체</span>
                 </div>
               </div>
               <div className="arrowIcon">
-                <img src={cooIcon4} alt=""/>
+                <img src={cooIcon4} alt="cooIcon4"/>
               </div>
               <div className="iconAndName">
-                <img src={cooIcon3} className="cooIcon" />
+                <img src={cooIcon3} className="cooIcon" alt="cooIcon"/>
                 <div className="cooIconContent">
                   <span>새로운 시각 필요 !</span>
                 </div>

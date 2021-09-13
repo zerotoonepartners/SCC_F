@@ -6,7 +6,7 @@ export default () => (
     <div className="sliderDiv">
       <img
         className="slider"
-        alt=""
+        alt="slider1"
         src="https://images.unsplash.com/photo-1610593250734-2c03ea85b99d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
       />
       <p className="legend">ISO9001</p>
@@ -15,7 +15,7 @@ export default () => (
     <div>
       <img
         className="slider"
-        alt=""
+        alt="slider2"
         src="https://images.unsplash.com/photo-1435575653489-b0873ec954e2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
       />
       <p className="legend">ISO14001</p>
@@ -23,7 +23,7 @@ export default () => (
     <div>
       <img
         className="slider"
-        alt=""
+        alt="slider3"
         src="https://images.unsplash.com/photo-1603517432573-707d595ef8ab?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
       />
       <p className="legend">ISOxxxx</p>
@@ -31,21 +31,21 @@ export default () => (
     <div>
       <img
         className="slider"
-        alt=""
+        alt="slider4"
         src="https://images.unsplash.com/photo-1555540431-686184a45193?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
       />
       <p className="legend">ISOxxxx4</p>
     </div>
     <div>
       <img
-        alt=""
+        alt="slider5"
         src="https://images.unsplash.com/photo-1610593250734-2c03ea85b99d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
       />
       <p className="legend">ISOxxxx2</p>
     </div>
     <div>
       <img
-        alt=""
+        alt="slider6"
         src="https://images.unsplash.com/photo-1610593250734-2c03ea85b99d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
       />
       <p className="legend">ISOxxxx6</p>

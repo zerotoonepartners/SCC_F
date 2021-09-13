@@ -11,7 +11,7 @@ function EduSecOne() {
   const diu =
     'https://images.unsplash.com/photo-1560439514-e960a3ef5019?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80';
   let history = useHistory();
-  console.log(event);
+  //console.log(event);
   const closeModal = () => {
     setMod(false);
   };
@@ -25,7 +25,7 @@ function EduSecOne() {
         <div className="eduCardWrapper">
           {event === undefined ? (
             <div className="card">
-              <img className="thumb" src={diu} alt="" />
+              <img className="thumb" src={diu} alt="diu" />
               <div className="cardContentWrapper">
                 <div className="cardTitleWrapper">
                   <span className="cardTitle">
@@ -62,7 +62,7 @@ function EduSecOne() {
                     setSelectEdu(item.title);history.push('/eduLanding');
                   }}
                 >
-                  <img className="thumb" src={item.imgUrl===undefined? diu : item.imgUrl } alt="" />
+                  <img className="thumb" src={item.imgUrl===undefined? diu : item.imgUrl } alt="thumb" />
                   <div className="cardContentWrapper">
                     <div className="cardTitleWrapper">
                       <span className="cardTitle">{item.title}</span>
@@ -97,7 +97,7 @@ function EduSecOne() {
                   className="donecard"
                   key={item.id}
                 >
-                  <img className="donethumb" src={item.imgUrl===undefined? diu : item.imgUrl } alt="" />
+                  <img className="donethumb" src={item.imgUrl===undefined? diu : item.imgUrl } alt="diu" />
                   <div className="cardContentWrapper">
                     <div className="cardTitleWrapper">
                       <span className="cardTitle">{item.title}</span>

@@ -7,6 +7,6 @@ export const getData = async () => {
     const res = await axios.get(`${url}`);
     return res.data;
   } catch (e) {
-    console.log(e);
+    //console.log(e);
   }
 };

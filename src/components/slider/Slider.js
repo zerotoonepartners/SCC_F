@@ -46,21 +46,21 @@ function Slider() {
           <div>
             <h3 style={contentStyle1}>
               <div className="slideOne">
-                <img src={sliderOne} alt="" />
+                <img src={sliderOne} alt="sliderOne" />
               </div>
             </h3>
           </div>
           <div>
             <h3 style={contentStyle2}>
               <div className="slideOne">
-                <img src={sliderTwo} alt="" />
+                <img src={sliderTwo} alt="sliderTwo" />
               </div>
             </h3>
           </div>
           <div>
             <h3 style={contentStyle3}>
               <div className="slideOne">
-                <img src={sliderThree} alt="" />
+                <img src={sliderThree} alt="sliderThree" />
               </div>
             </h3>
           </div>

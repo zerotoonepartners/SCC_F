@@ -9,7 +9,7 @@ function Remote({ remoteMenu }) {
           return (<a href={`#${item}`}>
             <div className="remoteItem" key={index}>
               <span>{item}</span>
-            </div></a>
+            </div>이동하기</a>
           );
         })}
       </div>

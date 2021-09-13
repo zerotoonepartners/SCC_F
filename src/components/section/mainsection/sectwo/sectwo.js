@@ -15,7 +15,7 @@ function SecTwo() {
         </div>
         <div className="aboutContentsWrapper">
           <div className="contentImgWrapper">
-            <img src={twoImg} alt="" />
+            <img src={twoImg} alt="twoImg" />
           </div>
           <div className="contentsWrapper">
             <span className="slogan">

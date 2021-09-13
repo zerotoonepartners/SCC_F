@@ -34,11 +34,11 @@ export default function EduPoster(){
                 event.map((item,index)=>{
                         
                         if(item.title===selectEdu){
-                            console.log(selectEdu);
-                            console.log(item.landingUrl);
+                            //console.log(selectEdu);
+                            //console.log(item.landingUrl);
                             return(
                             <div className="posterBox">
-                                <img src={item.landingUrl}/>
+                                <img src={item.landingUrl} alt="landingImg"/>
                                 <div className="posterBtn" onClick={()=>{history.push('/eduform');}}>
                                     신청하기
                                 </div>

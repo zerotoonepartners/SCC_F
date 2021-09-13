@@ -14,7 +14,7 @@ function InfoSecThree() {
 
             <div className="serviceContentsWrapper">
               <div className="imgAndContent">
-                <div className="imgWrapper"><img src="https://images.unsplash.com/photo-1529119368496-2dfda6ec2804?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="" /></div>
+                <div className="imgWrapper"><img src="https://images.unsplash.com/photo-1529119368496-2dfda6ec2804?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="Service1" /></div>
                 <div className="contentWrapper">
                   <span className="serviceContentTitle">기업 인증</span>
                   <span className="serviceContent">중소기업 대상으로 매년 증가하는 정부 예산을 통해 정부지원사업이 편성되고 있습니다.<br/>
@@ -25,7 +25,7 @@ function InfoSecThree() {
               </div>
 
               <div className="imgAndContent">
-                <div className="imgWrapperReverse"><img src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="" /></div>
+                <div className="imgWrapperReverse"><img src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="Service2" /></div>
                 <div className="contentWrapperReverse">
                 <span className="serviceContentTitle">스타트업 교육</span>
                 <span className="serviceContent">초기 스타트업을 운영하면서 어려움을 겪는 대표님들이 대부분입니다.<br/>하지만 걱정하실 필요 없습니다.<br/>
@@ -34,7 +34,7 @@ function InfoSecThree() {
               </div>
 
               <div className="imgAndContent">
-                <div className="imgWrapper"><img src="https://images.unsplash.com/photo-1496681859237-6039cd585c4e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="" /></div>
+                <div className="imgWrapper"><img src="https://images.unsplash.com/photo-1496681859237-6039cd585c4e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="Service3" /></div>
                 <div className="contentWrapper">
                 <span className="serviceContentTitle">맞춤형 컨설팅</span>
                 <span className="serviceContent">기업자료 검토를 통해 기업 내 존재하는 문제점과 방향성을 맞춤형으로 제시해 드립니다.<br/>

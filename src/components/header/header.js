@@ -37,7 +37,7 @@ function Header() {
                   setClickOpenArrow(false);
                 }}
                 src={arrow}
-                alt=""
+                alt="arrow"
               />
             </div>
             <div className="menuContents">
@@ -107,7 +107,7 @@ function Header() {
               history.push('/');
             }}
           >
-            <img class="logo" src={logoE} alt="" />
+            <img class="logo" src={logoE} alt="logoo" />
           </button>
         </div>
         <div className="menuBlock">
@@ -168,7 +168,7 @@ function Header() {
               <img
                 class="ham"
                 src={ham}
-                alt=""
+                alt="ham"
                 onClick={() => {
                   setClickOpenArrow(true);
                   setClickCloseArrow(false);

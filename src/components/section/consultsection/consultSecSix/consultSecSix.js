@@ -19,7 +19,7 @@ function ConsultSecSix() {
 
             <div className="applyContentsWrapper">
               <div className="iconWrapper">
-               <img src={cooIcon5} className="cooIcon" />
+               <img src={cooIcon5} className="cooIcon" alt="cooIcon"/>
               </div>
               <div className="sentenceWrapper">
                 <div className="sentence">

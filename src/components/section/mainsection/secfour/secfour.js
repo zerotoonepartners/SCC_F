@@ -61,7 +61,7 @@ function SecFour() {
             <div className="processContainer">
               <div className="processBox">
                 <div className="imgBox">
-                  <img src={p4} className="pimg" />
+                  <img src={p4} className="pimg" alt="process4"/>
                 </div>
                 <div className="processTextBox">
                   <div className="processTextTitle">
@@ -76,7 +76,7 @@ function SecFour() {
               <div className="processBox">
                 <div className="imgBox">
                   <div className="imgSubBox">
-                    <img src={check} className="checkimg" />
+                    <img src={check} className="checkimg" alt="processCheck"/>
                     <div className="processSubTextContent">
                       <span>맞춤상담을 통해 개별 기업에 최적화된 인증을 제안합니다.</span>
                     </div>
@@ -89,7 +89,7 @@ function SecFour() {
 
               <div className="processBox">
                 <div className="imgBox">
-                  <img src={p5} className="pimg" />
+                  <img src={p5} className="pimg" alt="process5"/>
                 </div>
                 <div className="processTextBox">
                   <div className="processTextTitle">
@@ -103,7 +103,7 @@ function SecFour() {
               <div className="processBox">
                 <div className="imgBox">
                   <div className="imgSubBox">
-                    <img src={check} className="checkimg" />
+                    <img src={check} className="checkimg" alt="processCheck"/>
                     <div className="processSubTextContent">
                       <span>문서심사/현장심사를 진행합니다.</span>
                     </div>
@@ -114,7 +114,7 @@ function SecFour() {
               </div>
               <div className="processBox">
                 <div className="imgBox">
-                  <img src={p6} className="pimg" />
+                  <img src={p6} className="pimg" alt="process6"/>
                 </div>
                 <div className="processTextBox">
                   <div className="processTextTitle">
@@ -138,7 +138,7 @@ function SecFour() {
             <div className="processContainer">
               <div className="processBox">
                 <div className="imgBox">
-                  <img src={p1} className="pimg" />
+                  <img src={p1} className="pimg" alt="process1"/>
                 </div>
                 <div className="processTextBox">
                   <div className="processTextTitle">
@@ -152,7 +152,7 @@ function SecFour() {
               <div className="processBox">
                 <div className="imgBox">
                   <div className="imgSubBox">
-                    <img src={check} className="checkimg" />
+                    <img src={check} className="checkimg" alt="processCheck"/>
                     <div className="processSubTextContent">
                       <span>
                         맞춤상담을 통해 <br /> 고객에 최적화된 교육을
@@ -166,7 +166,7 @@ function SecFour() {
               </div>
               <div className="processBox">
                 <div className="imgBox">
-                  <img src={p2} className="pimg" />
+                  <img src={p2} className="pimg" alt="process2"/>
                 </div>
                 <div className="processTextBox">
                   <div className="processTextTitle">
@@ -181,7 +181,7 @@ function SecFour() {
               <div className="processBox">
                 <div className="imgBox">
                   <div className="imgSubBox">
-                    <img src={check} className="checkimg" />
+                    <img src={check} className="checkimg" alt="processCheck"/>
                     <div className="processSubTextContent">
                       <span>
                         고객의 이해도에 따른 <br /> 교육과 보충을 진행합니다.
@@ -194,7 +194,7 @@ function SecFour() {
               </div>
               <div className="processBox">
                 <div className="imgBox">
-                  <img src={p3} className="pimg" />
+                  <img src={p3} className="pimg" alt="process3"/>
                 </div>
                 <div className="processTextBox">
                   <div className="processTextTitle">
@@ -216,7 +216,7 @@ function SecFour() {
               <SliderItem>
                 <div className="sliderItemWrapper">
                   <div className="avatar">
-                    <img src={Avatar1} alt="" />
+                    <img src={Avatar1} alt="Avatar1" />
                   </div>
                   <div className="commentWrapaper">
                     <span className="comment">
@@ -232,7 +232,7 @@ function SecFour() {
               <SliderItem>
                 <div className="sliderItemWrapper">
                   <div className="avatar">
-                    <img src={Avatar4} alt="" />
+                    <img src={Avatar4} alt="Avatar4" />
                   </div>
                   <div className="commentWrapaper">
                     <span className="comment">
@@ -249,7 +249,7 @@ function SecFour() {
               <SliderItem>
                 <div className="sliderItemWrapper">
                   <div className="avatar">
-                    <img src={Avatar2} alt="" />
+                    <img src={Avatar2} alt="Avatar2" />
                   </div>
                   <div className="commentWrapaper">
                     <span className="comment">
@@ -268,7 +268,7 @@ function SecFour() {
               <SliderItem>
                 <div className="sliderItemWrapper">
                   <div className="avatar">
-                    <img src={Avatar3} alt="" />
+                    <img src={Avatar3} alt="Avatar3" />
                   </div>
                   <div className="commentWrapaper">
                     <span className="comment">
@@ -287,7 +287,7 @@ function SecFour() {
               <SliderItem>
                 <div className="sliderItemWrapper">
                   <div className="avatar">
-                    <img src={Avatar2} alt="" />
+                    <img src={Avatar2} alt="Avatar2" />
                   </div>
                   <div className="commentWrapaper">
                     <span className="comment">
@@ -306,7 +306,7 @@ function SecFour() {
               <SliderItem>
                 <div className="sliderItemWrapper">
                   <div className="avatar">
-                    <img src={Avatar4} alt="" />
+                    <img src={Avatar4} alt="Avatar4" />
                   </div>
                   <div className="commentWrapaper">
                     <span className="comment">
@@ -325,7 +325,7 @@ function SecFour() {
               <SliderItem>
                 <div className="sliderItemWrapper">
                   <div className="avatar">
-                    <img src={Avatar3} alt="" />
+                    <img src={Avatar3} alt="Avatar3" />
                   </div>
                   <div className="commentWrapaper">
                     <span className="comment">

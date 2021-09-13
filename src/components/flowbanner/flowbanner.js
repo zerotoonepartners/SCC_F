@@ -54,31 +54,31 @@ function FlowBanner() {
       <Marq>
         <MarqUl>
           <MarqLi>
-            <img class="logoImg" src={flow8} alt="" />
+            <img class="logoImg" src={flow8} alt="flow8" />
           </MarqLi>
           <MarqLi>
-            <img class="logoImg" src={flow7} alt="" />
+            <img class="logoImg" src={flow7} alt="flow7" />
           </MarqLi>
           <MarqLi>
-            <img class="logoImg" src={flow6} alt="" />
+            <img class="logoImg" src={flow6} alt="flow6" />
           </MarqLi>
           <MarqLi>
-            <img class="logoImg" src={flow5} alt="" />
+            <img class="logoImg" src={flow5} alt="flow5" />
           </MarqLi>
           <MarqLi>
-            <img class="logoImg" src={flow8} alt="" />
+            <img class="logoImg" src={flow8} alt="flow4" />
           </MarqLi>
           <MarqLi>
-            <img class="logoImg" src={flow7} alt="" />
+            <img class="logoImg" src={flow7} alt="flow3" />
           </MarqLi>
           <MarqLi>
-            <img class="logoImg" src={flow6} alt="" />
+            <img class="logoImg" src={flow6} alt="flow2" />
           </MarqLi>
           <MarqLi>
-            <img class="logoImg" src={flow5} alt="" />
+            <img class="logoImg" src={flow5} alt="flow1" />
           </MarqLi>
           <MarqLi>
-            <img class="logoImg" src={flow6} alt="" />
+            <img class="logoImg" src={flow6} alt="flow0" />
           </MarqLi>
         </MarqUl>
       </Marq>

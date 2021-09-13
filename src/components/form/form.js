@@ -76,7 +76,7 @@ export default function FormSet() {
         'user_IC1FAzC3AFBY7NflAfgxo', //userID
       )
         .then((response) => {
-          console.log('SUCCESS!', response.status, response.text);
+          //console.log('SUCCESS!', response.status, response.text);
           setMm({
             msg: '신청이 완료되었습니다!',
             closebutton: true,
@@ -85,7 +85,7 @@ export default function FormSet() {
           setMod(true);
         })
         .catch((err) => {
-          console.log('FAILED...', err);
+          //console.log('FAILED...', err);
           setMm({
             msg: 'Email Server Error : 500',
             closebutton: true,
@@ -176,7 +176,7 @@ export default function FormSet() {
   };
   //page reset
   const reload = () => {
-    console.log('reloading');
+    //console.log('reloading');
     window.location.reload();
   };
   //hide and show
@@ -382,7 +382,7 @@ export default function FormSet() {
                       delHandler(value);
                     }}
                   >
-                    <img src={cancel} alt="" />
+                    <img src={cancel} alt="cancel" />
                   </button>
                 </div>
               );

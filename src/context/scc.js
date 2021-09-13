@@ -33,7 +33,7 @@ const SccContextProvider = ({ children }) => {
       let temp2 = temp.reverse();
       setEvent(temp2);
     } catch (e) {
-      console.log(e);
+      //console.log(e);
     }
   }
 

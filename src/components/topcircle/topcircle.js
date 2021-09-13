@@ -7,9 +7,10 @@ function TopCircle() {
     <>
       <a href="#top">
         <div className="topButtonWrapper">
-          <img class="topImg" src={arrowTop} alt="" />
+          <img class="topImg" src={arrowTop} alt="topImg" />
           <div></div>
         </div>
+        맨 위로
       </a>
     </>
   );

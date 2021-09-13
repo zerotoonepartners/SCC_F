@@ -14,6 +14,7 @@ function ContactBtn() {
             <span>문의</span>
           </div>
         </div>
+        문의 전화
       </a>
     </>
   );

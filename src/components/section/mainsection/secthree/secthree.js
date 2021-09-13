@@ -28,7 +28,7 @@ function SecThree() {
                 </div>
               </div>
               <div className="iconWrapper">
-                <img src={ISO} alt="" />
+                <img src={ISO} alt="ISO" />
               </div>
               <span className="boxTitle">교육</span>
             </div>
@@ -43,7 +43,7 @@ function SecThree() {
                 </div>
               </div>
               <div className="iconWrapper">
-                <img src={EDU} alt="" />
+                <img src={EDU} alt="EDU" />
               </div>
               <span className="boxTitle">인증</span>
             </div>
@@ -58,7 +58,7 @@ function SecThree() {
                 </div>
               </div>
               <div className="iconWrapper">
-                <img src={MARK} alt="" />
+                <img src={MARK} alt="MARK" />
               </div>
               <span className="boxTitle">컨설팅</span>
             </div>

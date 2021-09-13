@@ -10,7 +10,7 @@ function Notfound(){
             <div className="notfound2">
                 <p>잘못 된 요청입니다. (Not Found 404!)</p>
                 <div className="nfimgBox">
-                    <img src={nf} width="200px" height="200px" />
+                    <img src={nf} width="200px" height="200px" alt="nf"/>
                 </div>
                 <button onClick={()=>{
                 history.replace('/');

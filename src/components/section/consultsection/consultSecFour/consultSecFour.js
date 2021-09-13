@@ -42,7 +42,7 @@ function ConsultSecFour() {
           </div>
           
           <div className="consultImgWrapper">
-          <img src={consultImg} className="consultImg" />
+          <img src={consultImg} className="consultImg" alt="consultImg"/>
           </div>
 
 
@@ -77,7 +77,7 @@ function ConsultSecFour() {
             <div className="resultWrapper">
 
               <div className="arrowIcon">
-                 <img src={cooIcon4} alt=""/>
+                 <img src={cooIcon4} alt="cooIcon4"/>
 
               </div>
         
